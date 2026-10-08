@@ -1,0 +1,32 @@
+Weiterempfohlen. – Logo-Paket (Arbeitsstand Oktober 2026)
+
+Inhalt
+- SVG: Vektordateien, Schrift in Pfade umgewandelt
+- PNG: transparenter Hintergrund, doppelte Auflösung
+
+Dateien
+- wortmarke_dunkel / _hell: Standard auf hellem bzw. dunklem Grund
+- wortmarke_einfarbig_dunkel / _hell: für gelbe oder unruhige Flächen
+- logo_kombi_dunkel / _hell: Zeichen und Wortmarke
+- zeichen / zeichen_dunkel: Profilbild, Favicon
+- aufkleber: runder Tür-Aufkleber, 10 cm
+
+Farben
+- Senfgelb   #F2C14E   RGB 242 193 78
+- Tinte      #1F2A2B   RGB 31 42 43
+- Papier     #F6F1E7   RGB 246 241 231
+- Petrol     #417572   RGB 65 117 114
+- Hellpapier #FFFBF2   RGB 255 251 242
+
+Schriften (kostenlos, SIL Open Font License, Google Fonts)
+- Bricolage Grotesque: Wortmarke und Überschriften
+- DM Sans: Fließtext und Untertitel
+
+Regeln
+- Schutzraum: rundum mindestens die Höhe des Zeichens
+- Mindestgröße: Wortmarke 30 mm / 160 px, Zeichen 8 mm / 32 px
+- Nicht verzerren, drehen, umfärben oder mit Effekten versehen
+
+Hinweis: Arbeitstitel. Name und Gestaltung werden an den neuen
+Markenauftritt der Stadt Gütersloh angepasst. Den Namen vor der
+Veröffentlichung markenrechtlich prüfen lassen.

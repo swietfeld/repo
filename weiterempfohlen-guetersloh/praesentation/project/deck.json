@@ -1,0 +1,65 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-01T07:26:23Z"
+  },
+  "lists": "css",
+  "title": "Weiterempfohlen – Pitch für die Stadt Gütersloh",
+  "cover": "cover",
+  "order": [
+    "cover",
+    "blick",
+    "abgrenzung",
+    "jetzt",
+    "frage",
+    "motto",
+    "nein",
+    "folge",
+    "sponsoring",
+    "angebot",
+    "leistung",
+    "sicherheit",
+    "extras",
+    "zeitplan",
+    "start",
+    "anhang",
+    "zielgruppe",
+    "formate-1",
+    "formate-2",
+    "verbreitung",
+    "nutzen",
+    "rollen",
+    "finanzierung",
+    "unikat"
+  ],
+  "sections": {
+    "einstieg": {
+      "description": "Das Wichtigste auf einen Blick, der Unterschied zu bestehenden Kanälen und warum gerade jetzt.",
+      "start": "cover"
+    },
+    "konzept": {
+      "description": "Wie die Serie funktioniert: Schlussfrage, Empfehlungskette, was bei einer Absage passiert, und der Aufbau einer Folge.",
+      "start": "frage"
+    },
+    "angebot": {
+      "description": "Finanzierung über Partner, Testphase, Leistungen pro Betrieb, Sicherheiten, Optionen, Zeitplan und nächste Schritte.",
+      "start": "sponsoring"
+    },
+    "anhang": {
+      "description": "Details zum Nachlesen: Zielgruppe, Formate, Verbreitung, Nutzen, Rollen, Finanzierung und unikat media.",
+      "start": "anhang"
+    }
+  },
+  "faces": {
+    "bricolage-grotesque": {
+      "family": "Bricolage Grotesque",
+      "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400..800&display=swap"
+    },
+    "dm-sans": {
+      "family": "DM Sans",
+      "href": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400..700&display=swap"
+    }
+  },
+  "designSystems": []
+}

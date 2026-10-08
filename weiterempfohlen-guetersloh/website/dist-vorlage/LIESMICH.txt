@@ -1,0 +1,31 @@
+Weiterempfohlen. – Pitch-Website
+================================
+
+Inhalt
+- index.html                Die komplette Seite (HTML, CSS, JavaScript und Schriften in einer Datei)
+- assets/favicon.svg        Das Zeichen als Browser-Symbol
+- img/                      Alle Fotos als WebP (Liste in img/BILDER_HIER_ABLEGEN.txt)
+
+Hochladen
+Die ZIP-Datei im WordPress-Plugin hochladen. Die index.html liegt auf oberster Ebene,
+alle Pfade sind relativ. Die Seite braucht keine Datenbank und keine weiteren Plugins.
+
+Vor dem Veröffentlichen
+Nichts mehr zu tun: Fotos und Kontaktdaten sind eingetragen.
+
+Ladezeit
+Die Schriften stecken direkt in der index.html, damit beim Öffnen nichts nachlädt.
+Fotos werden erst geladen, kurz bevor man zu ihnen scrollt, auf dem Handy in kleinerer Fassung.
+
+Datenschutz
+Die Seite lädt nichts von fremden Servern: keine Google Fonts, keine Cookies, kein Tracking.
+Die einzigen externen Links führen auf Klick zu Instagram (@bielefoodies) und zu unikat.media.
+
+Suchmaschinen
+Die Seite ist auf "noindex, nofollow" gestellt, damit sie nicht bei Google auftaucht.
+Wer das ändern möchte, löscht in der index.html die Zeile:
+  <meta name="robots" content="noindex, nofollow">
+
+Lizenz der Schriften
+Bricolage Grotesque und DM Sans stehen unter der SIL Open Font License und dürfen frei
+verwendet und mitgeliefert werden.
