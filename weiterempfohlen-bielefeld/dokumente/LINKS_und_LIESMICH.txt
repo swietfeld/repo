@@ -7,14 +7,14 @@ In diesem Ordner
 - Website/        Die Pitch-Website als ZIP für das WordPress-Plugin
 
 Online (immer der aktuelle Stand, privat, nur nach Freigabe für andere sichtbar)
-- Pitch-Präsentation:            folgt
-- Markenbuch:                    folgt
-- Pitch-Website:                 folgt
-- Umsetzungsplan (intern):       folgt
-- Ablauf Folge und Drehtag:      folgt
-- Muster-Monatsbericht:          folgt
-- Infoblatt für Betriebe:        folgt
-- Sponsoring-Unterlage:          folgt
+- Pitch-Präsentation:            https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn
+- Markenbuch:                    https://claude.ai/artifact/C4AHY6LVJXgaCMW3T8dwv9
+- Pitch-Website:                 folgt (erst mit echten Fotos veröffentlichen)
+- Umsetzungsplan (intern):       https://claude.ai/code/artifact/44ab5249-93e8-4169-8ad4-3df043427ff9
+- Ablauf Folge und Drehtag:      https://claude.ai/code/artifact/904b3f9c-3f2a-4960-95a0-02e9d6ef3c35
+- Muster-Monatsbericht:          https://claude.ai/code/artifact/4d58ce5e-281b-4bec-aef9-cad9947d4860
+- Infoblatt für Betriebe:        https://claude.ai/code/artifact/c198aaf6-5d1f-471a-bb1d-916d9f704104
+- Sponsoring-Unterlage:          https://claude.ai/code/artifact/e86f5d38-5843-4f0c-b9f8-efd9f7473e00
 - Übersicht aller Seiten:        https://claude.ai/code/artifacts
 
 PDFs

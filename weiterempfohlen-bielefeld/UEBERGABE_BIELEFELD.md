@@ -14,14 +14,14 @@ Alle Links werden neu angelegt (privat im Konto von Stefan Wietfeld). Für Biele
 
 | Was | Link | Quelle in diesem Ordner |
 | --- | --- | --- |
-| Präsentation (Slides) | folgt | `praesentation/project/` |
-| Pitch-Website | folgt | `website/` |
-| Markenbuch (Slides) | folgt | `markenbuch/project/` |
-| Umsetzungsplan mit E-Mail-Vorlagen (Docs, **intern**) | folgt | `dokumente/markdown/Weiterempfohlen – Umsetzungsplan mit E-Mail-Vorlagen.md` |
-| Ablauf einer Folge und eines Drehtags (Docs) | folgt | `dokumente/markdown/Weiterempfohlen. – Ablauf einer Folge und eines Drehtags.md` |
-| Muster-Monatsbericht (Docs) | folgt | `dokumente/markdown/Weiterempfohlen. – Muster-Monatsbericht.md` |
-| Infoblatt für Betriebe (Docs) | folgt | `dokumente/markdown/Weiterempfohlen. – Infoblatt für Betriebe.md` |
-| Sponsoring-Unterlage (Docs, letzter Abschnitt intern) | folgt | `dokumente/markdown/Weiterempfohlen. – Sponsoring-Unterlage.md` |
+| Präsentation (Slides) | https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn | `praesentation/project/` |
+| Pitch-Website | folgt (erst mit echten Fotos veröffentlichen) | `website/` |
+| Markenbuch (Slides) | https://claude.ai/artifact/C4AHY6LVJXgaCMW3T8dwv9 | `markenbuch/project/` |
+| Umsetzungsplan mit E-Mail-Vorlagen (Docs, **intern**) | https://claude.ai/code/artifact/44ab5249-93e8-4169-8ad4-3df043427ff9 | `dokumente/markdown/Weiterempfohlen – Umsetzungsplan mit E-Mail-Vorlagen.md` |
+| Ablauf einer Folge und eines Drehtags (Docs) | https://claude.ai/code/artifact/904b3f9c-3f2a-4960-95a0-02e9d6ef3c35 | `dokumente/markdown/Weiterempfohlen. – Ablauf einer Folge und eines Drehtags.md` |
+| Muster-Monatsbericht (Docs) | https://claude.ai/code/artifact/4d58ce5e-281b-4bec-aef9-cad9947d4860 | `dokumente/markdown/Weiterempfohlen. – Muster-Monatsbericht.md` |
+| Infoblatt für Betriebe (Docs) | https://claude.ai/code/artifact/c198aaf6-5d1f-471a-bb1d-916d9f704104 | `dokumente/markdown/Weiterempfohlen. – Infoblatt für Betriebe.md` |
+| Sponsoring-Unterlage (Docs, letzter Abschnitt intern) | https://claude.ai/code/artifact/e86f5d38-5843-4f0c-b9f8-efd9f7473e00 | `dokumente/markdown/Weiterempfohlen. – Sponsoring-Unterlage.md` |
 | PDFs der fünf Dokumente | folgt, nach dem Anlegen der Docs neu exportieren | `dokumente/pdf/` (zurzeit leer, die alten Gütersloh-PDFs sind hier gelöscht) |
 | Logos und Aufkleber „BIELEFELD EMPFIEHLT“ | im Logo-Paket | `marke/` |
 | Mails an Bielefeld Marketing und WEGE | – | `mails/` |
