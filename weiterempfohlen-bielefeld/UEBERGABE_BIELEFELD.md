@@ -86,7 +86,7 @@ Alle Befehle laufen aus `weiterempfohlen-bielefeld/`. Playwright ist global inst
 
 ## Offene Punkte
 
-- **Fotos:** Titelfoto Altstadt Bielefeld (BfB Bielefeld, CC BY-SA 4.0) plus drei eigene Fotos von unikat media (Sparrenburg, Obersee, Park) sind eingesetzt, die Website ist veröffentlicht.
+- **Fotos:** Titelfoto Altstadt Bielefeld (BfB Bielefeld, CC BY-SA 4.0) plus drei Unsplash-Fotos (Sparrenburg, Obersee, Park; Website nur zur Präsentation) sind eingesetzt, die Website ist veröffentlicht.
 - **Kanalname prüfen:** Ist @weiterempfohlen.bi auf Instagram und TikTok frei?
 - **Followerzahlen prüfen:** Die Zahlen der Bielefelder Kanäle und von @bielefoodies sind Näherungswerte. Vor dem Termin in der App prüfen.
 - **Adresse von Martin Knabenreich prüfen:** nicht veröffentlicht, vermutlich martin.knabenreich@bielefeld-marketing.de. Vor dem Versand über die Zentrale (0521 55774-555) bestätigen.

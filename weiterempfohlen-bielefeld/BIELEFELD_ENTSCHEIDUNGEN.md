@@ -110,9 +110,9 @@ Für die Folie (sichtbar): „Bestehende Lokalkanäle: Lokal-Guides, Stadt-Apps 
 | Einsatz | Datei | Urheber | Lizenz |
 | --- | --- | --- | --- |
 | Titelfoto Website (`hero`) | File:Altstadt_Bielefeld.jpg | BfB Bielefeld | CC BY-SA 4.0 |
-| Bandfoto „Bielefeld empfiehlt Bielefeld.“ (`stadtbild`) | Sparrenburg zwischen Bäumen | unikat media (von Stefan geliefert) | eigenes Foto |
-| Stadtteile (`stadtteile`) | Obersee in Schildesche, Drohne | unikat media (von Stefan geliefert) | eigenes Foto |
-| Nachbarn (`nachbarn`) | Park im Frühling | unikat media (von Stefan geliefert) | eigenes Foto |
+| Bandfoto „Bielefeld empfiehlt Bielefeld.“ (`stadtbild`) | Sparrenburg zwischen Bäumen | Unsplash (von Stefan geliefert) | Unsplash-Lizenz; Website nur zur Präsentation, nicht öffentlich |
+| Stadtteile (`stadtteile`) | Obersee in Schildesche, Drohne | Unsplash (von Stefan geliefert) | Unsplash-Lizenz; Website nur zur Präsentation, nicht öffentlich |
+| Nachbarn (`nachbarn`) | Park im Frühling | Unsplash (von Stefan geliefert) | Unsplash-Lizenz; Website nur zur Präsentation, nicht öffentlich |
 | Reserve | File:Siegfriedplatz,_Bielefeld_-_panoramio.jpg | INDALOMANIA | CC BY-SA 3.0 |
 
 Die Fotos hat Stefan am 8. Oktober 2026 von Commons geladen; sie sind eingesetzt.

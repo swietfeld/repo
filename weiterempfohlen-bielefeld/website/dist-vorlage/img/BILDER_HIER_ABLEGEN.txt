@@ -2,9 +2,9 @@ Bilder für die Pitch-Website
 ============================
 
 hero.webp                  Titelfoto: Altstadt Bielefeld (Foto: BfB Bielefeld, Wikimedia Commons, CC BY-SA 4.0)
-stadtbild.webp             Bildband "Bielefeld empfiehlt Bielefeld.": Sparrenburg (Foto: unikat media)
-stadtteile.webp            Abschnitt Stadtteile: Obersee in Schildesche, Drohne (Foto: unikat media)
-nachbarn.webp              Abschnitt "Für die Menschen, die hier wohnen": Park im Frühling (Foto: unikat media)
+stadtbild.webp             Bildband "Bielefeld empfiehlt Bielefeld.": Sparrenburg (Foto: Unsplash)
+stadtteile.webp            Abschnitt Stadtteile: Obersee in Schildesche, Drohne (Foto: Unsplash)
+nachbarn.webp              Abschnitt "Für die Menschen, die hier wohnen": Park im Frühling (Foto: Unsplash)
                            (Foto: Hakanneu, Wikimedia Commons, CC BY-SA 4.0)
 
 drehtag.webp              Abschnitt Drehtag, "Hinter den Kulissen" (Foto: unikat media)
