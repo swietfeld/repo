@@ -1,21 +1,21 @@
 # Weiterempfohlen. – Infoblatt für Betriebe
 
-Oct 1, 2026 · @Fam Wietfeld
+Oct 8, 2026 · @Fam Wietfeld
 
-> **Hinweis für unikat media, vor dem Versand löschen:** Solange die Stadt nicht zugesagt hat, „eine Serie von Gütersloh Marketing“ durch „eine geplante Serie für Gütersloh“ ersetzen.
+> **Hinweis für unikat media, vor dem Versand löschen:** Solange die Stadt nicht zugesagt hat, „eine Serie von Bielefeld Marketing“ durch „eine geplante Serie für Bielefeld“ ersetzen. Den Kanalnamen @weiterempfohlen.bi erst nennen, wenn er gesichert ist.
 
 ## Worum es geht
 
-„Weiterempfohlen.“ ist eine Videoserie über Gütersloher Betriebe, eine Serie von Gütersloh Marketing. In jeder Folge besucht unser Host einen Laden, ein Café oder eine Werkstatt und lässt sich zeigen, was den Ort besonders macht. Am Ende kommt immer dieselbe Frage: „Und wo gehst du hin, wenn du nicht hier bist?“ Die Antwort führt zur nächsten Folge.
+„Weiterempfohlen.“ ist eine Videoserie über Bielefelder Betriebe, eine Serie von Bielefeld Marketing. In jeder Folge besucht unser Host einen Laden, ein Café oder eine Werkstatt und lässt sich zeigen, was den Ort besonders macht. Am Ende kommt immer dieselbe Frage: „Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“ Die Antwort führt zur nächsten Folge. So zieht die Serie von der Altstadt aus durch die Stadtteile.
 
 - **Länge:** etwa 60 Sekunden, hochkant fürs Handy
-- **Wo sie läuft:** auf Instagram, TikTok und YouTube, gleichzeitig beim Kanal der Stadt, auf dem Serienkanal und auf Ihrem eigenen Profil
+- **Wo sie läuft:** auf Instagram, TikTok und YouTube, gleichzeitig auf dem Serienkanal @weiterempfohlen.bi, bei @bielefeld.jetzt und auf Ihrem eigenen Profil
 - **Wann:** jede Woche zum festen Termin
-- **Wer dreht:** unikat media, eine Videoagentur aus Ostwestfalen-Lippe. Vor der Kamera steht jemand aus Gütersloh.
+- **Wer dreht:** unikat media, eine Videoagentur aus Bielefeld. Vor der Kamera steht jemand aus Bielefeld.
 
 ## Warum gerade Sie
 
-**Sie wurden empfohlen.** \[Name\] von \[Betrieb\] hat Sie als Lieblingsort in Gütersloh genannt. Deshalb fragen wir Sie, ob Sie in der nächsten Folge dabei sein möchten.
+**Sie wurden empfohlen.** \[Name\] von \[Betrieb\] hat Sie als Lieblingsort in Bielefeld genannt. Deshalb fragen wir Sie, ob Sie in der nächsten Folge dabei sein möchten.
 
 In die Serie kommt man nur auf Empfehlung oder durch die Auswahl unserer Redaktion. Einkaufen kann sich niemand. Genau deshalb glauben die Zuschauer, was sie sehen.
 
@@ -32,7 +32,7 @@ Das sollten Sie außerdem wissen:
 
 ## So läuft es ab
 
-1. **Vorgespräch, etwa 30 Minuten:** am Telefon oder bei Ihnen. Wir sprechen über Ihre Geschichte, Ihre Spezialität und Ihren eigenen Lieblingsort in Gütersloh. Gemeinsam legen wir das Codewort fest. Was es dafür gibt und wie lange die Aktion läuft, entscheiden Sie.
+1. **Vorgespräch, etwa 30 Minuten:** am Telefon oder bei Ihnen. Wir sprechen über Ihre Geschichte, Ihre Spezialität und Ihren eigenen Lieblingsort in Bielefeld, gern auch in einem anderen Stadtteil. Gemeinsam legen wir das Codewort fest. Was es dafür gibt und wie lange die Aktion läuft, entscheiden Sie.
 2. **Drehtag, zwei Stunden:** Wir kommen zu dritt, mit wenig Technik. Ihr Betrieb bleibt geöffnet, Sie müssen nichts umräumen und keinen Text lernen. Unser Host stellt Fragen, Sie erzählen.
 3. **Vorab ansehen, etwa eine Woche später:** Sie bekommen die fertige Folge vor der Veröffentlichung. Sie prüfen Namen, Adresse, Öffnungszeiten und Codewort und können Stellen streichen lassen, die Ihnen unangenehm sind.
 4. **Veröffentlichung:** Sie bekommen auf Instagram eine Anfrage für einen gemeinsamen Beitrag. Nehmen Sie sie an, erscheint die Folge auch auf Ihrem Profil. Rund um Ihre Folge erscheinen insgesamt fünf Posts, von der Ankündigung bis zum Abschluss. Solange Ihre Aktion läuft, zählen Sie, wie oft das Codewort genannt wird.
@@ -42,9 +42,9 @@ Das sollten Sie außerdem wissen:
 - **Fünf Posts über Ihren Betrieb:** Ankündigung, Neugier-Post, Teaser, Video und Abschluss. Alle dürfen Sie dauerhaft auf Ihren eigenen Kanälen und Ihrer Website zeigen
 - **Sechs Fotos** von Ihrem Betrieb, quer und hochkant
 - **Den Aufkleber „Weiterempfohlen.“** für Ihre Tür
-- **Reichweite** über den Kanal der Stadt und den Serienkanal, nicht nur bei Ihren eigenen Followern
+- **Reichweite** über @weiterempfohlen.bi und @bielefeld.jetzt, nicht nur bei Ihren eigenen Followern
 - **Schwarz auf weiß, was es gebracht hat:** Mit dem Codewort sehen Sie, wie viele Gäste über die Folge zu Ihnen kamen
-- **Ihre eigene Empfehlung:** Sie entscheiden mit, welcher Ort als Nächstes vorkommt
+- **Ihre eigene Empfehlung:** Sie entscheiden mit, welcher Ort als Nächstes vorkommt. Auf der Kettenkarte sieht man, wohin Sie die Serie geschickt haben
 
 ## Was wir von Ihnen brauchen
 
@@ -61,7 +61,7 @@ Das sollten Sie außerdem wissen:
 
 **Was, wenn mir die fertige Folge nicht gefällt?** Sie sehen die Folge vor der Veröffentlichung und können Stellen streichen lassen. Bis zur Veröffentlichung können Sie auch ganz absagen.
 
-**Was darf die Stadt mit der Folge machen?** Die Stadt und unikat media zeigen die Folge, die Fotos und Ausschnitte daraus im Rahmen der Serie und des Stadtmarketings, zum Beispiel auf der Website, in der Tourist-Info und bei Veranstaltungen. An andere geben wir das Material nicht weiter. Ihr Name und Ihr Logo gehören weiter Ihnen. Die Einzelheiten stehen in der Drehvereinbarung.
+**Was darf die Stadt mit der Folge machen?** Die Stadt und unikat media zeigen die Folge, die Fotos und Ausschnitte daraus im Rahmen der Serie und des Stadtmarketings, zum Beispiel auf der Website, in der Tourist-Information in der Wissenswerkstadt und bei Veranstaltungen wie dem Leineweber-Markt. An andere geben wir das Material nicht weiter. Ihr Name und Ihr Logo gehören weiter Ihnen. Die Einzelheiten stehen in der Drehvereinbarung.
 
 **Kann die Folge später wieder entfernt werden?** Sprechen Sie uns an. Wenn es einen wichtigen Grund gibt, etwa weil Sie Ihren Betrieb aufgeben, nehmen wir die Folge vom Serienkanal.
 
@@ -80,6 +80,7 @@ Rufen Sie uns an oder antworten Sie einfach auf diese Nachricht. Bitte sagen Sie
 | Ansprechperson | Stefan Wietfeld, unikat media |
 | Telefon | 0521 30436986 |
 | E-Mail | info@unikat.media |
-| Bei der Stadt | \[Name\], Gütersloh Marketing |
+| Instagram | @weiterempfohlen.bi |
+| Bei der Stadt | \[Name\], Bielefeld Marketing |
 
 Wir freuen uns auf Sie und sind gespannt, wohin Sie uns als Nächstes schicken.
