@@ -9,3 +9,6 @@ render/new-*.png
 render/mb-*.png
 node_modules/
 __pycache__/
+
+# Weitergabe-Pakete (mit den Skripten neu erzeugbar)
+/Weiterempfohlen_*.zip
