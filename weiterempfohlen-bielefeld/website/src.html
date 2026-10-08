@@ -1,5 +1,5 @@
-<title>Weiterempfohlen Gütersloh</title>
-<meta name="description" content="Weiterempfohlen. Eine Videoserie, in der sich Gütersloher Betriebe gegenseitig empfehlen. Ein Konzept von unikat media.">
+<title>Weiterempfohlen Bielefeld</title>
+<meta name="description" content="Weiterempfohlen. Eine Videoserie, in der sich Bielefelder Betriebe gegenseitig empfehlen. Ein Konzept von unikat media.">
 %%HEADPERF%%
 <style>
 /* Layout: eine Empfehlungskette von links nach rechts. Jede Sektion führt zur nächsten, dunkle Studio-Bänder für die Video-Momente, Bühne max. 1200px. */
@@ -411,6 +411,19 @@ button.pk:hover{border-color:var(--ink)}
 .crit b{font:700 1.25rem/1.1 var(--display)}
 .crit span{color:var(--muted);font-size:.95rem}
 @media (max-width:860px){.criteria{grid-template-columns:1fr}}
+.bezirke{margin-top:clamp(48px,7vw,80px);display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,5vw,64px);align-items:start}
+.bezirke h3{font-size:clamp(1.6rem,3vw,2.3rem)}
+.bezirke p{color:var(--muted);margin-top:10px}
+.bezirke .bz-q{color:var(--ink);font-weight:700}
+.bz-map{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:grid;gap:14px}
+.bz-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.bz-top b{font:700 1.1rem/1.2 var(--display)}
+.bz-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(124px,1fr));gap:8px}
+.bz-list li{border:1px solid var(--line);border-radius:12px;padding:10px 10px 9px;display:grid;gap:2px;font-weight:700;font-size:.92rem;background:var(--paper);hyphens:manual}
+.bz-list li small{font-weight:400;font-size:.76rem;color:var(--muted)}
+.bz-list li.start{background:var(--mustard);border-color:var(--mustard);color:#1F2A2B}
+.bz-list li.start small{color:#1F2A2B}
+@media (max-width:860px){.bezirke{grid-template-columns:1fr}}
 
 /* Player */
 .player{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(28px,6vw,80px);align-items:center}
@@ -813,7 +826,7 @@ button.pk:hover{border-color:var(--ink)}
 @media (max-width:760px){.money{grid-template-columns:1fr}}
 
 /* Zeitplan */
-.time{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;padding-top:34px}
+.time{position:relative;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:16px;padding-top:34px}
 .time::before{content:"";position:absolute;left:0;right:0;top:9px;height:3px;background:var(--line);border-radius:3px}
 .time::after{content:"";position:absolute;left:0;right:0;top:9px;height:3px;background:var(--mustard);border-radius:3px;transform-origin:0 50%}
 .time.in::after{animation:grow 1.8s var(--ease) both}
@@ -947,19 +960,19 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
 <main>
 <section class="hero" id="start">
-  <div class="hero-photo" data-photo="img/hero.webp" data-photo-m="img/hero-m.webp" role="img" aria-label="Fachwerkhäuser am Kirchring in Gütersloh"></div>
+  <div class="hero-photo" data-photo="img/hero.webp" data-photo-m="img/hero-m.webp" role="img" aria-label="Altstadt Bielefeld"></div>
   <div class="wrap hero-in">
-    <p class="eyebrow">Ein Konzept von unikat media für Gütersloh Marketing und Concept GT</p>
+    <p class="eyebrow">Ein Konzept von unikat media für Bielefeld Marketing und die WEGE</p>
     <h1 class="hero-title" aria-label="Weiterempfohlen."><span style="--i:0" aria-hidden="true">W</span><span style="--i:1" aria-hidden="true">e</span><span style="--i:2" aria-hidden="true">i</span><span style="--i:3" aria-hidden="true">t</span><span style="--i:4" aria-hidden="true">e</span><span style="--i:5" aria-hidden="true">r</span><span style="--i:6" aria-hidden="true">e</span><span style="--i:7" aria-hidden="true">m</span><span style="--i:8" aria-hidden="true">p</span><span style="--i:9" aria-hidden="true">f</span><span style="--i:10" aria-hidden="true">o</span><span style="--i:11" aria-hidden="true">h</span><span style="--i:12" aria-hidden="true">l</span><span style="--i:13" aria-hidden="true">e</span><span style="--i:14" aria-hidden="true">n</span><span class="dot" aria-hidden="true">.</span></h1>
     <div class="hero-row">
       <div>
-        <p class="lede">Eine Videoserie, in der sich Gütersloher Betriebe gegenseitig empfehlen. Kein Betrieb zahlt für seinen Auftritt, und Absender ist die Stadt.</p>
+        <p class="lede">Eine Videoserie, in der sich Bielefelder Betriebe gegenseitig empfehlen. Kein Betrieb zahlt für seinen Auftritt, und Absender ist die Stadt.</p>
         <div class="hero-cta"><a class="btn btn-y" href="#idee">Konzept ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn-line" href="#folge">Beispielfolge abspielen</a></div>
       </div>
       <div class="hero-ask"><span class="ask-label">Die Schlussfrage jeder Folge</span><p class="ask">„Und wo gehst du hin, wenn du nicht hier bist?“</p></div>
     </div>
   </div>
-  <p class="credit">Foto: Teutoburger Wald, Gütersloh, M. Wallenfang · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+  <p class="credit">Foto: Altstadt Bielefeld, BfB Bielefeld, <a href="https://commons.wikimedia.org/wiki/File:Altstadt_Bielefeld.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
 </section>
 
 <section class="chain" id="chain" aria-label="Beispiel einer Empfehlungskette">
@@ -979,13 +992,13 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <div class="sec-head"><p class="eyebrow">Auf einen Blick</p><h2>Eine Serie, der man glaubt. Weil kein Betrieb dafür zahlt.</h2></div>
     <div class="pillars stagger" data-reveal>
       <article class="pillar" style="--d:0ms"><span class="pillar-ic"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg></span><h3>Glaubwürdig</h3><p>Kein Betrieb kauft sich eine Folge. Jeder Gast empfiehlt den nächsten Ort. Darum glauben die Zuschauer den Tipps.</p></article>
-      <article class="pillar" style="--d:120ms"><span class="pillar-ic"><svg class="i" aria-hidden="true"><use href="#i-megaphone"/></svg></span><h3>Von der Stadt</h3><p>Stadtmarketing und Wirtschaftsförderung erzählen selbst, was Gütersloh ausmacht, statt es bezahlten Plattformen zu überlassen.</p></article>
+      <article class="pillar" style="--d:120ms"><span class="pillar-ic"><svg class="i" aria-hidden="true"><use href="#i-megaphone"/></svg></span><h3>Von der Stadt</h3><p>Stadtmarketing und Wirtschaftsförderung erzählen selbst, was Bielefeld ausmacht, statt es bezahlten Plattformen zu überlassen.</p></article>
       <article class="pillar" style="--d:240ms"><span class="pillar-ic"><svg class="i" aria-hidden="true"><use href="#i-chart"/></svg></span><h3>Messbar</h3><p>Ein Codewort pro Folge zeigt, wie viele Gäste wirklich kamen. Nach jeder Folge gibt es Zahlen.</p></article>
     </div>
 
     <div class="compare" data-reveal>
       <div class="compare-head">
-        <h3>Was es in Gütersloh schon gibt und was fehlt.</h3>
+        <h3>Was es in Bielefeld schon gibt und was fehlt.</h3>
         <div class="seg" id="seg" data-side="1" role="tablist" aria-label="Vergleich umschalten">
           <button role="tab" aria-selected="false" data-side="0">Bestehende Lokalkanäle</button>
           <button role="tab" aria-selected="true" data-side="1">Weiterempfohlen.</button>
@@ -995,23 +1008,23 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
       <dl class="compare-rows" id="compareRows" data-side="1">
         <div class="crow" style="--k:0"><dt>Wie Betriebe vorkommen</dt><dd><span class="v0">Meist als bezahlter Beitrag</span><span class="v1"><mark>Nur auf Empfehlung</mark></span></dd></div>
         <div class="crow" style="--k:1"><dt>Wer bezahlt</dt><dd><span class="v0">Der Betrieb</span><span class="v1">Stadt und Partner, <mark>nie der Betrieb</mark></span></dd></div>
-        <div class="crow" style="--k:2"><dt>Absender</dt><dd><span class="v0">Private Anbieter</span><span class="v1"><mark>Die Stadt Gütersloh</mark></span></dd></div>
+        <div class="crow" style="--k:2"><dt>Absender</dt><dd><span class="v0">Private Anbieter</span><span class="v1"><mark>Die Stadt Bielefeld</mark></span></dd></div>
         <div class="crow" style="--k:3"><dt>Form</dt><dd><span class="v0">Einzelne Beiträge im Feed</span><span class="v1">Serie mit <mark>festem Gesicht</mark></span></dd></div>
         <div class="crow" style="--k:4"><dt>Erfolg sichtbar über</dt><dd><span class="v0">Reichweite</span><span class="v1">Reichweite und <mark>Besuche per Codewort</mark></span></dd></div>
       </dl>
-      <p class="note">Bestehende Lokalkanäle: Stadt-Apps, Lokal-Guides und Video-Kanäle in Gütersloh. Eigene Recherche, Oktober 2026.</p>
+      <p class="note">Bestehende Lokalkanäle: Lokal-Guides, Stadt-Apps und Stadtmagazine in Bielefeld. Eigene Recherche, Oktober 2026.</p>
     </div>
 
     <div class="now">
-      <div class="now-text"><p class="eyebrow">Warum jetzt</p><h3>Stadtmarketing und Wirtschaftsförderung werden gebündelt. Ein Format für beide Aufgaben.</h3></div>
+      <div class="now-text"><p class="eyebrow">Warum jetzt</p><h3>Stadtmarketing und Wirtschaftsförderung rücken ab 2027 zusammen. Ein erstes gemeinsames Projekt für beide.</h3></div>
       <div class="merge" id="merge" data-reveal>
         <div class="m-a"><b>Stadtmarketing</b><span>Innenstadt beleben, Anlässe für Besuche schaffen</span></div>
         <div class="m-b"><b>Wirtschaftsförderung</b><span>Betriebe sichtbar machen, Fachkräfte gewinnen</span></div>
         <div class="m-c"><span class="m-label">Beides in einem Format</span><b>Weiterempfohlen<span class="dot">.</span></b>
           <ul>
             <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Zeigt Betriebe und belebt zugleich die Innenstadt</li>
-            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Liefert Bewegtbild für den neuen Markenauftritt</li>
-            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Startet sofort, unabhängig von der Neuordnung</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Liefert Bewegtbild für die Stadtmarke</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Startet sofort, unabhängig von der Zusammenführung</li>
             <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Liefert jeden Monat belastbare Zahlen</li>
           </ul>
         </div>
@@ -1025,11 +1038,21 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <div class="sec-head"><p class="eyebrow">Das Herzstück</p><h2>Jeder Gast empfiehlt den nächsten Ort.</h2><p class="sec-lede">Am Ende jeder Folge fragt der Host nach dem Lieblingsort des Gastes. Die Antwort ist der Tipp für die nächste Folge. So stellen sich die Betriebe gegenseitig vor, nur mit Empfehlungen und nie mit Bewertungen.</p></div>
     <blockquote class="bigq" data-reveal id="bigq">„Und wo gehst du hin, wenn du nicht hier bist?“</blockquote>
     <ol class="steps stagger" data-reveal>
-      <li style="--d:0ms"><b>Der Gast nennt seine Lieblingsorte</b><span>Im Vorgespräch nennt er zwei Orte in Gütersloh.</span></li>
+      <li style="--d:0ms"><b>Der Gast nennt seine Lieblingsorte</b><span>Im Vorgespräch nennt er zwei Orte in Bielefeld.</span></li>
       <li style="--d:120ms"><b>Die Redaktion fragt an</b><span>Sie prüft die Empfehlung. Ketten-Filialen oder Doppelungen fallen raus.</span></li>
       <li style="--d:240ms"><b>Vor der Kamera nur mit Zusage</b><span>Der Gast nennt nur einen Ort, der schon zugesagt hat. Nichts muss nachgedreht werden.</span></li>
       <li style="--d:360ms"><b>Die nächste Folge steht</b><span>Der empfohlene Ort ist nächste Woche dran, und die Kette läuft weiter.</span></li>
     </ol>
+    <div class="bezirke">
+      <div><h3>Quer durch die Stadtteile.</h3><p>Die Kette startet in der Altstadt. Danach läuft sie frei weiter, niemand legt den nächsten Betrieb fest. Der Host ergänzt die Schlussfrage:</p><p class="bz-q">„Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“</p><p>Eine Kettenkarte zeigt, durch welche Stadtteile die Kette schon gelaufen ist: in den Posts, auf der Website und im Monatsbericht.</p></div>
+      <div class="bz-map">
+        <div class="bz-top"><b>Die zehn Stadtbezirke</b><span class="tag">Ziel: mindestens 5 von 10</span></div>
+        <ul class="bz-list" aria-label="Die zehn Stadtbezirke von Bielefeld">
+          <li class="start">Mitte<small>Start: Altstadt</small></li><li>Brackwede</li><li>Dornberg</li><li>Gadder&shy;baum</li><li>Heepen</li><li>Jöllenbeck</li><li>Schildesche</li><li>Senne</li><li>Sennestadt</li><li>Stieghorst</li>
+        </ul>
+        <p class="note">In der Testphase soll die Kette mindestens fünf der zehn Stadtbezirke erreichen. Ein Ziel, keine Pflicht.</p>
+      </div>
+    </div>
     <div class="criteria">
       <div><h3>Für Nachbarn, nicht für Touristen.</h3><p>Jede Folge stellt dieselbe Frage: Warst du da schon? Was eine Geschichte braucht, mindestens eins davon:</p></div>
       <div class="crit stagger" data-reveal>
@@ -1068,9 +1091,9 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   </div>
 </section>
 
-<section class="band-photo" data-photo="img/kirchplatz.webp" data-photo-m="img/kirchplatz-m.webp" aria-label="Gütersloh empfiehlt Gütersloh, im Bild der Alte Kirchplatz">
-  <div class="wrap"><svg aria-hidden="true"><use href="#zeichen"/></svg><p>Gütersloh empfiehlt Gütersloh.</p><span>Jede Woche ein Ort, empfohlen vom letzten.</span></div>
-  <p class="ki2">Foto: Teutoburger Wald, Gütersloh, M. Wallenfang · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+<section class="band-photo" data-photo="img/stadtbild.webp" data-photo-m="img/stadtbild-m.webp" aria-label="Bielefeld empfiehlt Bielefeld. Im Bild die Skyline von Bielefeld mit der Sparrenburg">
+  <div class="wrap"><svg aria-hidden="true"><use href="#zeichen"/></svg><p>Bielefeld empfiehlt Bielefeld.</p><span>Jede Woche ein Ort, empfohlen vom letzten.</span></div>
+  <p class="ki2">Foto: Skyline der Stadt Bielefeld, Hakanneu, <a href="https://commons.wikimedia.org/wiki/File:Skyline_der_Stadt_Bielefeld.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
 </section>
 
 <section class="sec stage" id="folge">
@@ -1114,16 +1137,16 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   <div class="wrap">
     <div class="sec-head"><p class="eyebrow">Die Formate</p><h2>Sechs Rubriken, ein Prinzip.</h2><p class="sec-lede">Drei Rubriken laufen immer, drei weitere sind als Zusatz möglich. Tippen Sie eine Karte an, um den Einstieg zu sehen.</p></div>
     <div class="flips" id="flips">
-      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind">Läuft immer</span><span class="f-rhythm">Jede Woche · 45–60 Sek.</span></span><span class="f-title">Zu Gast bei …</span><span class="f-text">Der Host besucht ein Lokal, trifft die Menschen dahinter und fragt nach ihrem Lieblingsort in GT.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Seit 20 Jahren in GT und nie hier gegessen?“</q><span class="f-hint">Zurück</span></span></span></button>
-      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind">Läuft immer</span><span class="f-rhythm">Nach Anlass · 30 Sek.</span></span><span class="f-title">Neu in GT</span><span class="f-text">Neueröffnungen und Pop-up-Stores, online spätestens 48 Stunden nach dem Dreh.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Seit Montag offen. Wart ihr schon da?“</q><span class="f-hint">Zurück</span></span></span></button>
+      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind">Läuft immer</span><span class="f-rhythm">Jede Woche · 45–60 Sek.</span></span><span class="f-title">Zu Gast bei …</span><span class="f-text">Der Host besucht ein Lokal, trifft die Menschen dahinter und fragt nach ihrem Lieblingsort in Bielefeld.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Seit 20 Jahren in Bielefeld – und nie hier gegessen?“</q><span class="f-hint">Zurück</span></span></span></button>
+      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind">Läuft immer</span><span class="f-rhythm">Nach Anlass · 30 Sek.</span></span><span class="f-title">Neu in Bielefeld</span><span class="f-text">Neueröffnungen und Pop-up-Stores, online spätestens 48 Stunden nach dem Dreh.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Seit Montag offen. Wart ihr schon da?“</q><span class="f-hint">Zurück</span></span></span></button>
       <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind">Läuft immer</span><span class="f-rhythm">Alle zwei Wochen · 60–90 Sek.</span></span><span class="f-title">Wer steckt dahinter?</span><span class="f-text">Porträt der Menschen hinter Laden, Lokal oder Manufaktur: warum sie das machen, und warum hier.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Jeder kennt den Laden. Kaum einer die Geschichte.“</q><span class="f-hint">Zurück</span></span></span></button>
       </div>
     <div class="flips-extra">
       <div class="extra-head"><span class="tag">Als Zusatz möglich</span><p>Nicht Teil der Testphase. Jede dieser Rubriken lässt sich einzeln dazubuchen.</p></div>
       <div class="flips">
-      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Monat · 60 Sek.</span></span><span class="f-title">Eine Schicht bei …</span><span class="f-text">Der Host arbeitet mit: in der Backstube, am Marktstand oder in der Kirmesbude zur Michaeliswoche.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„4 Uhr. Die Stadt schläft, die Backstube nicht.“</q><span class="f-hint">Zurück</span></span></span></button>
-      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Monat · 30–45 Sek.</span></span><span class="f-title">Wo gibt's das beste …?</span><span class="f-text">Straßenumfrage in der Innenstadt. Die meistgenannten Orte bekommen die nächste Folge.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Wo gibt's in Gütersloh die beste Currywurst?“</q><span class="f-hint">Zurück</span></span></span></button>
-      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Jahr</span></span><span class="f-title">Der Award</span><span class="f-text">Publikumswahl zum Gütersloher Lieblingsort des Jahres, Verleihung zur Michaeliswoche.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Und der Lieblingsort des Jahres ist …“</q><span class="f-hint">Zurück</span></span></span></button>
+      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Monat · 60 Sek.</span></span><span class="f-title">Eine Schicht bei …</span><span class="f-text">Der Host arbeitet mit: in der Backstube, am Marktstand oder an einem Stand auf dem Leineweber-Markt.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„4 Uhr. Die Stadt schläft, die Backstube nicht.“</q><span class="f-hint">Zurück</span></span></span></button>
+      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Monat · 30–45 Sek.</span></span><span class="f-title">Wo gibt's das beste …?</span><span class="f-text">Straßenumfrage in der Innenstadt. Die meistgenannten Orte bekommen die nächste Folge.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Wo gibt's in Bielefeld den besten Pickert?“</q><span class="f-hint">Zurück</span></span></span></button>
+      <button class="flip" aria-pressed="false"><span class="flip-in"><span class="face front"><span class="f-top"><span class="f-kind mit">Als Zusatz</span><span class="f-rhythm">Einmal im Jahr</span></span><span class="f-title">Der Award</span><span class="f-text">Publikumswahl zum Bielefelder Lieblingsort des Jahres, Verleihung beim Leineweber-Markt.</span><span class="f-hint">Einstieg ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></span><span class="face back"><span class="f-label">Beispiel-Einstieg</span><q>„Und der Lieblingsort des Jahres ist …“</q><span class="f-hint">Zurück</span></span></span></button>
       </div>
     </div>
   </div>
@@ -1149,7 +1172,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     </div>
     <div class="day-facts stagger" data-reveal>
       <div class="fact" style="--d:0ms"><h3>Kleines Team</h3><ul>
-        <li><svg class="i" aria-hidden="true"><use href="#i-users"/></svg>Host aus Gütersloh</li>
+        <li><svg class="i" aria-hidden="true"><use href="#i-users"/></svg>Host aus Bielefeld</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-camera"/></svg>Kamera und Regie</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-mic"/></svg>Ton und zweite Kamera</li></ul></div>
       <div class="fact" style="--d:120ms"><h3>Technik, die in ein Auto passt</h3><ul>
@@ -1210,11 +1233,11 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
       <svg class="spread-lines" id="spreadSvg" aria-hidden="true"></svg>
       <div class="src" id="spreadSrc" data-photo="img/folge-baeckerin.webp"><div class="src-top"><svg aria-hidden="true"><use href="#zeichen"/></svg>Weiterempfohlen.</div><div><small>Folge 3</small><b>Die Bäckerei</b></div></div>
       <div class="dsts" id="dsts">
-        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-handshake"/></svg></span><b>Collab-Post auf Instagram</b><span>Jedes Reel erscheint gleichzeitig auf drei Profilen. Die Follower aller drei sehen es.</span><span class="trio"><i>GT</i><i>W.</i><i>B</i><em>Stadt · Serienkanal · Betrieb</em></span></button>
+        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-handshake"/></svg></span><b>Collab-Post auf Instagram</b><span>Jedes Reel erscheint gleichzeitig bei @bielefeld.jetzt, @weiterempfohlen.bi und beim Betrieb. Die Follower aller drei sehen es.</span><span class="trio"><i>BI</i><i>W.</i><i>B</i><em>Stadt · Serienkanal · Betrieb</em></span></button>
         <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-sparkle"/></svg></span><b>TikTok und YouTube Shorts</b><span>Gleiches Material, zusätzliches Publikum.</span></button>
-        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-screen"/></svg></span><b>guetersloh-marketing.de</b><span>Eigene Rubrik mit allen Folgen. Bisher läuft dort kein Video.</span></button>
-        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg></span><b>Tourist-Info, Berliner Straße 63</b><span>Bildschirm am Tresen oder im Schaufenster.</span></button>
-        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-users"/></svg></span><b>Veranstaltungen</b><span>Leinwand bei Michaeliswoche, Straßenfiffi und Co.</span></button>
+        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-screen"/></svg></span><b>bielefeld.jetzt</b><span>Eigene Rubrik mit allen Folgen.</span></button>
+        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg></span><b>Tourist-Information in der Wissenswerkstadt</b><span>Wilhelmstraße 3. Bildschirm am Tresen oder im Schaufenster.</span></button>
+        <button class="dst"><span class="dst-ic"><svg class="i" aria-hidden="true"><use href="#i-users"/></svg></span><b>Veranstaltungen</b><span>Leinwand bei Leineweber-Markt, Nachtansichten, Sparrenburgfest und Co.</span></button>
       </div>
     </div>
   </div>
@@ -1228,13 +1251,13 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <div class="tabs" role="tablist" aria-label="Nutzen für">
           <button role="tab" id="tab-0" aria-selected="true" aria-controls="tp-0">Für die Stadt</button>
           <button role="tab" id="tab-1" aria-selected="false" aria-controls="tp-1" tabindex="-1">Für die Betriebe</button>
-          <button role="tab" id="tab-2" aria-selected="false" aria-controls="tp-2" tabindex="-1">Für Gütersloher</button>
+          <button role="tab" id="tab-2" aria-selected="false" aria-controls="tp-2" tabindex="-1">Für Bielefelder</button>
         </div>
         <ul class="tabpanel" role="tabpanel" id="tp-0" aria-labelledby="tab-0">
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Ein eigenes Format, mit dem die Stadt selbst erzählt</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Anlässe, Läden und Lokale zu besuchen, nachvollziehbar über das Codewort</li>
-          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Bewegtbild für den neuen Markenauftritt</li>
-          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Videos für Website, Tourist-Info und Events ohne eigenen Produktionsaufwand</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Bewegtbild für die Stadtmarke</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Videos für Website, Tourist-Information und Events ohne eigenen Produktionsaufwand</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Ein guter Grund für Betriebe, mit der Stadt zusammenzuarbeiten</li>
         </ul>
         <ul class="tabpanel" role="tabpanel" id="tp-1" aria-labelledby="tab-1" hidden>
@@ -1266,10 +1289,10 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
 <section class="sec sec-tint" id="marke">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Die Marke</p><h2>Empfohlen statt bezahlt.</h2><p class="sec-lede">Die Marke strahlt aus, worum es geht: Hier spricht die Nachbarschaft, nicht die Werbung. Name und Gestaltung sind ein Arbeitstitel und passen sich dem neuen Markenauftritt der Stadt an.</p></div>
+    <div class="sec-head"><p class="eyebrow">Die Marke</p><h2>Empfohlen statt bezahlt.</h2><p class="sec-lede">Die Marke strahlt aus, worum es geht: Hier spricht die Nachbarschaft, nicht die Werbung. Name und Gestaltung sind ein Arbeitstitel und passen sich der Stadtmarke an.</p></div>
     <div class="values stagger" data-reveal>
       <div style="--d:0ms"><b>Glaubwürdig</b><span>Niemand kauft sich einen Auftritt. Jede Folge beruht auf einer echten Empfehlung.</span></div>
-      <div style="--d:120ms"><b>Nachbarschaftlich</b><span>Wir reden wie Leute aus Gütersloh: direkt, herzlich, mit trockenem Humor.</span></div>
+      <div style="--d:120ms"><b>Nachbarschaftlich</b><span>Wir reden wie Leute aus Bielefeld: direkt, herzlich, mit trockenem ostwestfälischem Humor.</span></div>
       <div style="--d:240ms"><b>Neugierig</b><span>Wir zeigen, was man noch nicht kennt, auch dort, wo man täglich vorbeigeht.</span></div>
     </div>
     <div class="logo-wrap">
@@ -1309,9 +1332,9 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
       </div>
       <div class="panel tester">
         <div class="panel-h"><h3>Zwei Schriften, beide frei.</h3><small>Bricolage Grotesque und DM Sans</small></div>
-        <p class="tester-out" id="ttOut">Gütersloh empfiehlt Gütersloh.</p>
+        <p class="tester-out" id="ttOut">Bielefeld empfiehlt Bielefeld.</p>
         <label class="sr" for="ttText">Eigenen Text ausprobieren</label>
-        <input type="text" id="ttText" value="Gütersloh empfiehlt Gütersloh." maxlength="60" autocomplete="off">
+        <input type="text" id="ttText" value="Bielefeld empfiehlt Bielefeld." maxlength="60" autocomplete="off">
         <div class="sliders">
           <label for="ttW">Stärke<input type="range" id="ttW" min="300" max="800" step="10" value="800"></label>
           <label for="ttS">Breite<input type="range" id="ttS" min="75" max="100" step="1" value="100"></label>
@@ -1331,7 +1354,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
       <div class="panel">
         <div class="panel-h"><h3>Auf Instagram.</h3><small>Jede Folge nennt ihre Empfehlung</small></div>
         <div class="insta">
-          <div class="insta-head"><svg aria-hidden="true"><use href="#zeichen"/></svg><div><b>Weiterempfohlen.</b><p>Gütersloh empfiehlt Gütersloh. Jede Woche ein Ort, empfohlen vom letzten.</p></div></div>
+          <div class="insta-head"><svg aria-hidden="true"><use href="#zeichen"/></svg><div><b>Weiterempfohlen.</b><p>Bielefeld empfiehlt Bielefeld. Jede Woche ein Ort, empfohlen vom letzten.</p></div></div>
           <div class="hl" aria-hidden="true"><span><i><svg class="i"><use href="#i-play"/></svg></i>Folgen</span><span><i><svg class="i"><use href="#i-pin"/></svg></i>Orte</span><span><i><svg class="i"><use href="#i-trophy"/></svg></i>Award</span></div>
           <div class="grid9" id="grid9"></div>
         </div>
@@ -1379,12 +1402,12 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <h3>Jahresserie: 12 Monate</h3>
         <p class="sub">Rund 48 teilnehmende Betriebe, Zusatz-Rubriken nach Wahl</p>
         <ul>
-          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Award zur Michaeliswoche möglich</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Award beim Leineweber-Markt möglich</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Niedrigerer Preis pro teilnehmenden Betrieb</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Monatlicher Bericht mit allen Zahlen</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Fester Host und fester Sendeplan</li>
         </ul>
-        <p class="price">Entscheidung nach der Testphase im März 2027.</p>
+        <p class="price">Entscheidung nach der Testphase, Anfang April 2027.</p>
       </div>
     </div>
 
@@ -1415,13 +1438,13 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Kontakte zu Betrieben und Themenideen</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Eine feste Ansprechperson für Freigaben</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Collab-Posts auf den städtischen Kanälen</li>
-        <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Platz auf Website und in der Tourist-Info</li>
+        <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Platz auf bielefeld.jetzt und in der Tourist-Information</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Die Bühne für den Award</li></ul></div>
       <div class="edit"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg><p><b>Redaktionelle Auswahl:</b> Kein Betrieb kann sich eine Folge kaufen. Wir achten auf eine gute Mischung aus Stadtteilen und Branchen.</p></div>
     </div>
 
     <div class="spons" id="spons">
-      <div class="spons-head"><p class="eyebrow">Finanzierung über Partner</p><h3>Partner können die Serie ganz bezahlen.</h3><p>Die Umsetzung kostet 4.850 € im Monat. Gütersloher Unternehmen präsentieren die Serie und senken den Anteil der Stadt. Kommen zwei Aktionen wie der Adventskalender dazu, zahlt die Stadt nichts mehr.</p></div>
+      <div class="spons-head"><p class="eyebrow">Finanzierung über Partner</p><h3>Partner können die Serie ganz bezahlen.</h3><p>Die Umsetzung kostet 4.850 € im Monat. Bielefelder Unternehmen präsentieren die Serie und senken den Anteil der Stadt. Bielefeld Marketing bietet die Pakete zuerst den Bielefeld-Partnern an, als neue Leistung für das Netzwerk. Kommen zwei Aktionen dazu, etwa Marktwochen auf den Wochenmärkten in den Stadtteilen und ein Weihnachtsmarkt-Spezial, zahlt die Stadt nichts mehr.</p></div>
       <div class="sp-ctrl">
         <div class="sp-scen" id="spScen" role="group" aria-label="Szenario wählen">
           <button data-sc="start" aria-pressed="false"><b>Start</b><span>Presenting + 3 Serien-Partner</span></button>
@@ -1434,8 +1457,8 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <div class="spons-list">
           <button class="pk" id="pkPres" aria-pressed="true"><span class="pk-check" aria-hidden="true"><svg class="i"><use href="#i-check"/></svg></span><span class="pk-txt"><b>Presenting-Partner <em class="pk-tag">Exklusiv</em></b><span>Der eine Hauptsponsor: „Präsentiert von …“ mit Logo in jeder Folge und jedem Beitrag. Dazu eine eigene Partner-Folge aus dem Unternehmen.</span></span><span class="pk-price"><b data-m="1.200 €" data-t="4.800 €">1.200 €</b><small data-m="pro Monat, oder 4.800 € einmalig" data-t="einmalig für vier Monate">pro Monat, oder 4.800 € einmalig</small></span></button>
           <div class="pk pk-step" id="pkRubRow"><button class="pk-tog" id="pkRub" aria-pressed="true"><span class="pk-check" aria-hidden="true"><svg class="i"><use href="#i-check"/></svg></span><span class="pk-txt"><b>Serien-Partner</b><span>Genannt in jeder Folge: „Mit Unterstützung von …“. Bis zu fünf Partner aus verschiedenen Branchen.</span><span class="pk-sub" data-m="600 € pro Monat und Partner" data-t="2.400 € je Partner für vier Monate">600 € pro Monat und Partner</span></span></button><span class="stepper"><button id="rMinus" aria-label="Einen Serien-Partner weniger">−</button><b id="rCount" class="mono">5</b><button id="rPlus" aria-label="Einen Serien-Partner mehr">+</button></span></div>
-          <div class="pk pk-step off" id="pkAktRow"><button class="pk-tog" id="pkAkt" aria-pressed="false"><span class="pk-check" aria-hidden="true"><svg class="i"><use href="#i-check"/></svg></span><span class="pk-txt"><b>Aktions-Partner <em class="pk-tag pk-tag-x">Extra</em></b><span>Präsentiert eine Aktion, etwa ein Weihnachtsmarkt-Spezial oder den Adventskalender. Drei feste Größen, bis zu vier Aktionen.</span><span class="pk-sub">Davon fließen 500, 1.000 oder 2.000 € in die Serie, der Rest bezahlt die Aktion.</span></span></button><div class="akt-sizes" id="aktSizes"><div class="akt-size"><span class="akt-l"><b>S</b> 1.750 €<small>bis ½ Drehtag</small></span><span class="stepper"><button data-g="s" data-d="-1" aria-label="Eine Aktion der Größe S weniger">−</button><b id="aS" class="mono">0</b><button data-g="s" data-d="1" aria-label="Eine Aktion der Größe S mehr">+</button></span></div><div class="akt-size"><span class="akt-l"><b>M</b> 3.500 €<small>1 Drehtag</small></span><span class="stepper"><button data-g="m" data-d="-1" aria-label="Eine Aktion der Größe M weniger">−</button><b id="aM" class="mono">0</b><button data-g="m" data-d="1" aria-label="Eine Aktion der Größe M mehr">+</button></span></div><div class="akt-size"><span class="akt-l"><b>L</b> 9.000 €<small>bis 3 Drehtage</small></span><span class="stepper"><button data-g="l" data-d="-1" aria-label="Eine Aktion der Größe L weniger">−</button><b id="aL" class="mono">0</b><button data-g="l" data-d="1" aria-label="Eine Aktion der Größe L mehr">+</button></span></div></div></div>
-          <p class="note">Beispielwerte, netto. Die Testphase dauert vier Monate. Die Partner zahlen direkt an die Stadt, ansprechen tun wir sie.</p>
+          <div class="pk pk-step off" id="pkAktRow"><button class="pk-tog" id="pkAkt" aria-pressed="false"><span class="pk-check" aria-hidden="true"><svg class="i"><use href="#i-check"/></svg></span><span class="pk-txt"><b>Aktions-Partner <em class="pk-tag pk-tag-x">Extra</em></b><span>Präsentiert eine Aktion, etwa ein Weihnachtsmarkt-Spezial oder die Marktwochen. Drei feste Größen, bis zu vier Aktionen.</span><span class="pk-sub">Davon fließen 500, 1.000 oder 2.000 € in die Serie, der Rest bezahlt die Aktion.</span></span></button><div class="akt-sizes" id="aktSizes"><div class="akt-size"><span class="akt-l"><b>S</b> 1.750 €<small>bis ½ Drehtag</small></span><span class="stepper"><button data-g="s" data-d="-1" aria-label="Eine Aktion der Größe S weniger">−</button><b id="aS" class="mono">0</b><button data-g="s" data-d="1" aria-label="Eine Aktion der Größe S mehr">+</button></span></div><div class="akt-size"><span class="akt-l"><b>M</b> 3.500 €<small>1 Drehtag</small></span><span class="stepper"><button data-g="m" data-d="-1" aria-label="Eine Aktion der Größe M weniger">−</button><b id="aM" class="mono">0</b><button data-g="m" data-d="1" aria-label="Eine Aktion der Größe M mehr">+</button></span></div><div class="akt-size"><span class="akt-l"><b>L</b> 9.000 €<small>bis 3 Drehtage</small></span><span class="stepper"><button data-g="l" data-d="-1" aria-label="Eine Aktion der Größe L weniger">−</button><b id="aL" class="mono">0</b><button data-g="l" data-d="1" aria-label="Eine Aktion der Größe L mehr">+</button></span></div></div></div>
+          <p class="note">Beispielwerte, netto. Die Testphase dauert vier Monate. Die Partner zahlen direkt an Bielefeld Marketing. Bielefeld Marketing spricht zuerst die Bielefeld-Partner an, wir unterstützen dabei.</p>
         </div>
         <div class="spons-sum" aria-live="polite">
           <span class="ex-badge"><svg class="i" aria-hidden="true"><use href="#i-chart"/></svg>Beispielhafte Rechnung</span>
@@ -1465,13 +1488,15 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   <div class="wrap">
     <div class="sec-head"><p class="eyebrow">Zeitplan</p><h2>Start zum Weihnachtsgeschäft.</h2></div>
     <ol class="time" data-reveal>
-      <li style="--i:0"><small>Oktober 2026</small><b>Workshop</b><span>Ziele, Tonalität und die ersten Orte festlegen.</span></li>
-      <li style="--i:1"><small>Anfang November</small><b>Casting und Dreh</b><span>Host finden, die ersten Drehtage.</span></li>
-      <li style="--i:2" class="go"><small>Mitte November</small><b>Start der Serie</b><span>Online vor dem 1. Advent am 29. November.</span></li>
-      <li style="--i:3"><small>Bis Mitte März</small><b>Jede Woche eine Folge</b><span>Jeden Monat eine Auswertung.</span></li>
-      <li style="--i:4"><small>März 2027</small><b>Abschluss</b><span>Abschlussbericht und Entscheidung über die Jahresserie.</span></li>
+      <li style="--i:0"><small>Ende Okt. / Anfang Nov.</small><b>Gespräch und Workshop</b><span>90 Minuten: Ziele, Tonalität und die ersten Orte.</span></li>
+      <li style="--i:1"><small>Bis Mitte November</small><b>Go und Casting</b><span>Host finden, Kanal anlegen.</span></li>
+      <li style="--i:2"><small>Ende November</small><b>Erste Drehtage</b><span>Die ersten Betriebe, Start in der Altstadt.</span></li>
+      <li style="--i:3" class="go"><small>Anfang Dezember 2026</small><b>Start der Serie</b><span>Während des Weihnachtsmarkts (19.11. bis 30.12.2026).</span></li>
+      <li style="--i:4"><small>Dez. 2026 bis März 2027</small><b>Jede Woche eine Folge</b><span>Jeden Monat eine Auswertung.</span></li>
+      <li style="--i:5"><small>Anfang April 2027</small><b>Abschluss</b><span>Abschlussbericht und Entscheidung über die Jahresserie.</span></li>
+      <li style="--i:6"><small>Ende Mai 2027</small><b>Jahresserie</b><span>Start zum Leineweber-Markt (26. bis 30.05.2027).</span></li>
     </ol>
-    <p class="time-note">Die Testphase läuft unabhängig von der Neuordnung und liefert der neuen Gesellschaft belastbare Zahlen.</p>
+    <p class="time-note">Die Testphase läuft unabhängig von der Zusammenführung und liefert für die gemeinsame Arbeit ab 2027 belastbare Zahlen.</p>
   </div>
 </section>
 
@@ -1487,20 +1512,20 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
           <div><b data-count="20" data-prefix="~" data-suffix=" €">~20 €</b><span>Werbebudget insgesamt</span></div>
           <div><b data-count="109">109</b><span>Beiträge</span></div>
         </div>
-        <p class="bf-note">Der Kanal ist inzwischen nicht mehr aktiv, weil sich der Initiator aus persönlichen Gründen zurückgezogen hat. An der Resonanz lag es nicht: Auch die Umfragen in der Community fielen klar positiv aus.</p>
+        <p class="bf-note">Der Kanal ist nicht mehr aktiv. Der Initiator musste sich aus persönlichen Gründen zurückziehen. Weiterempfohlen. denkt das größer: Dort ging es um Gastronomie, hier kommen alle Branchen vor. Absender ist die Stadt, und kein Betrieb zahlt für seinen Auftritt.</p>
         <p><a href="https://www.instagram.com/bielefoodies/" target="_blank" rel="noopener">Archiv auf Instagram ansehen</a></p>
       </div>
       <div class="clients">
         <small>Bewegtbild unter anderem für</small>
         <ul>
-          <li>Bertelsmann Stiftung <em>in Gütersloh</em></li>
+          <li>Bertelsmann Stiftung</li>
           <li>Open Innovation City Bielefeld</li>
           <li>Klinikum Bielefeld</li>
           <li>Historisches Museum Bielefeld</li>
           <li>AWO Bielefeld</li>
           <li>DRK Niedersachsen</li>
         </ul>
-        <p>Imagefilme, Recruiting-Videos, Social-Media-Reels und Drohnenflüge aus Bielefeld, mitten in OWL. Vor der Kamera steht jemand aus Gütersloh.</p>
+        <p>Imagefilme, Recruiting-Videos, Social-Media-Reels und Drohnenflüge aus Bielefeld, mitten in OWL. Vor der Kamera steht jemand aus Bielefeld.</p>
       </div>
     </div>
   </div>
@@ -1511,9 +1536,9 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <p class="eyebrow">Nächste Schritte</p>
     <h2 style="margin-top:14px">Wen empfehlen wir als Erstes?</h2>
     <ol class="next3">
-      <li><i>1</i><b>Workshop im Oktober</b><span>90 Minuten mit Stadtmarketing und Wirtschaftsförderung.</span></li>
+      <li><i>1</i><b>Gespräch und Workshop</b><span>Ende Oktober oder Anfang November, 90 Minuten.</span></li>
       <li><i>2</i><b>Die ersten Orte</b><span>Gemeinsam auswählen: neu, versteckt, mit Geschichte.</span></li>
-      <li><i>3</i><b>Go für die Testphase</b><span>Drehs Anfang November, Start Mitte November.</span></li>
+      <li><i>3</i><b>Go für die Testphase</b><span>Go bis Mitte November, erste Drehs Ende November, Start Anfang Dezember.</span></li>
     </ol>
     <div class="contact">
       <div class="contact-rows">
@@ -1530,7 +1555,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 <footer>
   <div class="wrap foot">
     <svg viewBox="0 0 1864 262" role="img" aria-label="Weiterempfohlen."><use href="#wm"/></svg>
-    <p>Arbeitstitel. Ein Konzept von unikat media, Oktober 2026. Orte, Zitate und Zahlen in den Beispielen sind ausgedacht und dienen nur der Veranschaulichung. Titelfoto und Foto vom Alten Kirchplatz: Teutoburger Wald, Gütersloh, M. Wallenfang, <a href="https://www.teutoburgerwald.de/region/ausflugsziele/mein-ziel/alter-kirchplatz-guetersloh" target="_blank" rel="noopener">teutoburgerwald.de</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a>, zugeschnitten und abgedunkelt. Foto „Hinter den Kulissen“: unikat media. Alle übrigen Fotos sind KI-generierte Symbolbilder.</p>
+    <p>Arbeitstitel. Ein Konzept von unikat media, Oktober 2026. Orte, Zitate und Zahlen in den Beispielen sind ausgedacht und dienen nur der Veranschaulichung. Titelfoto „Altstadt Bielefeld“: BfB Bielefeld, <a href="https://commons.wikimedia.org/wiki/File:Altstadt_Bielefeld.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a>, zugeschnitten und abgedunkelt. Foto „Skyline der Stadt Bielefeld“ mit der Sparrenburg: Hakanneu, <a href="https://commons.wikimedia.org/wiki/File:Skyline_der_Stadt_Bielefeld.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a>, zugeschnitten und abgedunkelt. Foto „Hinter den Kulissen“: unikat media. Alle übrigen Fotos sind KI-generierte Symbolbilder.</p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -1671,7 +1696,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
   /* Player */
   const PH = [{ a: 0, b: 3, d: 3.4 }, { a: 3, b: 15, d: 5.6 }, { a: 15, b: 45, d: 8 }, { a: 45, b: 55, d: 5.6 }, { a: 55, b: 60, d: 4.6 }];
-  const SUBS = [[0, 'Wo kauft eine Buchhändlerin eigentlich ihre Brötchen?'], [3, 'Die Buchhandlung hat uns hergeschickt.'], [8.5, 'Ich stehe hier jeden Morgen ab vier.'], [15, 'Das Rezept für den Sauerteig ist von meinem Opa.'], [25, 'Samstags ist hier um sieben schon Schlange.'], [35, 'Warum Gütersloh? Weil meine Leute hier wohnen.'], [45, 'Und wo gehst du hin, wenn du nicht hier bist?'], [50, 'Zum Marktstand. Wegen der Äpfel.'], [55, '']];
+  const SUBS = [[0, 'Wo kauft eine Buchhändlerin eigentlich ihre Brötchen?'], [3, 'Die Buchhandlung hat uns hergeschickt.'], [8.5, 'Ich stehe hier jeden Morgen ab vier.'], [15, 'Das Rezept für den Sauerteig ist von meinem Opa.'], [25, 'Samstags ist hier um sieben schon Schlange.'], [35, 'Warum Bielefeld? Weil meine Leute hier wohnen.'], [45, 'Und wo gehst du hin, wenn du nicht hier bist?'], [50, 'Zum Marktstand. Wegen der Äpfel.'], [55, '']];
   const screen = $('#screen'), subs = $('#subs'), pTime = $('#pTime'), pPlay = $('#pPlay'), reelFill = $('#reelFill');
   const pbar = $('#pbar');
   pbar.innerHTML = PH.map(p => `<span style="flex:${p.b - p.a}"><i></i></span>`).join('');
@@ -1717,7 +1742,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     { s: '10:30', e: '12:30', n: 'Betrieb 2', b: 1 },
     { s: '12:30', e: '13:30', n: 'Mittag', d: 'Mittagspause, gern bei einem der Betriebe. Nebenbei wird das Material gesichert.' },
     { s: '13:30', e: '15:30', n: 'Betrieb 3', b: 1 },
-    { s: '15:30', e: '16:30', n: 'Stadtbilder', d: 'Bilder für Einstiege und Übergänge, etwa vom Dreiecksplatz, aus der Berliner Straße oder vom Wochenmarkt.' },
+    { s: '15:30', e: '16:30', n: 'Stadtbilder', d: 'Bilder für Einstiege und Übergänge, etwa vom Alten Markt, vom Jahnplatz oder vom Siegfriedplatz.' },
     { s: '16:30', e: '17:00', n: 'Sicherung', d: 'Daten doppelt sichern, kurze Nachbesprechung.' }
   ].map(x => ({ ...x, a: m(x.s), z: m(x.e) }));
   const SUB = [[0, 20, 'Ankommen', 'Licht und Ton aufbauen, Schild „Heute wird hier gedreht“ an die Tür.'], [20, 50, 'Gespräch', 'Gespräch zwischen Host und Gast, beide Kameras laufen.'], [50, 80, 'Details', 'Detailaufnahmen nach dem Gespräch: Arbeit, Hände, Produkte, Raum, Außenansicht.'], [80, 100, 'Feste Szenen', 'Einstieg vor der Tür, Schlussfrage, Abbinder mit Codewort, Teaser.'], [100, 120, 'Titelbild', 'Titelbild, Fotos für Stadt und Betrieb, danach Abbau.']];
@@ -1830,7 +1855,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
   /* Schrift-Tester */
   const ttOut = $('#ttOut'), ttText = $('#ttText'), ttW = $('#ttW'), ttS = $('#ttS');
-  const tt = () => { ttOut.textContent = ttText.value || 'Gütersloh empfiehlt Gütersloh.'; ttOut.style.fontWeight = ttW.value; ttOut.style.fontStretch = ttS.value + '%'; ttOut.style.fontVariationSettings = `'wdth' ${ttS.value}, 'opsz' 96`; };
+  const tt = () => { ttOut.textContent = ttText.value || 'Bielefeld empfiehlt Bielefeld.'; ttOut.style.fontWeight = ttW.value; ttOut.style.fontStretch = ttS.value + '%'; ttOut.style.fontVariationSettings = `'wdth' ${ttS.value}, 'opsz' 96`; };
   [ttText, ttW, ttS].forEach(x => x.addEventListener('input', tt)); tt();
 
   /* Tonalität */
@@ -1847,14 +1872,14 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
   /* Optionen */
   const OPTS = [
-    { ic: 'calendar', n: 'Adventskalender', s: '24 Türchen, 24 Empfehlungen.', d: 'Vom 1. bis 24. Dezember jeden Tag ein kurzer Clip mit einer Empfehlung, zum Teil aus vorhandenem Material. Passt zeitlich ideal zum Start Mitte November und zum Weihnachtsmarkt.', f: ['Weihnachtsmarkt', 'Innenstadt im Advent'], x: 'advent' },
-    { ic: 'route', n: 'Stadtführung', s: 'Ein Rundgang entlang der Kette.', d: 'Ein Rundgang entlang der Empfehlungskette, buchbar über die Tourist-Info. Die Stadt nimmt über das Ticketing zusätzlich ein.', f: ['Stadtführungen', 'Ticketing'], x: 'route' },
-    { ic: 'bag', n: 'Fanartikel', s: 'Aufkleber, Beutel, Postkarten.', d: 'Aufkleber, Beutel und Postkarten mit dem Zeichen für den Shop der Tourist-Info.', f: ['Shop der Tourist-Info'], x: 'bag' },
-    { ic: 'screen', n: 'Veranstaltungen', s: 'Kurzfassungen für Events.', d: 'Kurzfassungen für Michaeliswoche, Weihnachtsmarkt und Website, alle aus denselben Drehtagen.', f: ['Michaeliswoche', 'Weihnachtsmarkt', 'Website'], x: 'screen' },
+    { ic: 'calendar', n: 'Adventskalender', s: '24 Türchen, 24 Empfehlungen.', d: 'Vom 1. bis 24. Dezember jeden Tag ein kurzer Clip mit einer Empfehlung, zum Teil aus vorhandenem Material. Für 2026 ist die Zeit zu knapp. Darum eine Option für den Advent 2027, in der Jahresserie.', f: ['Advent 2027', 'Weihnachtsmarkt'], x: 'advent' },
+    { ic: 'route', n: 'Stadtführung', s: 'Ein Rundgang entlang der Kette.', d: 'Ein Rundgang entlang der Empfehlungskette, buchbar über die Tourist-Information. Die Stadt nimmt über das Ticketing zusätzlich ein.', f: ['Stadtführungen', 'Ticketing'], x: 'route' },
+    { ic: 'bag', n: 'Fanartikel', s: 'Aufkleber, Beutel, Postkarten.', d: 'Aufkleber, Beutel und Postkarten mit dem Zeichen für den Shop der Tourist-Information.', f: ['Shop der Tourist-Information'], x: 'bag' },
+    { ic: 'screen', n: 'Veranstaltungen', s: 'Kurzfassungen für Events.', d: 'Kurzfassungen für Leineweber-Markt, Weihnachtsmarkt und Website, alle aus denselben Drehtagen.', f: ['Leineweber-Markt', 'Weihnachtsmarkt', 'Website'], x: 'screen' },
     { ic: 'qr', n: 'QR-Aufkleber', s: 'An der Tür jedes Betriebs.', d: 'Der Aufkleber an der Tür bekommt einen QR-Code. Er führt zur Folge und zählt die Scans.', f: ['Betriebe', 'Messbarkeit'], x: 'qr' },
     { ic: 'briefcase', n: 'Fachkräfte-Clips', s: 'Arbeitgeber-Porträts.', d: 'Arbeitgeber-Porträts aus „Eine Schicht bei …“ für die Wirtschaftsförderung. Ideal für Betriebe, die Personal suchen.', f: ['Wirtschaftsförderung', 'Fachkräfte'], x: 'brief' },
-    { ic: 'home', n: 'Willkommen in GT', s: 'Karte für Neuzugezogene.', d: 'Eine Karte „Erste Lieblingsorte“ mit QR-Code für Neuzugezogene, zum Beispiel bei der Anmeldung im Bürgerbüro.', f: ['Begrüßung Neuzugezogener'], x: 'home' },
-    { ic: 'trophy', n: 'Award-Abend', s: 'Lieblingsort des Jahres.', d: 'Das Publikum wählt den Gütersloher Lieblingsort des Jahres. Die Verleihung wird ein Programmpunkt der Michaeliswoche.', f: ['Michaeliswoche', 'Bühne für die Stadt'], x: 'award' }
+    { ic: 'home', n: 'Willkommen in Bielefeld', s: 'Karte für Neuzugezogene.', d: 'Eine Karte „Erste Lieblingsorte“ mit QR-Code für Neuzugezogene, zum Beispiel bei der Anmeldung in der Bürgerberatung.', f: ['Begrüßung Neuzugezogener'], x: 'home' },
+    { ic: 'trophy', n: 'Award-Abend', s: 'Lieblingsort des Jahres.', d: 'Das Publikum wählt den Bielefelder Lieblingsort des Jahres. Die Verleihung wird ein Programmpunkt beim Leineweber-Markt.', f: ['Leineweber-Markt', 'Bühne für die Stadt'], x: 'award' }
   ];
   const opts = $('#opts'), od = $('#optDetail');
   opts.innerHTML = OPTS.map((o, i) => `<button class="opt" role="tab" aria-selected="${i === 0}" data-i="${i}"><span class="opt-ic">${icon(o.ic)}</span><b>${o.n}</b><span>${o.s}</span></button>`).join('');
@@ -1862,12 +1887,12 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   const extra = x => {
     if (x === 'advent') return `<div><p class="note" style="margin-bottom:10px">Türchen antippen</p><div class="advent">${DOORS.map(n => `<button class="adv" aria-pressed="false" aria-label="Türchen ${n}"><span class="adv-in">${P(n).n}</span><span class="adv-door">${n}</span></button>`).join('')}</div></div>`;
     if (x === 'qr') { let q = ''; for (let k = 0; k < 81; k++) { const r = Math.floor(k / 9), c = k % 9; const finder = (r < 3 && c < 3) || (r < 3 && c > 5) || (r > 5 && c < 3); const on = finder ? !(r % 6 === 1 && c % 6 === 1) : ((r * 7 + c * 3 + r * c) % 3 === 0); q += `<i class="${on ? '' : 'o'}"></i>`; } return `<div class="preview"><div class="preview-card"><div class="qr" aria-hidden="true">${q}</div><b>Scan führt zur Folge</b><span class="note">Gezeichnetes Beispiel, kein echter Code.</span></div></div>`; }
-    if (x === 'award') return `<div class="preview"><div class="preview-card" style="background:var(--stage);color:var(--on-dark);border-color:var(--stage)"><span class="tag" style="justify-self:start">Michaeliswoche</span><b style="font-size:1.8rem">„Und der Lieblingsort des Jahres ist …“</b><span style="color:var(--on-dark-muted)">Publikumswahl unter allen Orten der Staffel.</span></div></div>`;
+    if (x === 'award') return `<div class="preview"><div class="preview-card" style="background:var(--stage);color:var(--on-dark);border-color:var(--stage)"><span class="tag" style="justify-self:start">Leineweber-Markt</span><b style="font-size:1.8rem">„Und der Lieblingsort des Jahres ist …“</b><span style="color:var(--on-dark-muted)">Publikumswahl unter allen Orten der Staffel.</span></div></div>`;
     if (x === 'route') return `<div class="preview"><div class="preview-card"><b>Rundgang „Weiterempfohlen.“</b>${PLACES.slice(0, 5).map((p, i) => `<span style="display:flex;gap:10px;align-items:center"><span class="tag" style="background:${i % 2 ? 'var(--line)' : 'var(--mustard)'}">${i + 1}</span>${p.n}</span>`).join('')}<span class="note">Stationen als Beispiel.</span></div></div>`;
     if (x === 'bag') return `<div class="preview"><div class="preview-card" style="grid-template-columns:auto 1fr;align-items:center;gap:18px"><svg viewBox="0 0 1000 1000" aria-hidden="true" style="width:110px;height:110px;transform:rotate(-8deg)"><use href="#sticker"/></svg><div style="display:grid;gap:8px"><b>Für den Shop</b><span class="fits" style="margin:0"><span>Aufkleber</span><span>Beutel</span><span>Postkarten</span></span></div></div></div>`;
-    if (x === 'screen') return `<div class="preview"><div class="preview-card" style="background:var(--stage);border-color:var(--stage);color:var(--on-dark);aspect-ratio:16/9;align-content:end"><span class="tag" style="justify-self:start">Michaeliswoche</span><b style="font-size:1.6rem">Weiterempfohlen<span class="dot">.</span></b><span style="color:var(--on-dark-muted)">Kurzfassungen auf der Leinwand</span></div></div>`;
+    if (x === 'screen') return `<div class="preview"><div class="preview-card" style="background:var(--stage);border-color:var(--stage);color:var(--on-dark);aspect-ratio:16/9;align-content:end"><span class="tag" style="justify-self:start">Leineweber-Markt</span><b style="font-size:1.6rem">Weiterempfohlen<span class="dot">.</span></b><span style="color:var(--on-dark-muted)">Kurzfassungen auf der Leinwand</span></div></div>`;
     if (x === 'brief') return `<div class="preview"><div class="preview-card"><span class="tag" style="justify-self:start">Eine Schicht bei …</span><b>„4 Uhr. Die Stadt schläft, die Backstube nicht.“</b><span class="note">Aus der Rubrik wird ein Arbeitgeber-Porträt für die Fachkräftesuche.</span></div></div>`;
-    return `<div class="preview"><div class="preview-card"><span class="eyebrow">Willkommen in Gütersloh</span><b>Deine ersten Lieblingsorte</b>${PLACES.slice(0, 3).map(p => `<span style="display:flex;gap:10px;align-items:center">${icon(p.ic)}${p.n}</span>`).join('')}<span class="note">Mit QR-Code zu allen Folgen.</span></div></div>`;
+    return `<div class="preview"><div class="preview-card"><span class="eyebrow">Willkommen in Bielefeld</span><b>Deine ersten Lieblingsorte</b>${PLACES.slice(0, 3).map(p => `<span style="display:flex;gap:10px;align-items:center">${icon(p.ic)}${p.n}</span>`).join('')}<span class="note">Mit QR-Code zu allen Folgen.</span></div></div>`;
   };
   const showOpt = (i, anim = true) => {
     const o = OPTS[i];
@@ -1931,7 +1956,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     $('#cPlus').hidden = plus <= 0;
     $('#cPlus').innerHTML = plus > 0 ? `<b>Plus von ${euro(plus)}${spView ? ' in der Testphase' : ' im Monat'}.</b> Das Geld bleibt bei der Stadt, etwa für Aufkleber, Aufsteller oder Anzeigen für die Serie.` : '';
     const aktStd = [akt.s, akt.m, akt.l].join() === AKT_STD;
-    const aktWas = aktStd ? ', etwa Adventskalender (L) und Weihnachtsmarkt-Spezial (M),' : k === 1 ? ` der Größe ${['s', 'm', 'l'].find(g => akt[g]).toUpperCase()}` : ` (${['l', 'm', 's'].filter(g => akt[g]).map(g => `${akt[g]} × ${g.toUpperCase()}`).join(', ')})`;
+    const aktWas = aktStd ? ', etwa Marktwochen (L) und Weihnachtsmarkt-Spezial (M),' : k === 1 ? ` der Größe ${['s', 'm', 'l'].find(g => akt[g]).toUpperCase()}` : ` (${['l', 'm', 's'].filter(g => akt[g]).map(g => `${akt[g]} × ${g.toUpperCase()}`).join(', ')})`;
     $('#cAkt').hidden = k === 0;
     $('#cAkt').innerHTML = k ? `<b>${k === 1 ? 'Eine Aktion' : `${k} Aktionen`}</b>${aktWas} ${k === 1 ? 'bringt' : 'bringen'} ${euro(aSum(0))} von Aktions-Partnern. ${euro(aSum(1))} davon fließen in die Serie${spView === 0 ? `, das sind ${euro(aSum(1) / MONATE)} im Monat` : ''}. Der Rest bezahlt die ${k === 1 ? 'Aktion' : 'Aktionen'}.` : '';
     $('#cValue').textContent = (spView ? '16 teilnehmende Betriebe mit je 5 Posts, also 80 Posts, 6 Drehtage, den Instagram-Account mit Betreuung, die Website, das komplette Konzept und 4 Monatsberichte' : '4 teilnehmende Betriebe mit je 5 Posts, den Instagram-Account mit Betreuung, die Website und einen Monatsbericht') + (k ? `, dazu ${k === 1 ? 'eine Aktion' : `${k} Aktionen`}.` : '.');

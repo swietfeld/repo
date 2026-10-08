@@ -1,5 +1,5 @@
 # Baut website/weiterempfohlen.html (zum Veröffentlichen) und website/local.html (Vorschau) aus website/src.html.
-# Aufruf aus dem Ordner weiterempfohlen-guetersloh: python3 website/build.py
+# Aufruf aus dem Ordner weiterempfohlen-bielefeld: python3 website/build.py
 import re, base64
 L='marke/logos/'
 def ds(f): return re.findall(r'd="([^"]*)"', open(L+f).read())

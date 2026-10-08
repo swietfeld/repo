@@ -98,7 +98,7 @@ for fname, tc in [("logo_kombi_dunkel.svg", INK), ("logo_kombi_hell.svg", PAPER)
 # Aufkleber (rund, 1000 x 1000)
 D = 1000; c = D / 2
 body = f'<circle cx="{c}" cy="{c}" r="{c}" fill="{MUSTARD}"/><circle cx="{c}" cy="{c}" r="{c-44}" fill="none" stroke="{INK}" stroke-width="6"/>'
-top = "GÜTERSLOH EMPFIEHLT"; tsize = 44; trk = 6
+top = "BIELEFELD EMPFIEHLT"; tsize = 44; trk = 6
 tw = width_of(DMS, top, tsize, trk)
 p, _ = shape(DMS, top, tsize, c - tw / 2, 290, trk)
 body += f'<path d="{"".join(d for _, d in p)}" fill="{INK}"/>'

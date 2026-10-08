@@ -1,19 +1,19 @@
 # Weiterempfohlen. – Ablauf einer Folge und eines Drehtags
 
-Oct 1, 2026 · @Fam Wietfeld
+Oct 8, 2026 · @Fam Wietfeld
 
 ## Auf einen Blick
 
-Dieses Dokument zeigt am Beispiel der Kernrubrik „Zu Gast bei …“, wie eine Folge aufgebaut ist und wie ein Drehtag abläuft. Namen, Uhrzeiten und Orte sind Beispiele, die wir mit der Stadt und den Betrieben festlegen.
+Dieses Dokument zeigt am Beispiel der Kernrubrik „Zu Gast bei …“, wie eine Folge von „Weiterempfohlen.“ in Bielefeld aufgebaut ist und wie ein Drehtag abläuft. Namen, Uhrzeiten und Orte sind Beispiele, die wir mit Bielefeld Marketing und den Betrieben festlegen.
 
 | Eckdaten | Vorschlag |
 | --- | --- |
 | Drehtag | ein Tag, 07:30 bis 17:00 Uhr |
-| Betriebe pro Drehtag | drei aufeinanderfolgende Folgen der Empfehlungskette, möglichst nah beieinander |
+| Betriebe pro Drehtag | drei aufeinanderfolgende Folgen der Empfehlungskette, auch in verschiedenen Stadtteilen |
 | Zeit pro Betrieb | zwei Stunden vor Ort, davon etwa 30 Minuten Gespräch |
 | Ergebnis pro Betrieb | eine Folge (60 Sek., hochkant), ein Teaser für die Story (15 Sek.), ein Titelbild |
-| Zusätzlich pro Drehtag | Straßenbilder der Innenstadt für Einstiege und Übergänge |
-| Team vor Ort | drei Personen: Host, Kamera und Regie, Ton und zweite Kamera |
+| Zusätzlich pro Drehtag | Stadtbilder aus der Innenstadt und den Stadtteilen für Einstiege und Übergänge |
+| Team vor Ort | drei Personen: Host aus Bielefeld, Kamera und Regie, Ton und zweite Kamera |
 | Vom Dreh bis zur Veröffentlichung | sieben bis zehn Tage |
 | In der Testphase | vier Monate mit sechs Drehtagen, für 16 teilnehmende Betriebe mit je fünf Posts, Auswertung jeden Monat, 4.850 € netto pro Monat |
 
@@ -21,11 +21,11 @@ Dieses Dokument zeigt am Beispiel der Kernrubrik „Zu Gast bei …“, wie eine
 
 - **Niemand wird bewertet.** Der Gast erzählt, was er an seinem Ort mag. Noten, Vergleiche oder Kritik kommen nicht vor.
 - **Der Betrieb hat kaum Aufwand.** Zwei Stunden Zeit, keine Kosten, kein Text zum Auswendiglernen.
-- **Jede Folge endet mit derselben Frage:** „Und wo gehst du hin, wenn du nicht hier bist?“ Die Antwort führt zur nächsten Folge.
+- **Jede Folge endet mit derselben Frage:** „Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“ Die Antwort führt zur nächsten Folge.
 
 ## Eine Folge in 60 Sekunden
 
-Jede Folge hat denselben Aufbau wie auf Folie 8 der Präsentation. Das macht die Serie wiedererkennbar und den Dreh planbar.
+Jede Folge hat denselben Aufbau wie auf der Folie „Aufbau einer Folge“ in der Präsentation. Das macht die Serie wiedererkennbar und den Dreh planbar.
 
 &#91;embedded content: Aufbau einer Folge · 5 Abschnitte in 60 Sekunden\]
 
@@ -39,11 +39,11 @@ In der Beispielkette aus der Präsentation hat die Buchhandlung in Folge 2 die B
 | --- | --- | --- |
 | 0–3 | Host vor dem Schaufenster, im Hintergrund wird ein Blech aus dem Ofen gezogen. Einblendung: „Weiterempfohlen. Folge 3“ | Hook, Host: „Wo kauft eine Buchhändlerin eigentlich ihre Brötchen?“ |
 | 3–8 | Host öffnet die Tür, Türglocke, Begrüßung über die Theke | Host: „\[Name\] aus der Buchhandlung \[Name\] hat uns hergeschickt.“ |
-| 8–15 | \[Vorname\] in der Backstube. Einblendung: „\[Vorname Nachname\], Bäckermeisterin, seit \[Jahr\] in Gütersloh“ | \[Vorname\]: „Ich stehe hier jeden Morgen ab \[Uhrzeit\].“ |
+| 8–15 | \[Vorname\] in der Backstube. Einblendung: „\[Vorname Nachname\], Bäckermeisterin, seit \[Jahr\] in \[Stadtteil\]“ | \[Vorname\]: „Ich stehe hier jeden Morgen ab \[Uhrzeit\].“ |
 | 15–28 | Schnelle Schnitte: Teig, Ofen, Mehl auf den Händen, \[Spezialität\] im Regal | \[Vorname\] erzählt, woher das Rezept für \[Spezialität\] kommt. |
 | 28–38 | Host probiert, Stammkundin an der Theke | Host: „Was bestellen die Leute hier am häufigsten?“, kurze Antwort der Kundin |
-| 38–45 | \[Vorname\] beim Verkaufen, Blick in den Laden | \[Vorname\] erzählt, warum ihre Bäckerei in Gütersloh steht und nirgendwo sonst. |
-| 45–55 | Host und \[Vorname\] vor der Tür. Einblendung der Schlussfrage | Host: „Und wo gehst du hin, wenn du nicht hier bist?“ \[Vorname\]: „Zu \[Ort\], wegen \[Grund\].“ |
+| 38–45 | \[Vorname\] beim Verkaufen, Blick in den Laden | \[Vorname\] erzählt, warum ihre Bäckerei in \[Stadtteil\] steht und nirgendwo sonst. |
+| 45–55 | Host und \[Vorname\] vor der Tür. Einblendung der Schlussfrage | Host: „Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“ \[Vorname\]: „Zu \[Ort\] in \[Stadtteil\], wegen \[Grund\].“ |
 | 55–60 | Abbinder: Zeichen, Adresse, Öffnungszeiten, Codewort in Senfgelb | Host: „Sag an der Theke ‚\[Codewort\]‘, dann gibt's \[Kleinigkeit\] aufs Haus. Nächste Woche: \[Ort\].“ |
 
 **Was dabei fest ist und was nicht:**
@@ -52,6 +52,16 @@ In der Beispielkette aus der Präsentation hat die Buchhandlung in Folge 2 die B
 - **Frei:** Alles dazwischen. Der Gast lernt keinen Text, der Host stellt Fragen, und wir schneiden aus dem Gespräch.
 - **Untertitel immer eingeblendet,** weil viele ohne Ton schauen. Texte bleiben im mittleren Bildbereich, damit die Instagram-Schaltflächen nichts verdecken.
 - **Das Codewort** ist ein Wort aus der Folge, das man sich merkt, zum Beispiel der Name der Spezialität. Was es dafür gibt und wie lange die Aktion läuft, entscheidet der Betrieb selbst: ein Kaffee, ein Brötchen oder 10 % Rabatt, für eine Woche, vier Wochen oder bis Monatsende.
+
+## Die Kette durch die Stadtteile
+
+Bielefeld hat zehn Stadtbezirke: Mitte, Brackwede, Dornberg, Gadderbaum, Heepen, Jöllenbeck, Schildesche, Senne, Sennestadt und Stieghorst. Die Kette soll nicht nur in der Innenstadt bleiben.
+
+- **Start in der Altstadt.** Die erste Folge spielt bei einem Betrieb in der Altstadt. Welcher es ist, legen wir im Workshop gemeinsam fest.
+- **Danach läuft die Kette frei.** Niemand legt den nächsten Betrieb fest, auch nicht die Stadt oder unikat media. Es zählt allein die Empfehlung des Gastes.
+- **Ein kleiner Anstoß in der Schlussfrage.** Der Host fragt: „Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“ Bleibt der Gast im eigenen Stadtteil, ist das genauso richtig.
+- **Die Kettenkarte.** Eine einfache Karte der zehn Stadtbezirke zeigt, wo die Kette schon war. Sie erscheint in den Posts, auf der Website und im Monatsbericht.
+- **Ziel für die Testphase:** Die Kette erreicht mindestens fünf der zehn Stadtbezirke. Das ist ein Ziel, keine Pflicht.
 
 ## Vorbereitung: die zwei Wochen vor dem Drehtag
 
@@ -69,31 +79,31 @@ In der Beispielkette aus der Präsentation hat die Buchhandlung in Folge 2 die B
 - Die Geschichte des Betriebs, eine Spezialität und ein Detail, das kaum jemand kennt
 - Die beste Uhrzeit für schöne Bilder, etwa wenn in der Backstube etwas passiert
 - Codewort, was es aufs Haus gibt und wie lange die Aktion läuft. Beides entscheidet der Betrieb.
-- Zwei Lieblingsorte in Gütersloh, als Antwort auf die Schlussfrage
+- Zwei Lieblingsorte in Bielefeld, als Antwort auf die Schlussfrage, gern auch in einem anderen Stadtteil
 
 ### Wie wir die Empfehlung vorab klären
 
 Die Antwort auf die Schlussfrage ist die nächste Folge. Damit nichts nachgedreht werden muss, steht sie vor dem Drehtag fest:
 
-1. Der Gast nennt im Vorgespräch zwei Lieblingsorte in Gütersloh.
+1. Der Gast nennt im Vorgespräch zwei Lieblingsorte in Bielefeld.
 2. Die Redaktion fragt den erstgenannten Ort an. Sagt er ab oder passt er nicht, etwa weil es eine Filiale einer großen Kette ist, nehmen wir den zweiten.
 3. Vor der Kamera nennt der Gast nur einen Ort, der schon zugesagt hat.
 
 **Und wenn beide Orte absagen?** Dann reißt die Kette nicht. Wer nicht vor die Kamera möchte, bekommt trotzdem eine Folge: Dann stellt der Host den Betrieb allein vor, ohne die Gesichter dahinter, und nennt am Ende auch die Empfehlung für den nächsten Ort. Sagen trotzdem beide ab, wählen die Zuschauer per Kommentar oder Straßenumfrage den nächsten Ort. Gibt es keinen klaren Favoriten, springt einer von drei Reserve-Orten ein, die schon vor dem Start zugesagt haben. Wer absagt, bleibt auf der Liste: Mit den ersten Folgen vor Augen fällt die Zusage oft leichter.
 
-So hängen auch die Drehtage zusammen: Die drei Betriebe eines Drehtags sind drei aufeinanderfolgende Folgen, und die Empfehlung aus der dritten eröffnet den nächsten Drehtag. Die Innenstadt ist kompakt, die Wege zwischen den Orten sind deshalb meist kurz. Nennt ein Gast einen Park oder Platz statt eines Betriebs, kann daraus eine kurze Zwischenfolge mit Stadtbildern werden, und die Kette läuft beim zweiten Ort weiter.
+So hängen auch die Drehtage zusammen: Die drei Betriebe eines Drehtags sind drei aufeinanderfolgende Folgen, und die Empfehlung aus der dritten eröffnet den nächsten Drehtag. In Bielefeld können die drei Orte in verschiedenen Stadtteilen liegen. Wir planen deshalb mehr Zeit für die Wege ein und fahren mit dem Auto. Nennt ein Gast einen Park oder Platz statt eines Betriebs, kann daraus eine kurze Zwischenfolge mit Stadtbildern werden, und die Kette läuft beim zweiten Ort weiter.
 
 ## Der Drehtag Stunde für Stunde
 
 | Uhrzeit | Was passiert |
 | --- | --- |
-| 07:30 | Treffen in der Innenstadt, Briefing: Ablauf, Fragen, Codewörter, Technik-Check |
+| 07:30 | Treffen am ersten Ort, Briefing: Ablauf, Fragen, Codewörter, Technik-Check |
 | 08:00–10:00 | **Betrieb 1** |
-| 10:00–10:30 | Abbau, Wechsel zum nächsten Ort, Puffer |
-| 10:30–12:30 | **Betrieb 2** |
-| 12:30–13:30 | Mittagspause, gern bei einem der Betriebe |
+| 10:00–10:45 | Abbau, Fahrt zum nächsten Ort, gern in einem anderen Stadtteil, Puffer |
+| 10:45–12:45 | **Betrieb 2** |
+| 12:45–13:30 | Mittagspause, gern bei einem der Betriebe, danach Fahrt zum dritten Ort |
 | 13:30–15:30 | **Betrieb 3** |
-| 15:30–16:30 | Stadtbilder für Einstiege und Übergänge, etwa Dreiecksplatz, Berliner Straße oder Wochenmarkt. Wenn es passt, Material für die Straßenumfrage „Wo gibt's das beste …?“ |
+| 15:30–16:30 | Stadtbilder für Einstiege und Übergänge, etwa Alter Markt, Jahnplatz, Siegfriedplatz oder der Stadtteil des Tages. Wenn es passt, Material für die Straßenumfrage „Wo gibt's das beste …?“, etwa „Wo gibt's in Bielefeld den besten Pickert?“ |
 | 16:30–17:00 | Daten doppelt sichern, kurze Nachbesprechung |
 
 ### Zwei Stunden bei einem Betrieb
@@ -112,7 +122,7 @@ Der Betrieb bleibt während des Drehs geöffnet. Ist gerade viel los, ziehen wir
 
 | Rubrik | Was anders ist |
 | --- | --- |
-| Neu in GT | Eine Stunde vor Ort, kein Gespräch im Sitzen. Online spätestens 48 Stunden nach dem Dreh. |
+| Neu in Bielefeld | Eine Stunde vor Ort, kein Gespräch im Sitzen. Online spätestens 48 Stunden nach dem Dreh. |
 | Wer steckt dahinter? | Längeres Gespräch von etwa einer Stunde, dafür nur zwei Betriebe an diesem Tag. |
 | Eine Schicht bei … | Beginnt, wenn die Arbeit beginnt, in der Backstube also gegen 4 Uhr. An diesem Tag gibt es nur diesen einen Dreh. |
 | Wo gibt's das beste …? | Eine Stunde Straßenumfrage, ohne Termin bei einem Betrieb. Passt gut an das Ende eines normalen Drehtags. |
@@ -162,7 +172,7 @@ Das Team ist bewusst klein, damit der Betrieb nicht stillsteht und sich niemand 
 
 | Rolle | Aufgabe am Drehtag |
 | --- | --- |
-| Host | Kommt aus Gütersloh, führt durch die Folge, stellt die Fragen, spricht Einstieg und Abbinder |
+| Host | Kommt aus Bielefeld, führt durch die Folge, stellt die Fragen, spricht Einstieg und Abbinder |
 | Kamera und Regie | Erste Kamera, achtet auf Einstellungsliste und Zeitplan |
 | Ton und zweite Kamera | Funkmikrofone, zweite Kamera hochkant, Datensicherung in der Mittagspause |
 | Redaktion (optional) | Kontakt zu den Betrieben, Drehvereinbarungen, Fotos. In der Testphase übernimmt das Kamera und Regie. |
@@ -199,7 +209,7 @@ Jeder Betrieb bekommt immer fünf Posts. So bleibt er eine Woche lang im Gesprä
 1. **Ankündigung:** wer als Nächstes empfohlen wurde und von wem
 2. **Neugier-Post:** ein Detail aus dem Betrieb, das neugierig macht
 3. **Teaser:** ein kurzer Vorgeschmack auf die Folge
-4. **Video:** die ganze Folge, als Collab-Post bei Stadt, Serienkanal und Betrieb
+4. **Video:** die ganze Folge, als Collab-Post bei @weiterempfohlen.bi, @bielefeld.jetzt und dem Betrieb
 5. **Abschluss:** Rückblick, Dank und die nächste Empfehlung
 
 In den Kosten sind außerdem der Instagram-Account der Serie mit Beiträgen und Betreuung, die Weiterempfohlen-Website und das komplette Konzept enthalten.
@@ -207,7 +217,8 @@ In den Kosten sind außerdem der Instagram-Account der Serie mit Beiträgen und 
 ### Am Tag der Veröffentlichung
 
 - **Fester Sendeplatz,** zum Beispiel donnerstags um 18 Uhr, damit sich die Serie als Termin einprägt
-- **Collab-Post:** Das Reel erscheint gleichzeitig auf dem Kanal der Stadt, dem Serienkanal und beim Betrieb
+- **Collab-Post:** Das Reel erscheint gleichzeitig auf dem Serienkanal @weiterempfohlen.bi, bei @bielefeld.jetzt und beim Betrieb
+- **Kettenkarte:** Nach jeder Folge ergänzen wir die Karte der Stadtteile, durch die die Kette schon gelaufen ist, im Post und auf der Website
 - **Story am Morgen** mit dem Teaser, am Abend mit Link zur Folge. Der Betrieb teilt beides.
 - **Text zum Post** mit Adresse, Öffnungszeiten, Codewort und dem Hinweis, wer den Ort empfohlen hat
 - **Auf allen Kanälen gleich:** Instagram, TikTok und YouTube Shorts
@@ -218,9 +229,9 @@ Die Musik lizenzieren wir selbst und legen sie fest unter das Video. Unternehmen
 
 - **Codewort zählen:** Der Betrieb bekommt eine kleine Karte für die Kasse und macht einen Strich pro Nennung, solange seine Aktion läuft. Wie lange das ist, legt er selbst fest. Wir fragen nach einer Woche und am Ende der Aktion nach.
 - **Zahlen festhalten:** Nach sieben Tagen notieren wir Aufrufe, Speicherungen, Shares und neue Follower.
-- **Monatsbericht** an die Stadt mit allen Zahlen und den Codewort-Strichen.
+- **Monatsbericht** an die Stadt mit allen Zahlen, den Codewort-Strichen und der Kettenkarte.
 - **Auswertung jeden Monat:** In der Testphase setzen wir uns monatlich mit der Stadt zusammen: was läuft, was wir ändern.
-- **Material archivieren,** etwa für den Adventskalender oder den Award.
+- **Material archivieren,** etwa für den Award „Lieblingsort des Jahres“ zum Leineweber-Markt oder einen späteren Adventskalender.
 
 ## Was der Betrieb vorbereitet
 
@@ -238,15 +249,15 @@ Diese Liste schicken wir eine Woche vor dem Dreh mit dem Drehplan an jeden Betri
 
 **Was der Betrieb nicht braucht:** Geld, einen auswendig gelernten Text, eigene Technik oder einen geschlossenen Laden.
 
-**Was der Betrieb bekommt:** fünf Posts rund um die eigene Folge (Ankündigung, Neugier-Post, Teaser, Video, Abschluss), alles auch zum Teilen auf den eigenen Kanälen, sechs Fotos, den Aufkleber „Weiterempfohlen.“ für die Tür und Reichweite über den Kanal der Stadt.
+**Was der Betrieb bekommt:** fünf Posts rund um die eigene Folge (Ankündigung, Neugier-Post, Teaser, Video, Abschluss), alles auch zum Teilen auf den eigenen Kanälen, sechs Fotos, den Aufkleber „Weiterempfohlen.“ für die Tür und Reichweite über @weiterempfohlen.bi und @bielefeld.jetzt.
 
 ## Offene Punkte vor dem ersten Drehtag
 
 | Frage | Unser Vorschlag | Wer entscheidet |
 | --- | --- | --- |
-| Wer wird Host? | Kurzes Casting mit zwei bis drei Güterslohern, in der Testphase bleibt eine Person fest | unikat media mit der Stadt |
-| Welcher Ort startet die Kette? | Wird im Workshop gemeinsam festgelegt | Stadt und unikat media |
-| Eigener Serienkanal oder Kanal der Stadt? | Collab-Post auf beiden, die Entscheidung fällt im Workshop | Stadt |
+| Wer wird Host? | Kurzes Casting mit zwei bis drei Bielefelderinnen und Bielefeldern, in der Testphase bleibt eine Person fest | unikat media mit der Stadt |
+| Welcher Ort startet die Kette? | Ein Betrieb in der Altstadt, im Workshop gemeinsam ausgewählt | Stadt und unikat media |
+| Eigener Serienkanal oder Kanal der Stadt? | Eigener Serienkanal @weiterempfohlen.bi (Arbeitstitel, Verfügbarkeit noch prüfen), jede Folge als Collab-Post mit @bielefeld.jetzt und dem Betrieb | Stadt |
 | Fester Sendeplatz | Donnerstags, 18 Uhr | Stadt |
 | Wer gibt frei? | Eine Person plus Vertretung, höchstens zwei Werktage | Stadt |
 | Muss der Post als Werbung gekennzeichnet werden? | Vor dem Start rechtlich prüfen lassen, im Text auf jeden Fall „unbezahlte Empfehlung“ nennen | Stadt |

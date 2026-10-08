@@ -1,8 +1,11 @@
 {
   "v": 4,
-  "createdOnFiles": { "v": 1, "at": "2026-10-01T11:15:36Z" },
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-08T11:00:00Z"
+  },
   "lists": "css",
-  "title": "Markenbuch Weiterempfohlen.",
+  "title": "Markenbuch Weiterempfohlen. Bielefeld",
   "cover": "titel",
   "order": [
     "titel",
@@ -20,10 +23,22 @@
     "paket"
   ],
   "sections": {
-    "marke": { "description": "Markenkern und Logo mit seinen Varianten und Regeln.", "start": "titel" },
-    "gestaltung": { "description": "Farben, Schrift und Sprache der Marke.", "start": "farben" },
-    "anwendung": { "description": "So sieht die Marke auf Instagram, im Video, in der Stadt und bei Aktionen aus.", "start": "social" },
-    "paket": { "description": "Die Logo-Dateien und was vor der Veröffentlichung zu klären ist.", "start": "paket" }
+    "marke": {
+      "description": "Markenkern und Logo mit seinen Varianten und Regeln.",
+      "start": "titel"
+    },
+    "gestaltung": {
+      "description": "Farben, Schrift und Sprache der Marke.",
+      "start": "farben"
+    },
+    "anwendung": {
+      "description": "So sieht die Marke auf Instagram, im Video, in der Stadt und bei Aktionen aus.",
+      "start": "social"
+    },
+    "paket": {
+      "description": "Die Logo-Dateien und was vor der Veröffentlichung zu klären ist.",
+      "start": "paket"
+    }
   },
   "faces": {
     "bricolage-grotesque": {

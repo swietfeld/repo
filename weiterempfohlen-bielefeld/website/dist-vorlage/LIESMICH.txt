@@ -11,7 +11,8 @@ Die ZIP-Datei im WordPress-Plugin hochladen. Die index.html liegt auf oberster E
 alle Pfade sind relativ. Die Seite braucht keine Datenbank und keine weiteren Plugins.
 
 Vor dem Veröffentlichen
-Nichts mehr zu tun: Fotos und Kontaktdaten sind eingetragen.
+Kontaktdaten sind eingetragen. Die beiden großen Fotos (hero und stadtbild) sind noch
+Platzhalter. Erst veröffentlichen, wenn die echten Fotos aus Bielefeld eingesetzt sind.
 
 Ladezeit
 Die Schriften stecken direkt in der index.html, damit beim Öffnen nichts nachlädt.

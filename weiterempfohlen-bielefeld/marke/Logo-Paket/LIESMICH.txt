@@ -9,7 +9,7 @@ Dateien
 - wortmarke_einfarbig_dunkel / _hell: für gelbe oder unruhige Flächen
 - logo_kombi_dunkel / _hell: Zeichen und Wortmarke
 - zeichen / zeichen_dunkel: Profilbild, Favicon
-- aufkleber: runder Tür-Aufkleber, 10 cm
+- aufkleber: runder Tür-Aufkleber, 10 cm, Text „BIELEFELD EMPFIEHLT“
 
 Farben
 - Senfgelb   #F2C14E   RGB 242 193 78
@@ -27,6 +27,6 @@ Regeln
 - Mindestgröße: Wortmarke 30 mm / 160 px, Zeichen 8 mm / 32 px
 - Nicht verzerren, drehen, umfärben oder mit Effekten versehen
 
-Hinweis: Arbeitstitel. Name und Gestaltung werden an den neuen
-Markenauftritt der Stadt Gütersloh angepasst. Den Namen vor der
-Veröffentlichung markenrechtlich prüfen lassen.
+Hinweis: Arbeitstitel. Name und Gestaltung werden mit Bielefeld
+Marketing auf die Stadtmarke Bielefeld abgestimmt. Den Namen vor
+der Veröffentlichung markenrechtlich prüfen lassen.

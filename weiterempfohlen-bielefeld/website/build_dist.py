@@ -1,6 +1,6 @@
 # Baut das WordPress-Paket in website/dist und die ZIP-Datei aus website/weiterempfohlen.html.
 # Vorher: python3 website/build.py  (und bei neuen Fotos python3 website/make_webp.py)
-# Aufruf aus dem Ordner weiterempfohlen-guetersloh: python3 website/build_dist.py
+# Aufruf aus dem Ordner weiterempfohlen-bielefeld: python3 website/build_dist.py
 import os, shutil, glob
 w = open('website/weiterempfohlen.html').read()
 head = ('<!doctype html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n'

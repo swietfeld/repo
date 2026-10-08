@@ -1,10 +1,12 @@
 Bilder für die Pitch-Website
 ============================
 
-Alle Bilder sind enthalten.
+Stand: hero.webp und stadtbild.webp sind noch Platzhalter. Die echten Fotos folgen
+(Anleitung in website/img/FOTOS_NACHLADEN.md im Projektordner).
 
-hero.webp                  Titelfoto: Kirchring Gütersloh (Foto: Teutoburger Wald, Gütersloh, M. Wallenfang, CC BY-SA 4.0)
-kirchplatz.webp            Bildband "Gütersloh empfiehlt Gütersloh." (Foto: Teutoburger Wald, Gütersloh, M. Wallenfang, CC BY-SA 4.0)
+hero.webp                  Titelfoto: Altstadt Bielefeld (Foto: BfB Bielefeld, Wikimedia Commons, CC BY-SA 4.0)
+stadtbild.webp             Bildband "Bielefeld empfiehlt Bielefeld.": Skyline der Stadt Bielefeld mit Sparrenburg
+                           (Foto: Hakanneu, Wikimedia Commons, CC BY-SA 4.0)
 
 drehtag.webp              Abschnitt Drehtag, "Hinter den Kulissen" (Foto: unikat media)
 
