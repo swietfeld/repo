@@ -15,7 +15,7 @@ Alle Links werden neu angelegt (privat im Konto von Stefan Wietfeld). Für Biele
 | Was | Link | Quelle in diesem Ordner |
 | --- | --- | --- |
 | Präsentation (Slides) | https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn | `praesentation/project/` |
-| Pitch-Website | folgt (erst mit echten Fotos veröffentlichen) | `website/` |
+| Pitch-Website | https://claude.ai/artifact/ULrwmsUiHiDdkcrTDd7iBp | `website/` |
 | Markenbuch (Slides) | https://claude.ai/artifact/C4AHY6LVJXgaCMW3T8dwv9 | `markenbuch/project/` |
 | Umsetzungsplan mit E-Mail-Vorlagen (Docs, **intern**) | https://claude.ai/code/artifact/44ab5249-93e8-4169-8ad4-3df043427ff9 | `dokumente/markdown/Weiterempfohlen – Umsetzungsplan mit E-Mail-Vorlagen.md` |
 | Ablauf einer Folge und eines Drehtags (Docs) | https://claude.ai/code/artifact/904b3f9c-3f2a-4960-95a0-02e9d6ef3c35 | `dokumente/markdown/Weiterempfohlen. – Ablauf einer Folge und eines Drehtags.md` |
@@ -86,10 +86,9 @@ Alle Befehle laufen aus `weiterempfohlen-bielefeld/`. Playwright ist global inst
 
 ## Offene Punkte
 
-- **Fotos nachladen:** Die Bielefeld-Fotos von Wikimedia Commons sind in dieser Umgebung gesperrt. Netzwerkfreigabe oder Upload durch Stefan. Die Website geht erst mit echten Fotos raus.
+- **Fotos:** Die zwei Bielefeld-Fotos (Altstadt Bielefeld, BfB Bielefeld; Skyline der Stadt Bielefeld, Hakanneu; beide CC BY-SA 4.0) sind eingesetzt, die Website ist veröffentlicht.
 - **Kanalname prüfen:** Ist @weiterempfohlen.bi auf Instagram und TikTok frei?
 - **Followerzahlen prüfen:** Die Zahlen der Bielefelder Kanäle und von @bielefoodies sind Näherungswerte. Vor dem Termin in der App prüfen.
 - **Adresse von Martin Knabenreich prüfen:** nicht veröffentlicht, vermutlich martin.knabenreich@bielefeld-marketing.de. Vor dem Versand über die Zentrale (0521 55774-555) bestätigen.
-- **Links:** Präsentation und Website veröffentlichen, Platzhalter [LINK PRÄSENTATION] und [LINK WEBSITE] in den Mails ersetzen.
 - **Docs und PDFs:** Die fünf Bielefeld-Docs anlegen, danach die PDFs neu exportieren und die Links in `dokumente/LINKS_und_LIESMICH.txt` eintragen.
 - **Quellen-Links ergänzen:** Radio Bielefeld (23.06.2026) und OWL Journal (04.10.2026) im Umsetzungsplan.

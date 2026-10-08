@@ -9,7 +9,7 @@ In diesem Ordner
 Online (immer der aktuelle Stand, privat, nur nach Freigabe für andere sichtbar)
 - Pitch-Präsentation:            https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn
 - Markenbuch:                    https://claude.ai/artifact/C4AHY6LVJXgaCMW3T8dwv9
-- Pitch-Website:                 folgt (erst mit echten Fotos veröffentlichen)
+- Pitch-Website:                 https://claude.ai/artifact/ULrwmsUiHiDdkcrTDd7iBp
 - Umsetzungsplan (intern):       https://claude.ai/code/artifact/44ab5249-93e8-4169-8ad4-3df043427ff9
 - Ablauf Folge und Drehtag:      https://claude.ai/code/artifact/904b3f9c-3f2a-4960-95a0-02e9d6ef3c35
 - Muster-Monatsbericht:          https://claude.ai/code/artifact/4d58ce5e-281b-4bec-aef9-cad9947d4860

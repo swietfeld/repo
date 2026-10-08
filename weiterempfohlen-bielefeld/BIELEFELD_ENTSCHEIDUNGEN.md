@@ -113,4 +113,4 @@ Für die Folie (sichtbar): „Bestehende Lokalkanäle: Lokal-Guides, Stadt-Apps 
 | Bandfoto „Bielefeld empfiehlt Bielefeld.“ (`kirchplatz` → `stadtbild`) | File:Skyline_der_Stadt_Bielefeld.jpg (Sparrenburg und Stadt) | Hakanneu | CC BY-SA 4.0 |
 | Reserve | File:Siegfriedplatz,_Bielefeld_-_panoramio.jpg | INDALOMANIA | CC BY-SA 3.0 |
 
-Hinweis: commons.wikimedia.org und upload.wikimedia.org sind in dieser Umgebung gesperrt. Die Fotos müssen nachgeladen werden (Netzwerkfreigabe oder Upload durch Stefan). Bis dahin Platzhalter, die Website wird erst mit echten Fotos veröffentlicht.
+Die Fotos hat Stefan am 8. Oktober 2026 von Commons geladen; sie sind eingesetzt.

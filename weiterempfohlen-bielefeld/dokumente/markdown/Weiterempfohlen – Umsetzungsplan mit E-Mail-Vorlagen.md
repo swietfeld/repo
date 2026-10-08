@@ -32,7 +32,7 @@ Bevor die Mail rausgeht, müssen Präsentation und Website fertig sein. Die Beis
 - [ ] **Zahlen prüfen:** Die Zahlen von @bielefoodies und die Followerzahlen der Bielefelder Kanäle in der App prüfen. Die Werte in den Unterlagen sind Näherungswerte aus Suchtreffern.
 - [ ] **Kanalname prüfen:** Ist @weiterempfohlen.bi auf Instagram und TikTok frei? Wenn ja, beide Namen sichern, aber noch nichts posten.
 - [ ] **Fotos:** Die Bielefeld-Fotos von Wikimedia Commons nachladen (siehe `BIELEFELD_ENTSCHEIDUNGEN.md`). Die Website geht erst mit echten Fotos raus.
-- [ ] **Links eintragen:** Präsentation und Website als neue Bielefeld-Links veröffentlichen und in die Mail einsetzen (https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn, [LINK WEBSITE]).
+- [ ] **Links eintragen:** Präsentation und Website als neue Bielefeld-Links veröffentlichen und in die Mail einsetzen (https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn, https://claude.ai/artifact/ULrwmsUiHiDdkcrTDd7iBp).
 - [ ] **Beispielfolge drehen (empfohlen):** eine 60-Sekunden-Folge mit einem Bielefelder Betrieb in der Altstadt, die mit der Schlussfrage „Und wo gehst du hin, wenn du nicht hier bist? Gern auch in einem anderen Stadtteil.“ endet. Ist sie fertig, kommt sie als nicht gelisteter Link in die Nachfass-Mail, sonst zeigt ihr sie im Termin. Klappt das zeitlich nicht, zeigt zwei Reels von @bielefoodies.
 - [ ] **Kennzeichnung klären:** Wie werden Folgen gekennzeichnet, wenn die Stadt bezahlt und Betriebe vorkommen?
 - [ ] **Einverständnis vorbereiten:** eine kurze Drehvereinbarung für Betriebe und gezeigte Personen (Bild- und Tonrechte, Nutzung auf allen Kanälen der Stadt).
@@ -127,7 +127,7 @@ Der Unterschied zu bestehenden Lokalkanälen: Kein Betrieb bezahlt für seinen A
 Der Einstieg wäre eine Testphase mit 16 teilnehmenden Betrieben über vier Monate, jeden Monat gemeinsam ausgewertet. Start wäre Anfang Dezember, während des Weihnachtsmarkts. Jeder Betrieb bekommt fünf Posts, von der Ankündigung bis zum Abschluss. Ein eigener Serienkanal mit Betreuung, eine Website und das komplette Konzept sind im Preis enthalten. Einen großen Teil der Kosten können Partner tragen, zum Beispiel als neue Leistung für das Bielefeld-Partner-Netzwerk.
 
 Die Präsentation finden Sie hier: https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn
-Auf der Website zum Konzept können Sie die Serie durchklicken, mit einer animierten Beispielfolge, dem Ablauf eines Drehtags und einem Rechner für die Finanzierung über Partner: [LINK WEBSITE]
+Auf der Website zum Konzept können Sie die Serie durchklicken, mit einer animierten Beispielfolge, dem Ablauf eines Drehtags und einem Rechner für die Finanzierung über Partner: https://claude.ai/artifact/ULrwmsUiHiDdkcrTDd7iBp
 
 Damit der Start zügig klappt, haben wir bereits einen Ablaufplan, einen Muster-Monatsbericht, ein Infoblatt für die teilnehmenden Betriebe und Unterlagen für Partner vorbereitet. Gern stelle ich Ihnen alles im Gespräch vor.
 
@@ -155,7 +155,7 @@ kurz vor dem Weihnachtsmarkt ist bei Ihnen sicher viel los – deshalb nur eine 
 Die Kurzfassung: eine Videoserie, in der sich Bielefelder Betriebe gegenseitig empfehlen. Kein Betrieb zahlt für seinen Auftritt, die Stadt ist Absender. Die Kosten können zu einem großen Teil Partner tragen. Eine Testphase über vier Monate könnte Anfang Dezember starten.
 
 Präsentation: https://claude.ai/artifact/Gu6YmWFcBX114TS3xq46Cn
-Website mit Beispielfolge: [LINK WEBSITE]
+Website mit Beispielfolge: https://claude.ai/artifact/ULrwmsUiHiDdkcrTDd7iBp
 
 Darf ich Sie oder Herrn Siekmann am [Mittwoch, 21. Oktober] kurz anrufen? Oder Sie wählen direkt einen Termin: [Terminlink]
 
