@@ -4,7 +4,7 @@
 import os
 from PIL import Image
 SRC, OUT = 'website/img', 'website/img-web'
-BIG = {'hero': 1920, 'stadtbild': 1920, 'drehtag': 1600, 'theke': 1200}
+BIG = {'hero': 1920, 'stadtbild': 1920, 'stadtteile': 1600, 'nachbarn': 1600, 'drehtag': 1600, 'theke': 1200}
 QUALITY = {'hero': 60, 'stadtbild': 60}  # dunkel überlagerte Hintergründe vertragen mehr Kompression
 os.makedirs(OUT, exist_ok=True)
 for f in sorted(os.listdir(SRC)):
