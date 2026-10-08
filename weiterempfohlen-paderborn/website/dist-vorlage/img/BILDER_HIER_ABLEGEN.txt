@@ -1,0 +1,23 @@
+Bilder für die Pitch-Website
+============================
+
+Alle Bilder sind enthalten. Titelfoto und Stadtfoto sind noch Platzhalter.
+
+hero.webp                  Titelfoto: [Platzhalter – Foto aus Paderborn folgt, mit Quelle und Lizenz]
+stadtbild.webp             Bildband "Paderborn empfiehlt Paderborn." [Platzhalter – Foto aus Paderborn folgt, mit Quelle und Lizenz]
+
+drehtag.webp              Abschnitt Drehtag, "Hinter den Kulissen" (Foto: unikat media)
+
+KI-generierte Symbolbilder (Canva):
+ort-cafe.webp, ort-buchhandlung.webp, ort-baeckerei.webp, ort-marktstand.webp,
+ort-fahrradwerkstatt.webp, ort-eisdiele.webp, ort-plattenladen.webp   Karten der Empfehlungskette
+folge-baeckerin.webp       Beispielfolge im Handy und Abschnitt Verbreitung
+theke.webp                 Abschnitt Codewort
+ladentuer.webp             Ladentür mit Aufkleber
+
+Alle Bilder liegen als WebP vor, damit die Seite schnell lädt. Die großen Fotos gibt es
+zusätzlich in einer kleineren Fassung fürs Handy (Endung -m.webp).
+
+Ein Bild austauschen: neue Datei mit genau demselben Namen hier ablegen, bei den großen
+Fotos auch die -m-Fassung (900 Pixel breit).
+Fehlt ein Bild, zeigt die Seite an dieser Stelle automatisch eine farbige Fläche.

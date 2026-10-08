@@ -1,0 +1,11 @@
+# Erzeugte Dateien, lassen sich mit den Skripten neu bauen
+website/weiterempfohlen.html
+website/local.html
+website/dist/
+website/Weiterempfohlen_Pitch-Website.zip
+website/shots/
+render/tmp_*.html
+render/new-*.png
+render/mb-*.png
+node_modules/
+__pycache__/
