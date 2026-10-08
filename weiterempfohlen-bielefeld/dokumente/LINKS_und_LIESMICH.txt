@@ -1,25 +1,31 @@
-Weiterempfohlen. – alle Unterlagen
-==================================
+Weiterempfohlen. – alle Unterlagen für Bielefeld
+================================================
 
 In diesem Ordner
-- Dokumente/      Die fünf Begleitdokumente als PDF (Stand 2. Oktober 2026)
+- Dokumente/      Die fünf Begleitdokumente als PDF (folgt, siehe unten)
 - Logo-Paket/     Alle Logos als SVG und PNG, mit eigener LIESMICH-Datei
 - Website/        Die Pitch-Website als ZIP für das WordPress-Plugin
 
 Online (immer der aktuelle Stand, privat, nur nach Freigabe für andere sichtbar)
-- Pitch-Präsentation:            https://claude.ai/artifact/VKwaWqWwi1uLJKmYK5oeV3
-- Markenbuch:                    https://claude.ai/artifact/CcRfi2odZsHvMAboEH6wct
-- Pitch-Website:                 https://claude.ai/artifact/KRu4GyC49QjQ4C1MmGwKNa
-- Umsetzungsplan:                https://claude.ai/code/artifact/75937cee-b669-44e1-a015-d2b63a5f7a07
-- Ablauf Folge und Drehtag:      https://claude.ai/code/artifact/29d89f82-dafe-49f6-a347-d3d88afc1edd
-- Muster-Monatsbericht:          https://claude.ai/code/artifact/71b708ee-4dc8-4adf-9797-9aac776bbb05
-- Infoblatt für Betriebe:        https://claude.ai/code/artifact/cdd5606a-2a9d-45e6-91d8-fafcfb8bf777
-- Sponsoring-Unterlage:          https://claude.ai/code/artifact/b2ab4a39-3bf3-4c73-b66b-52717160bc79
+- Pitch-Präsentation:            folgt
+- Markenbuch:                    folgt
+- Pitch-Website:                 folgt
+- Umsetzungsplan (intern):       folgt
+- Ablauf Folge und Drehtag:      folgt
+- Muster-Monatsbericht:          folgt
+- Infoblatt für Betriebe:        folgt
+- Sponsoring-Unterlage:          folgt
 - Übersicht aller Seiten:        https://claude.ai/code/artifacts
+
+PDFs
+Die bisherigen PDFs gehörten zu einer älteren Fassung und wurden gelöscht.
+Sobald die Bielefeld-Docs angelegt sind (Text: dokumente/markdown/), werden die PDFs
+neu exportiert und hier im Ordner dokumente/pdf/ abgelegt.
 
 Präsentation und Markenbuch als Datei
 Link öffnen und dort über die Download-Funktion als PDF oder PowerPoint speichern.
 
 Wichtig
 Die PDFs sind eine Momentaufnahme. Änderungen macht ihr online; danach bei Bedarf neu exportieren.
-Platzhalter in eckigen Klammern (Preise, Kontaktdaten, Daten) vor dem Versand ausfüllen.
+Platzhalter in eckigen Klammern (Preise, Kontaktdaten, Daten, Links) vor dem Versand ausfüllen.
+Der Umsetzungsplan ist intern und geht nie an Externe.
