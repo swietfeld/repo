@@ -1,7 +1,7 @@
-HINWEIS (vor dem Versand löschen): Die Adresse von Martin Knabenreich ist nicht veröffentlicht. Sie folgt vermutlich dem Muster vorname.nachname@bielefeld-marketing.de. Vor dem Versand über die Zentrale prüfen (0521 55774-555). Versand: Montag, 12. Oktober 2026 (KW 42).
+HINWEIS: Fertige Outlook-Fassung mit PDF-Anhang: mails/Mail_Bielefeld-Marketing_Knabenreich.eml (wird lokal erzeugt, nicht in Git). Adresse von Martin Knabenreich bestätigt über bcsd-Einladungen (u. a. Landestreffen NRW 28.10.2025, bcsd.de).
 
-An: martin.knabenreich@bielefeld-marketing.de   [ADRESSE PRÜFEN]
-CC: jens.siekmann@bielefeld-marketing.de
+An: martin.knabenreich@bielefeld-marketing.de
+CC: jens.siekmann@bielefeld-marketing.de, dennis.blomeyer@unikat.media
 Betreff: Idee für eine Videoserie: Bielefelder Betriebe empfehlen sich gegenseitig
 
 Sehr geehrter Herr Knabenreich,

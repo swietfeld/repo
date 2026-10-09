@@ -12,3 +12,6 @@ __pycache__/
 
 # Weitergabe-Pakete (mit den Skripten neu erzeugbar)
 /Weiterempfohlen_*.zip
+render/pdf-*.png
+/mails/*.eml
+/Weiterempfohlen_Bielefeld_Praesentation.pdf

@@ -88,7 +88,7 @@ Für die Folie (sichtbar): „Bestehende Lokalkanäle: Lokal-Guides, Stadt-Apps 
 ## Ansprechpartner (nur intern, Umsetzungsplan)
 
 **Bielefeld Marketing GmbH**, Herforder Straße 4–6, 33602 Bielefeld, Zentrale 0521 55774-555, info@bielefeld-marketing.de
-- Martin Knabenreich, Geschäftsführer (Empfänger der ersten Mail). Persönliche Mail-Adresse nicht veröffentlicht; Muster der anderen Adressen: vorname.nachname@bielefeld-marketing.de. Vor Versand prüfen oder über die Zentrale.
+- Martin Knabenreich, Geschäftsführer (Empfänger der ersten Mail). martin.knabenreich@bielefeld-marketing.de (bestätigt über bcsd-Einladungen, zuletzt Oktober 2025).
 - Jens Siekmann, Leiter Stadtwerbung und Kommunikation, 0521 55774-701, jens.siekmann@bielefeld-marketing.de (CC)
 - Tanja Babic, Pressereferentin, -702, tanja.babic@bielefeld-marketing.de
 - Kati Bölefahr und Marisa Kotthaus, Stadtmarke und Kommunikation, Bielefeld-Partner-Netzwerk (wichtig für das Partnermodell)
