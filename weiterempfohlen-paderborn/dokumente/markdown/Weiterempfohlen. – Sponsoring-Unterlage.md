@@ -114,7 +114,7 @@ Gern zeigen wir Ihnen eine Beispielfolge und die Präsentation der Serie im Gesp
 **Richtwerte für die Beiträge** (geschätzt, mit euren Kosten gegenrechnen)
 
 - Presenting-Partner (exklusiv): 4.800 € einmalig für die Testphase, also 1.200 € pro Monat, inklusive Partner-Folge
-- Serien-Partner: 600 € pro Monat über vier Monate, also 2.400 € je Partner, bis zu fünf. Sie werden in jeder Folge genannt, egal wie viele Folgen eine einzelne Rubrik bekommt. Idee für die Jahresserie: Patenschaft für eine einzelne Rubrik, etwa „Neu an der Pader“, sobald planbar ist, wie viele Folgen sie hat.
+- Serien-Partner: 600 € pro Monat über vier Monate, also 2.400 € je Partner, bis zu fünf. Sie werden in jeder Folge genannt, egal wie viele Folgen eine einzelne Rubrik bekommt. Idee für die Jahresserie: Patenschaft für eine einzelne Rubrik, etwa „Neu in der Domstadt“, sobald planbar ist, wie viele Folgen sie hat.
 - Aktions-Partner: drei feste Größen, weil der Aufwand stark schwankt. S (bis zu einem halben Drehtag, 1–3 Clips, etwa ein Valentinstag-Spezial): 1.750 €, davon 500 € in die Serie. M (ein Drehtag, bis zu 6 Clips, etwa ein Oster-Spezial): 3.500 €, davon 1.000 €. L (bis zu drei Drehtage, etwa die Jubiläums-Reihe „Seit Generationen in Paderborn“ oder später der Adventskalender): 9.000 €, davon 2.000 €. Bis zu vier Aktionen. Der Serienanteil senkt den Anteil der Stadt, der Rest bezahlt die Aktion.
 - Zahlweise: monatlich mit fester Laufzeit von vier Monaten oder einmalig vorab. Monatlich senkt die Einstiegshürde, die feste Laufzeit sichert die Testphase ab.
 - Jahresserie: auf zwölf Monate hochrechnen, mit Nachlass für die längere Laufzeit

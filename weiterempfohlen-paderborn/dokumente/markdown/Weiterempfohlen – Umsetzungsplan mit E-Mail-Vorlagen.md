@@ -24,7 +24,7 @@ Der Weihnachtsmarkt läuft vom 20. November bis 23. Dezember. In diesen Wochen s
 
 Bevor die erste Mail rausgeht, müssen die Präsentation und eure Belege fertig sein.
 
-- [ ] **Fotos einsetzen:** Titelfoto und Stadtfoto auf der Website sind noch Platzhalter. Fotos aus Paderborn mit Quelle und Lizenz einsetzen und die Bildzeilen ergänzen.
+- [ ] **Fotos einsetzen:** Titelfoto (Paderquellgebiet) und Rathaus-Foto sind eingesetzt. Quelle und Lizenz in den Bildzeilen nachtragen, sonst die Fotos vor dem Versand austauschen.
 - [ ] **Platzhalter füllen:** Zahlen von @bielefoodies in der App prüfen (Folie 24). Die Zielwerte auf Folie 21 dürfen offen bleiben, die legt ihr im Workshop gemeinsam fest.
 - [ ] **PDF exportieren:** die Präsentation als PDF herunterladen, z. B. als „Weiterempfohlen-Paderborn\_unikat-media.pdf“. Städtische Stellen öffnen Anhänge oft zuverlässiger als externe Links.
 - [ ] **Beispielfolge (empfohlen):** eine 60-Sekunden-Folge mit einem Paderborner Betrieb, die mit der Schlussfrage endet. Gibt es für Gütersloh schon eine Beispielfolge, könnt ihr sie zeigen, aber dann klar als Beispiel aus Gütersloh. Sonst zwei starke Reels von @bielefoodies verlinken.
@@ -334,7 +334,7 @@ unikat media · 0521 30436986
 
 - Vertragspartner: Stadt Paderborn oder WFG?
 - Gelten Vergaberegeln, und bis zu welchem Betrag ist ein Direktauftrag möglich?
-- Name der Rubrik „Neu an der Pader“ – passt der Vorschlag?
+- Fotos auf der Website: Quelle und Lizenz für Paderquellgebiet und Rathaus nachtragen
 - Bleibt der Arbeitstitel, oder wird er an den Auftritt zum Jubiläum angepasst?
 - Auf welchem Kanal erscheint die Serie, und wie werden die Beiträge gekennzeichnet?
 

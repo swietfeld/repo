@@ -112,7 +112,7 @@ Der Betrieb bleibt während des Drehs geöffnet. Ist gerade viel los, ziehen wir
 
 | Rubrik | Was anders ist |
 | --- | --- |
-| Neu an der Pader | Eine Stunde vor Ort, kein Gespräch im Sitzen. Online spätestens 48 Stunden nach dem Dreh. |
+| Neu in der Domstadt | Eine Stunde vor Ort, kein Gespräch im Sitzen. Online spätestens 48 Stunden nach dem Dreh. |
 | Wer steckt dahinter? | Längeres Gespräch von etwa einer Stunde, dafür nur zwei Betriebe an diesem Tag. |
 | Eine Schicht bei … | Beginnt, wenn die Arbeit beginnt, in der Backstube also gegen 4 Uhr. An diesem Tag gibt es nur diesen einen Dreh. |
 | Wo gibt's das beste …? | Eine Stunde Straßenumfrage, ohne Termin bei einem Betrieb. Passt gut an das Ende eines normalen Drehtags. |
@@ -159,6 +159,10 @@ Diese Liste hakt die Regie vor Ort ab. Erst wenn alles erledigt ist, wird abgeba
 ## Team und Technik
 
 Das Team ist bewusst klein, damit der Betrieb nicht stillsteht und sich niemand beobachtet fühlt.
+
+![Interviewdreh von unikat media im Studio](../../website/img/drehtag.jpg)
+
+Hinter den Kulissen: ein Interviewdreh von unikat media. Foto: unikat media
 
 | Rolle | Aufgabe am Drehtag |
 | --- | --- |

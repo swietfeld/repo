@@ -11,7 +11,7 @@ Alle Links sind privat im Konto von Stefan Wietfeld.
 | Was | Link | Quelle in diesem Ordner |
 | --- | --- | --- |
 | Präsentation, 24 Folien (Slides) | https://claude.ai/artifact/3c5y6QHeVZEMhQqhTX4vCj | `praesentation/project/` |
-| Pitch-Website (Fotos noch Platzhalter) | https://claude.ai/artifact/LXGmjCenE7TGuF3vVcqJmc | `website/` |
+| Pitch-Website | https://claude.ai/artifact/LXGmjCenE7TGuF3vVcqJmc | `website/` |
 | Markenbuch, 13 Folien (Slides) | https://claude.ai/artifact/7CnBJLMDvAxXTJVCrvMf3c | `markenbuch/project/` |
 | Umsetzungsplan mit E-Mail-Vorlagen (Docs, **intern**) | https://claude.ai/code/artifact/8fdc9e57-113b-41cb-a1f7-1ad08c4548c1 | `dokumente/markdown/` |
 | Ablauf einer Folge und eines Drehtags (Docs) | https://claude.ai/code/artifact/0dd6191c-052c-4ded-9ec3-f41b74662db3 | `dokumente/markdown/` |
@@ -31,8 +31,8 @@ Die Mails sollen am Dienstag, 13. Oktober 2026, rausgehen. Nachfassen am 20. Okt
 - **Zeitplan:** Workshop bis 20. November (vor dem Weihnachtsmarkt), Drehs im Dezember, Start Donnerstag, 7. Januar 2027, Testphase bis Ende April, Entscheidung im Mai, also vor Libori (23. Juli bis 1. August 2027).
 - **Werbegemeinschaft Paderborn** wird genannt: als möglicher Serien-Partner, für Kontakte und zum Teilen. Mitgliedschaft ist weder Voraussetzung noch Vorteil in der Kette.
 - **Mehrere Städte gleichzeitig sind kein Problem.** unikat media schafft auch mehr als drei Städte parallel. Eine Exklusivität für Gütersloh gibt es nicht.
-- **Rubrikname:** Der Nutzer möchte statt „Neu in GT“ einen eigenen Namen. Eingesetzt ist der Vorschlag **„Neu an der Pader“**, noch nicht bestätigt.
-- **Fotos:** Der Nutzer sucht selbst Paderborn-Fotos. Bis dahin sind Titelfoto (`website/img/hero.jpg`) und Stadtfoto (`website/img/stadtbild.jpg`) neutrale Platzhalter. Die Bildzeilen lauten „Foto: [Platzhalter – Foto aus Paderborn folgt, mit Quelle und Lizenz]“, im Footer steht ein entsprechender Hinweis.
+- **Rubrikname:** „Neu in der Domstadt“ (vom Nutzer am 9. Oktober gewählt, ersetzt „Neu in GT“).
+- **Fotos:** Vom Nutzer am 9. Oktober geliefert. Titelfoto = Paderquellgebiet (`website/img/hero.jpg`, Original 1280 × 720, auf 2000 px hochgerechnet), Bildband = Historisches Rathaus (`website/img/stadtbild.jpg`). Quelle und Lizenz fehlen noch, die Bildzeilen enthalten „[Quelle und Lizenz ergänzen]“. Zwei weitere gelieferte Fotos tragen das Wasserzeichen „www.planethibbel.com“ und sind deshalb nicht verwendet. Das Studiofoto vom Dreh (unikat media) ist auf der Website und im Ablauf-Dokument.
 
 ## Was gegenüber Gütersloh geändert ist
 
@@ -46,8 +46,7 @@ Die Mails sollen am Dienstag, 13. Oktober 2026, rausgehen. Nachfassen am 20. Okt
 
 ## Offen
 
-- Paderborn-Fotos mit Lizenz einsetzen: `website/img/hero.jpg` und `website/img/stadtbild.jpg` ersetzen, Bildzeilen in `website/src.html` (Suche nach „Platzhalter“) anpassen. Danach `python3 website/make_webp.py`, `python3 website/build.py` und das Artefakt neu veröffentlichen (gleicher Link).
-- Rubrikname bestätigen oder ersetzen. „Neu an der Pader“ steht in Folien, Website, Docs und Sponsoring-Unterlage.
+- Quelle und Lizenz der beiden Website-Fotos nachtragen: in `website/src.html` nach „Quelle und Lizenz ergänzen“ suchen (drei Stellen), dann `python3 website/build.py` und das Artefakt neu veröffentlichen (gleicher Link).
 - Direkte Mailadressen von Verena Meise, Dr. Christine Tölle und Miriam Brune prüfen.
 - Vertragspartner klären: Stadt Paderborn oder WFG. Davon hängt ab, wohin Partner zahlen.
 - Follower-Zahlen und Tourist-Info-Adresse vor dem Termin prüfen.
