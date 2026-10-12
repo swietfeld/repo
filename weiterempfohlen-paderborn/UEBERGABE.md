@@ -32,7 +32,7 @@ Die Mails sollen am Dienstag, 13. Oktober 2026, rausgehen. Nachfassen am 20. Okt
 - **Werbegemeinschaft Paderborn** wird genannt: als möglicher Serien-Partner, für Kontakte und zum Teilen. Mitgliedschaft ist weder Voraussetzung noch Vorteil in der Kette.
 - **Mehrere Städte gleichzeitig sind kein Problem.** unikat media schafft auch mehr als drei Städte parallel. Eine Exklusivität für Gütersloh gibt es nicht.
 - **Rubrikname:** „Neu in der Domstadt“ (vom Nutzer am 9. Oktober gewählt, ersetzt „Neu in GT“).
-- **Fotos:** Vom Nutzer am 9. Oktober geliefert. Titelfoto = Paderquellgebiet (`website/img/hero.jpg`, Original 1280 × 720, auf 2000 px hochgerechnet), Bildband = Historisches Rathaus (`website/img/stadtbild.jpg`). Quelle und Lizenz fehlen noch, die Bildzeilen enthalten „[Quelle und Lizenz ergänzen]“. Zwei weitere gelieferte Fotos tragen das Wasserzeichen „www.planethibbel.com“ und sind deshalb nicht verwendet. Das Studiofoto vom Dreh (unikat media) ist auf der Website und im Ablauf-Dokument.
+- **Fotos (12. Oktober):** Die vom Nutzer gelieferten Fotos ohne klare Quelle sind ersetzt. Titelfoto = Historisches Rathaus (`website/img/hero.jpg`, Milseburg, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rathaus_Paderborn_2026.jpg)), Bildband = Dom und Marktplatz (`website/img/stadtbild.jpg`, Arnoldius, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dom_at_Paderborn.jpg)), beide CC BY-SA 4.0, zugeschnitten und abgedunkelt, Nachweis in Bildzeilen und Fußbereich. Geholt als Bildschirmfoto der Commons-Vollbildansicht über Firecrawl (Wikimedia ist im Netzwerk dieser Umgebung gesperrt), daher rund 1.900 px breit. Fotos mit dem Wasserzeichen „www.planethibbel.com“ nicht verwenden. Das Studiofoto vom Dreh (unikat media) ist auf der Website und im Ablauf-Dokument.
 
 ## Was gegenüber Gütersloh geändert ist
 
@@ -46,7 +46,6 @@ Die Mails sollen am Dienstag, 13. Oktober 2026, rausgehen. Nachfassen am 20. Okt
 
 ## Offen
 
-- Quelle und Lizenz der beiden Website-Fotos nachtragen: in `website/src.html` nach „Quelle und Lizenz ergänzen“ suchen (drei Stellen), dann `python3 website/build.py` und das Artefakt neu veröffentlichen (gleicher Link).
 - Direkte Mailadressen von Verena Meise, Dr. Christine Tölle und Miriam Brune prüfen.
 - Vertragspartner klären: Stadt Paderborn oder WFG. Davon hängt ab, wohin Partner zahlen.
 - Follower-Zahlen und Tourist-Info-Adresse vor dem Termin prüfen.

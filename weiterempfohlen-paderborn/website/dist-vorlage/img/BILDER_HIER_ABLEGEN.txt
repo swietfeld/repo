@@ -1,10 +1,10 @@
 Bilder für die Pitch-Website
 ============================
 
-Alle Bilder sind enthalten. Für Titelfoto und Stadtfoto fehlen noch Quelle und Lizenz.
+Alle Bilder sind enthalten.
 
-hero.webp                  Titelfoto: Paderquellgebiet, Paderborn [Quelle und Lizenz ergänzen]
-stadtbild.webp             Bildband "Paderborn empfiehlt Paderborn.", Historisches Rathaus [Quelle und Lizenz ergänzen]
+hero.webp                  Titelfoto: Historisches Rathaus Paderborn (Foto: Milseburg, Wikimedia Commons, CC BY-SA 4.0)
+stadtbild.webp             Bildband "Paderborn empfiehlt Paderborn.", Dom und Marktplatz (Foto: Arnoldius, Wikimedia Commons, CC BY-SA 4.0)
 
 drehtag.webp              Abschnitt Drehtag, "Hinter den Kulissen" (Foto: unikat media)
 
