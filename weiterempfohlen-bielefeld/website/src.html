@@ -238,6 +238,21 @@ h3{font:700 1.45rem/1.15 var(--display);letter-spacing:-.01em;text-wrap:balance}
 /* Sponsoring */
 .spons{margin-top:clamp(40px,6vw,64px);background:var(--card);border:1px solid var(--line);border-radius:28px;padding:clamp(20px,3.5vw,36px);display:grid;gap:22px}
 .spons-head{display:grid;gap:8px}
+.city-btn{justify-self:start;margin-top:8px;padding:.75em 1.1em;font-size:.95rem}
+.fin-ways{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.fin-way{border-radius:var(--r);padding:clamp(18px,3vw,26px);display:grid;gap:10px;align-content:start;border:1px solid var(--line);background:var(--paper)}
+.fin-way.fin-a{border-top:5px solid var(--mustard)}
+.fin-way.fin-b{border-top:5px solid var(--petrol)}
+.fin-no{font:800 .78rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--petrol)}
+.fin-way h4{font:700 clamp(1.2rem,2.2vw,1.45rem)/1.2 var(--display);margin:0}
+.fin-way>p{color:var(--muted);margin:0}
+.fin-way ul{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:8px}
+.fin-way li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;font-weight:600}
+.fin-way li .i{width:20px;height:20px;color:var(--petrol);margin-top:3px}
+.fin-foot{font-size:.9rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin:4px 0 0}
+.fin-calc-label{margin:0;padding-top:8px;border-top:1px solid var(--line);color:var(--muted)}
+.fin-calc-label b{color:var(--ink)}
+@media (max-width:760px){.fin-ways{grid-template-columns:1fr}}
 .spons-head h3{font-size:clamp(1.6rem,3vw,2.3rem)}
 .spons-head p:not(.eyebrow){color:var(--muted);max-width:60ch}
 .spons-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:18px;align-items:stretch}
@@ -1016,7 +1031,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <div class="city-nums stagger" data-reveal>
       <div style="--d:0ms"><b>16</b><span>Betriebe in vier Monaten sichtbar gemacht, aus der ganzen Stadt und von den Betrieben selbst ausgewählt</span></div>
       <div style="--d:120ms"><b>80</b><span>Posts und 16 Videos für die Kanäle der Stadt, ohne eigenen Produktionsaufwand</span></div>
-      <div style="--d:240ms"><b>ca. 160 €</b><span>zahlt die Stadt pro Betrieb, wenn die Partner gut besetzt sind. Mit zwei Aktionen sind es 0 €.</span></div>
+      <div style="--d:240ms"><b>ca. 160 €</b><span>zahlt die Stadt pro Betrieb, wenn die Partner gut besetzt sind. Mit zwei Aktionen sind es 0 €. Die Finanzierungsmodelle sind unten aufgelistet.</span><a class="btn btn-y city-btn" href="#finanzierung">Finanzierung ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
     </div>
     <div class="city-args stagger" data-reveal>
       <article style="--d:0ms"><span class="no">01</span><h3>Hilft dem Handel, ohne jemanden zu bevorzugen.</h3><p>Die Betriebe empfehlen sich gegenseitig. Die Stadt muss nie erklären, warum der eine vorkommt und der andere nicht.</p></article>
@@ -1034,7 +1049,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <li>„Nach vier Monaten wissen wir per Codewort, wie viele Menschen wirklich gekommen sind. Erst dann entscheiden wir über eine Jahresserie.“</li>
       </ol>
     </div>
-    <p class="note">Gut besetzt heißt: ein Presenting-Partner und fünf Serien-Partner. Rechnung: 650 € im Monat mal vier Monate, geteilt durch 16 Betriebe. Die Berechnung zum Nachprüfen steht im Rechner unter „Das Angebot“.</p>
+    <p class="note">Gut besetzt heißt: ein Presenting-Partner und fünf Serien-Partner. Rechnung: 650 € im Monat mal vier Monate, geteilt durch 16 Betriebe. Die Berechnung zum Nachprüfen steht im Rechner unter „Finanzierung“.</p>
   </div>
 </section>
 
@@ -1433,12 +1448,12 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
 <section class="sec sec-tint" id="angebot">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Das Angebot</p><h2>Erst testen, dann entscheiden.</h2></div>
+    <div class="sec-head"><p class="eyebrow">Das Angebot</p><h2>Auf Wunsch erst testen, dann entscheiden.</h2></div>
     <div class="offer">
       <div class="plan main">
         <small>Der Start</small>
-        <h3>Testphase: 4 Monate</h3>
-        <p class="sub">16 teilnehmende Betriebe, einer pro Woche, aus den drei Kernrubriken</p>
+        <h3>Testphase <span style="white-space:nowrap">(bei Bedarf möglich)</span></h3>
+        <p class="sub">4 Monate, 16 teilnehmende Betriebe, einer pro Woche, aus den drei Kernrubriken</p>
         <ul>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>6 Drehtage mit je bis zu drei Betrieben</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Host, Dreh, Schnitt und Untertitel</li>
@@ -1451,7 +1466,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <p class="price"><b>4.850 € netto pro Monat</b>Für die ganze Testphase 19.400 €. Jeder Partner senkt den Anteil der Stadt, die Partner zahlen direkt an sie.</p>
       </div>
       <div class="plan">
-        <small>Danach</small>
+        <small>Danach oder direkt</small>
         <h3>Jahresserie: 12 Monate</h3>
         <p class="sub">Rund 48 teilnehmende Betriebe, Zusatz-Rubriken nach Wahl</p>
         <ul>
@@ -1460,7 +1475,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Monatlicher Bericht mit allen Zahlen</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Fester Host und fester Sendeplan</li>
         </ul>
-        <p class="price">Entscheidung nach der Testphase, Anfang April 2027.</p>
+        <p class="price">Mit Testphase: Entscheidung Anfang April 2027. Ohne Testphase: Start direkt als Jahresserie.</p>
       </div>
     </div>
 
@@ -1497,7 +1512,32 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     </div>
 
     <div class="spons" id="spons">
-      <div class="spons-head"><p class="eyebrow">Finanzierung über Partner</p><h3>Partner können die Serie ganz bezahlen.</h3><p>Die Umsetzung kostet 4.850 € im Monat. Bielefelder Unternehmen präsentieren die Serie und senken den Anteil der Stadt. Bielefeld Marketing bietet die Pakete zuerst den Bielefeld-Partnern an, als neue Leistung für das Netzwerk. Kommen zwei Aktionen dazu, etwa Marktwochen auf den Wochenmärkten in den Stadtteilen und ein Weihnachtsmarkt-Spezial, zahlt die Stadt nichts mehr.</p></div>
+      <div class="spons-head" id="finanzierung"><p class="eyebrow">Finanzierung</p><h3>Wie man es finanzieren könnte.</h3><p>Die Umsetzung kostet 4.850 € netto im Monat. Dafür gibt es zwei Wege, die sich auch kombinieren lassen.</p></div>
+      <div class="fin-ways">
+        <article class="fin-way fin-a">
+          <span class="fin-no">Weg 1</span>
+          <h4>Über Partner, mit denen die Stadt schon arbeitet</h4>
+          <p>Unternehmen aus dem Bielefeld-Partner-Netzwerk präsentieren die Serie, etwa als Presenting- oder Serien-Partner. Bielefeld Marketing bietet ihnen die Pakete zuerst an, als neue Leistung für das Netzwerk.</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Gut besetzt zahlt die Stadt 650 € im Monat, ca. 160 € pro Betrieb</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Mit zwei Aktionen, etwa Marktwochen und Weihnachtsmarkt-Spezial, zahlt die Stadt nichts</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Partner kaufen nie einen Platz in der Empfehlungskette</li>
+          </ul>
+          <p class="fin-foot">Im Rechner unten lässt sich jede Besetzung durchspielen.</p>
+        </article>
+        <article class="fin-way fin-b">
+          <span class="fin-no">Weg 2</span>
+          <h4>Über Fördermittel, den Rest zahlt die Stadt</h4>
+          <p>Die Serie stärkt Innenstadt, Stadtteile und lokale Betriebe. Dafür kommen Förderprogramme infrage, etwa Programme des Landes NRW für lebendige Innenstädte. Welche greifen und in welcher Höhe, prüfen wir gemeinsam mit der Stadtentwicklung.</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Fördertöpfe voll ausschöpfen, den Rest trägt die Stadt Bielefeld</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Höchstens 4.850 € im Monat, 19.400 € für eine Testphase</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Keine Partner-Nennung in den Folgen, volle Kontrolle bei der Stadt</li>
+          </ul>
+          <p class="fin-foot">Fördermittel und Partner schließen sich nicht aus: Jeder Partner senkt den Anteil, der übrig bleibt.</p>
+        </article>
+      </div>
+      <p class="fin-calc-label"><b>Rechner für Weg 1:</b> So verteilen sich die Kosten mit Partnern.</p>
       <div class="sp-ctrl">
         <div class="sp-scen" id="spScen" role="group" aria-label="Szenario wählen">
           <button data-sc="start" aria-pressed="false"><b>Start</b><span>Presenting + 3 Serien-Partner</span></button>
