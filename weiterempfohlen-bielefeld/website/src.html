@@ -2017,6 +2017,22 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   pickChip('#cwGifts', b => { $('#cwGift').textContent = b.dataset.t; $('#tPlus').textContent = b.dataset.p; });
   pickChip('#cwTimes', b => { $('#cwTime').textContent = b.dataset.t; });
 
+  /* Sprunglinks: Ziel nachführen, falls unterwegs Fotos nachladen und die Seite länger wird */
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const id = decodeURIComponent(a.getAttribute('href').slice(1));
+    const t = id && document.getElementById(id);
+    if (!t) return;
+    e.preventDefault();
+    try { history.replaceState(null, '', '#' + id); } catch (_) {}
+    const off = () => t.getBoundingClientRect().top - (parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0);
+    t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    let tries = 0;
+    const fix = () => { if (Math.abs(off()) > 6 && tries++ < 4) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }); setTimeout(fix, 700); } };
+    setTimeout(fix, 900);
+  });
+
   /* Sponsoring-Rechner */
   const AKT = { s: [1750, 500], m: [3500, 1000], l: [9000, 2000] }, AKT_STD = '0,1,1';
   let rubriken = 5, rubOn = true, akt = { s: 0, m: 1, l: 1 }, aktOn = false, spView = 0;
