@@ -237,6 +237,21 @@ h3{font:700 1.45rem/1.15 var(--display);letter-spacing:-.01em;text-wrap:balance}
 /* Sponsoring */
 .spons{margin-top:clamp(40px,6vw,64px);background:var(--card);border:1px solid var(--line);border-radius:28px;padding:clamp(20px,3.5vw,36px);display:grid;gap:22px}
 .spons-head{display:grid;gap:8px}
+.city-btn{justify-self:start;margin-top:8px;padding:.75em 1.1em;font-size:.95rem}
+.fin-ways{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.fin-way{border-radius:var(--r);padding:clamp(18px,3vw,26px);display:grid;gap:10px;align-content:start;border:1px solid var(--line);background:var(--paper)}
+.fin-way.fin-a{border-top:5px solid var(--mustard)}
+.fin-way.fin-b{border-top:5px solid var(--petrol)}
+.fin-no{font:800 .78rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--petrol)}
+.fin-way h4{font:700 clamp(1.2rem,2.2vw,1.45rem)/1.2 var(--display);margin:0}
+.fin-way>p{color:var(--muted);margin:0}
+.fin-way ul{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:8px}
+.fin-way li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;font-weight:600}
+.fin-way li .i{width:20px;height:20px;color:var(--petrol);margin-top:3px}
+.fin-foot{font-size:.9rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin:4px 0 0}
+.fin-calc-label{margin:0;padding-top:8px;border-top:1px solid var(--line);color:var(--muted)}
+.fin-calc-label b{color:var(--ink)}
+@media (max-width:760px){.fin-ways{grid-template-columns:1fr}}
 .spons-head h3{font-size:clamp(1.6rem,3vw,2.3rem)}
 .spons-head p:not(.eyebrow){color:var(--muted);max-width:60ch}
 .spons-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:18px;align-items:stretch}
@@ -341,6 +356,28 @@ button.pk:hover{border-color:var(--ink)}
 .stage .sec-lede,.stage .note{color:var(--on-dark-muted)}
 
 /* Auf einen Blick */
+/* Was die Stadt davon hat */
+.city{background:var(--stage);color:var(--on-dark)}
+.city .eyebrow{color:var(--mustard)}
+.city .sec-lede{color:var(--on-dark-muted)}
+.city-nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:8px}
+.city-nums>div{border-top:4px solid var(--mustard);padding-top:14px;display:grid;gap:6px;align-content:start}
+.city-nums b{font:800 clamp(2.4rem,6vw,4rem)/1 var(--display);letter-spacing:-.03em;color:var(--on-dark)}
+.city-nums span{color:var(--on-dark-muted);font-size:1rem;line-height:1.45}
+.city-args{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:clamp(32px,5vw,48px)}
+.city-args article{background:var(--stage-2);border:1px solid var(--stage-line);border-radius:var(--r);padding:24px;display:grid;gap:10px;align-content:start}
+.city-args h3{font:700 1.2rem/1.25 var(--display);color:var(--on-dark)}
+.city-args p{color:var(--on-dark-muted);font-size:.98rem;line-height:1.5;margin:0}
+.city-args .no{font:800 .8rem/1 var(--body);color:var(--mustard);letter-spacing:.1em}
+.city-pitch{margin-top:clamp(32px,5vw,48px);background:var(--mustard);color:#1F2A2B;border-radius:28px;padding:clamp(22px,4vw,40px);display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:clamp(20px,4vw,48px);align-items:start}
+.city-pitch h3{font:800 clamp(1.5rem,3vw,2.2rem)/1.1 var(--display);letter-spacing:-.02em;margin:0}
+.city-pitch>div>p{margin:10px 0 0;font-size:.98rem;color:#33403F}
+.city-pitch ol{margin:0;padding:0;list-style:none;display:grid;gap:14px;counter-reset:q}
+.city-pitch li{counter-increment:q;display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;font:600 1.12rem/1.45 var(--body)}
+.city-pitch li::before{content:counter(q);width:34px;height:34px;border-radius:50%;background:#1F2A2B;color:var(--mustard);display:grid;place-items:center;font:800 .95rem/1 var(--display)}
+.city .note{color:var(--on-dark-muted);margin-top:14px}
+@media (max-width:900px){.city-args{grid-template-columns:repeat(2,minmax(0,1fr))}.city-pitch{grid-template-columns:1fr}}
+@media (max-width:600px){.city-nums,.city-args{grid-template-columns:1fr}.city-nums{gap:18px}}
 .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .pillar{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;display:grid;gap:12px;align-content:start;transition:transform .35s var(--ease),box-shadow .35s}
 .pillar:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
@@ -932,7 +969,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   <div class="wrap top-in">
     <a class="brand" href="#start" aria-label="Weiterempfohlen., zum Anfang"><svg aria-hidden="true"><use href="#zeichen"/></svg><span>Weiterempfohlen<span class="dot">.</span></span></a>
     <nav class="nav" aria-label="Abschnitte">
-      <a href="#idee">Idee</a><a href="#folge">Folge</a><a href="#drehtag">Drehtag</a><a href="#marke">Marke</a><a href="#moeglich">Möglichkeiten</a><a href="#angebot">Angebot</a>
+      <a href="#stadt">Nutzen</a><a href="#idee">Idee</a><a href="#folge">Folge</a><a href="#drehtag">Drehtag</a><a href="#marke">Marke</a><a href="#moeglich">Möglichkeiten</a><a href="#angebot">Angebot</a>
     </nav>
     <a class="btn btn-small btn-y" href="#kontakt">Gespräch vereinbaren</a>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="sheet"><svg class="i" aria-hidden="true"><use href="#i-menu"/></svg><span class="sr">Menü öffnen</span></button>
@@ -940,7 +977,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   <div class="progress" aria-hidden="true"><span id="prog"></span></div>
   <div class="sheet" id="sheet" hidden>
     <ul class="wrap">
-      <li><a href="#idee">Idee</a></li><li><a href="#kette">Herzstück</a></li><li><a href="#folge">Eine Folge</a></li><li><a href="#formate">Formate</a></li><li><a href="#drehtag">Drehtag</a></li><li><a href="#codewort">Codewort</a></li><li><a href="#verbreitung">Verbreitung</a></li><li><a href="#nutzen">Nutzen</a></li><li><a href="#marke">Marke</a></li><li><a href="#moeglich">Möglichkeiten</a></li><li><a href="#angebot">Angebot</a></li><li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="#stadt">Nutzen für die Stadt</a></li><li><a href="#idee">Idee</a></li><li><a href="#kette">Herzstück</a></li><li><a href="#folge">Eine Folge</a></li><li><a href="#formate">Formate</a></li><li><a href="#drehtag">Drehtag</a></li><li><a href="#codewort">Codewort</a></li><li><a href="#verbreitung">Verbreitung</a></li><li><a href="#nutzen">Kennzahlen</a></li><li><a href="#marke">Marke</a></li><li><a href="#moeglich">Möglichkeiten</a></li><li><a href="#angebot">Angebot</a></li><li><a href="#kontakt">Kontakt</a></li>
     </ul>
   </div>
 </header>
@@ -954,7 +991,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <div class="hero-row">
       <div>
         <p class="lede">Eine Videoserie, in der sich Gütersloher Betriebe gegenseitig empfehlen. Kein Betrieb zahlt für seinen Auftritt, und Absender ist die Stadt.</p>
-        <div class="hero-cta"><a class="btn btn-y" href="#idee">Konzept ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn-line" href="#folge">Beispielfolge abspielen</a></div>
+        <div class="hero-cta"><a class="btn btn-y" href="#stadt">Konzept ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn-line" href="#folge">Beispielfolge abspielen</a></div>
       </div>
       <div class="hero-ask"><span class="ask-label">Die Schlussfrage jeder Folge</span><p class="ask">„Und wo gehst du hin, wenn du nicht hier bist?“</p></div>
     </div>
@@ -973,6 +1010,34 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     <div class="chain-view"><div class="chain-track" id="chainTrack"></div></div>
     <div class="wrap"><p class="chain-answer" id="chainAnswer"></p><p class="note">Beispielkette. Orte und Antworten sind ausgedacht, die Fotos sind KI-generierte Symbolbilder.</p></div>
   </section>
+
+<section class="sec city" id="stadt">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">Was die Stadt davon hat</p><h2>Für die Betriebe ist es geschenkte Werbung. Für die Stadt ist es mehr.</h2><p class="sec-lede">Die Betriebe bekommen Videos und Reichweite, ohne zu zahlen. Die Stadt bekommt etwas, das sie Aufsichtsrat, Politik und Handel in fünf Minuten erklären kann.</p></div>
+    <div class="city-nums stagger" data-reveal>
+      <div style="--d:0ms"><b>16</b><span>Betriebe in vier Monaten sichtbar gemacht, aus der ganzen Stadt und von den Betrieben selbst ausgewählt</span></div>
+      <div style="--d:120ms"><b>80</b><span>Posts und 16 Videos für die Kanäle der Stadt, ohne eigenen Produktionsaufwand</span></div>
+      <div style="--d:240ms"><b>ca. 160 €</b><span>zahlt die Stadt pro Betrieb, wenn die Partner gut besetzt sind. Mit zwei Aktionen sind es 0 €. Die Finanzierungsmodelle sind unten aufgelistet.</span><a class="btn btn-y city-btn" href="#finanzierung">Finanzierung ansehen <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    </div>
+    <div class="city-args stagger" data-reveal>
+      <article style="--d:0ms"><span class="no">01</span><h3>Hilft dem Handel, ohne jemanden zu bevorzugen.</h3><p>Die Betriebe empfehlen sich gegenseitig. Die Stadt muss nie erklären, warum der eine vorkommt und der andere nicht.</p></article>
+      <article style="--d:80ms"><span class="no">02</span><h3>Bringt Menschen in Innenstadt und Stadtteile, nachweisbar.</h3><p>Das Codewort zählt, wer wirklich in den Laden kommt. Jeden Monat gibt es dazu einen Bericht mit allen Zahlen.</p></article>
+      <article style="--d:160ms"><span class="no">03</span><h3>Wird zum größten Teil von der Wirtschaft bezahlt.</h3><p>Partner aus der Gütersloher Wirtschaft tragen die Kosten. Der Haushalt wird kaum belastet.</p></article>
+      <article style="--d:240ms"><span class="no">04</span><h3>Baut eigene Reichweite auf, statt sie zu mieten.</h3><p>Kanal, Name und alle Folgen gehören am Ende der Stadt. Die Reichweite wächst auf eigenen Kanälen, nicht bei Dritten.</p></article>
+      <article style="--d:320ms"><span class="no">05</span><h3>Liefert jede Woche Bewegtbild für die Stadtmarke.</h3><p>Neue Videos für Website, Tourist-Information, Veranstaltungen und Social Media, alle aus einer Hand.</p></article>
+      <article style="--d:400ms"><span class="no">06</span><h3>Ein erstes gemeinsames Projekt von Gütersloh Marketing und Concept GT.</h3><p>Es passt zu beiden Aufgaben und zeigt schon nach vier Monaten Ergebnisse, die beide Häuser vorzeigen können.</p></article>
+    </div>
+    <div class="city-pitch" data-reveal>
+      <div><h3>Drei Sätze für Aufsichtsrat und Ausschuss.</h3><p>So lässt sich die Serie in jeder Sitzung erklären.</p></div>
+      <ol>
+        <li>„Wir stärken Handel und Gastronomie sichtbar, ohne einzelne Betriebe zu bevorzugen. Die Betriebe wählen sich gegenseitig aus.“</li>
+        <li>„Den größten Teil der Kosten tragen Partner aus der Gütersloher Wirtschaft. Gut besetzt zahlen wir 650 € im Monat.“</li>
+        <li>„Nach vier Monaten wissen wir per Codewort, wie viele Menschen wirklich gekommen sind. Erst dann entscheiden wir über eine Jahresserie.“</li>
+      </ol>
+    </div>
+    <p class="note">Gut besetzt heißt: ein Presenting-Partner und fünf Serien-Partner. Rechnung: 650 € im Monat mal vier Monate, geteilt durch 16 Betriebe. Die Berechnung zum Nachprüfen steht im Rechner unter „Finanzierung“.</p>
+  </div>
+</section>
 
 <section class="sec" id="idee">
   <div class="wrap">
@@ -1357,12 +1422,12 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
 
 <section class="sec sec-tint" id="angebot">
   <div class="wrap">
-    <div class="sec-head"><p class="eyebrow">Das Angebot</p><h2>Erst testen, dann entscheiden.</h2></div>
+    <div class="sec-head"><p class="eyebrow">Das Angebot</p><h2>Auf Wunsch erst testen, dann entscheiden.</h2></div>
     <div class="offer">
       <div class="plan main">
         <small>Der Start</small>
-        <h3>Testphase: 4 Monate</h3>
-        <p class="sub">16 teilnehmende Betriebe, einer pro Woche, aus den drei Kernrubriken</p>
+        <h3>Testphase <span style="white-space:nowrap">(bei Bedarf möglich)</span></h3>
+        <p class="sub">4 Monate, 16 teilnehmende Betriebe, einer pro Woche, aus den drei Kernrubriken</p>
         <ul>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>6 Drehtage mit je bis zu drei Betrieben</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Host, Dreh, Schnitt und Untertitel</li>
@@ -1375,7 +1440,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
         <p class="price"><b>4.850 € netto pro Monat</b>Für die ganze Testphase 19.400 €. Jeder Partner senkt den Anteil der Stadt, die Partner zahlen direkt an sie.</p>
       </div>
       <div class="plan">
-        <small>Danach</small>
+        <small>Danach oder direkt</small>
         <h3>Jahresserie: 12 Monate</h3>
         <p class="sub">Rund 48 teilnehmende Betriebe, Zusatz-Rubriken nach Wahl</p>
         <ul>
@@ -1384,7 +1449,7 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Monatlicher Bericht mit allen Zahlen</li>
           <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Fester Host und fester Sendeplan</li>
         </ul>
-        <p class="price">Entscheidung nach der Testphase im März 2027.</p>
+        <p class="price">Mit Testphase: Entscheidung im März 2027. Ohne Testphase: Start direkt als Jahresserie.</p>
       </div>
     </div>
 
@@ -1421,7 +1486,32 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
     </div>
 
     <div class="spons" id="spons">
-      <div class="spons-head"><p class="eyebrow">Finanzierung über Partner</p><h3>Partner können die Serie ganz bezahlen.</h3><p>Die Umsetzung kostet 4.850 € im Monat. Gütersloher Unternehmen präsentieren die Serie und senken den Anteil der Stadt. Kommen zwei Aktionen wie der Adventskalender dazu, zahlt die Stadt nichts mehr.</p></div>
+      <div class="spons-head" id="finanzierung"><p class="eyebrow">Finanzierung</p><h3>Wie man es finanzieren könnte.</h3><p>Die Umsetzung kostet 4.850 € netto im Monat. Dafür gibt es zwei Wege, die sich auch kombinieren lassen.</p></div>
+      <div class="fin-ways">
+        <article class="fin-way fin-a">
+          <span class="fin-no">Weg 1</span>
+          <h4>Über Partner, mit denen die Stadt schon arbeitet</h4>
+          <p>Unternehmen, die Gütersloh Marketing schon unterstützen, etwa bei Michaeliswoche oder Weihnachtsmarkt, präsentieren die Serie als Presenting- oder Serien-Partner. Die Partner zahlen direkt an die Stadt.</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Gut besetzt zahlt die Stadt 650 € im Monat, ca. 160 € pro Betrieb</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Mit zwei Aktionen, etwa Adventskalender und Weihnachtsmarkt-Spezial, zahlt die Stadt nichts</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Partner kaufen nie einen Platz in der Empfehlungskette</li>
+          </ul>
+          <p class="fin-foot">Im Rechner unten lässt sich jede Besetzung durchspielen.</p>
+        </article>
+        <article class="fin-way fin-b">
+          <span class="fin-no">Weg 2</span>
+          <h4>Über Fördermittel, den Rest zahlt die Stadt</h4>
+          <p>Die Serie stärkt Innenstadt, Stadtteile und lokale Betriebe. Dafür kommen Förderprogramme infrage, etwa Programme des Landes NRW für lebendige Innenstädte. Welche greifen und in welcher Höhe, prüfen wir gemeinsam mit der Stadt.</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Fördertöpfe voll ausschöpfen, den Rest trägt die Stadt Gütersloh</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Höchstens 4.850 € im Monat, 19.400 € für eine Testphase</li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Keine Partner-Nennung in den Folgen, volle Kontrolle bei der Stadt</li>
+          </ul>
+          <p class="fin-foot">Fördermittel und Partner schließen sich nicht aus: Jeder Partner senkt den Anteil, der übrig bleibt.</p>
+        </article>
+      </div>
+      <p class="fin-calc-label"><b>Rechner für Weg 1:</b> So verteilen sich die Kosten mit Partnern.</p>
       <div class="sp-ctrl">
         <div class="sp-scen" id="spScen" role="group" aria-label="Szenario wählen">
           <button data-sc="start" aria-pressed="false"><b>Start</b><span>Presenting + 3 Serien-Partner</span></button>
@@ -1898,6 +1988,22 @@ footer{padding-block:40px;border-top:1px solid var(--line)}
   const pickChip = (groupSel, apply) => $$(groupSel + ' button').forEach(b => b.addEventListener('click', () => { $$(groupSel + ' button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); apply(b); }));
   pickChip('#cwGifts', b => { $('#cwGift').textContent = b.dataset.t; $('#tPlus').textContent = b.dataset.p; });
   pickChip('#cwTimes', b => { $('#cwTime').textContent = b.dataset.t; });
+
+  /* Sprunglinks: Ziel nachführen, falls unterwegs Fotos nachladen und die Seite länger wird */
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const id = decodeURIComponent(a.getAttribute('href').slice(1));
+    const t = id && document.getElementById(id);
+    if (!t) return;
+    e.preventDefault();
+    try { history.replaceState(null, '', '#' + id); } catch (_) {}
+    const off = () => t.getBoundingClientRect().top - (parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0);
+    t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    let tries = 0;
+    const fix = () => { if (Math.abs(off()) > 6 && tries++ < 4) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }); setTimeout(fix, 700); } };
+    setTimeout(fix, 900);
+  });
 
   /* Sponsoring-Rechner */
   const AKT = { s: [1750, 500], m: [3500, 1000], l: [9000, 2000] }, AKT_STD = '0,1,1';
