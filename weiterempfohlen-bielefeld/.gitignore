@@ -15,3 +15,6 @@ __pycache__/
 render/pdf-*.png
 /mails/*.eml
 /Weiterempfohlen_Bielefeld_Praesentation.pdf
+/Weiterempfohlen_Bielefeld_Termin_*.pdf
+render/tpdf-*.png
+render/termin-*.png

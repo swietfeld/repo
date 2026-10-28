@@ -1,0 +1,53 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-28T12:00:00Z"
+  },
+  "lists": "css",
+  "title": "Weiterempfohlen – Gespräch mit Bielefeld Marketing",
+  "cover": "cover",
+  "order": [
+    "cover",
+    "nutzen-stadt",
+    "frage",
+    "motto",
+    "folge",
+    "jetzt",
+    "angebot",
+    "finanzierung-wege",
+    "gremien",
+    "zeitplan",
+    "start",
+    "unikat"
+  ],
+  "sections": {
+    "einstieg": {
+      "description": "Worum es geht und was die Stadt davon hat.",
+      "start": "cover"
+    },
+    "konzept": {
+      "description": "Schlussfrage, Empfehlungskette, Aufbau einer Folge und warum jetzt.",
+      "start": "frage"
+    },
+    "angebot": {
+      "description": "Angebot, Finanzierung, Sätze für die Gremien, Zeitplan und nächste Schritte.",
+      "start": "angebot"
+    },
+    "wir": {
+      "description": "Warum unikat media.",
+      "start": "unikat"
+    }
+  },
+  "faces": {
+    "bricolage-grotesque": {
+      "family": "Bricolage Grotesque",
+      "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400..800&display=swap"
+    },
+    "dm-sans": {
+      "family": "DM Sans",
+      "href": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400..700&display=swap"
+    }
+  },
+  "designSystems": []
+}
