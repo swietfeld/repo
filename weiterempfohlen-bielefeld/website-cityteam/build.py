@@ -67,6 +67,25 @@ def sticker(pid, name, v=None):
                 '<rect x="44" y="152" width="312" height="204" rx="40" fill="#FFFFFF"/>'
                 f'<path d="{qr_path(140, 168, 120)}" fill="{DEEP}"/>'
                 f'<text x="200" y="336" text-anchor="middle" {F} font-weight="800" font-size="14" letter-spacing="4" fill="{PINK}">BIELEFELD EMPFIEHLT</text>')
+    if v == 'E':  # Zweiton: oben Pink, unten Weiß
+        return ('<circle cx="200" cy="200" r="199" fill="#FFFFFF"/>'
+                f'<defs><clipPath id="c{pid}"><circle cx="200" cy="200" r="188"/></clipPath></defs>'
+                f'<circle cx="200" cy="200" r="188" fill="#FFFFFF" stroke="{PINK}" stroke-width="3"/>'
+                f'<rect x="0" y="0" width="400" height="196" fill="{PINK}" clip-path="url(#c{pid})"/>'
+                f'<text x="200" y="104" text-anchor="middle" {F} font-weight="800" font-size="15" letter-spacing="4" fill="#FFFFFF" fill-opacity=".9">BIELEFELD EMPFIEHLT</text>'
+                f'<text x="200" y="160" text-anchor="middle" {FM} font-weight="800" font-size="38" letter-spacing="-1.2" fill="#FFFFFF">Weiterempfohlen.</text>'
+                f'<path d="{qr_path(150, 212, 100)}" fill="{DEEP}"/>'
+                f'<text x="200" y="346" text-anchor="middle" {F} font-weight="700" font-size="13" letter-spacing="2.6" fill="{PINK}">{nm}</text>')
+    if v == 'F':  # Stempel: pinker Ring, oben und unten Bogenschrift, weiße Mitte
+        return ('<circle cx="200" cy="200" r="199" fill="#FFFFFF"/>'
+                f'<circle cx="200" cy="200" r="188" fill="{PINK}"/>'
+                '<circle cx="200" cy="200" r="134" fill="#FFFFFF"/>'
+                f'<defs><path id="u{pid}" d="M46 200A154 154 0 0 1 354 200" fill="none"/><path id="d{pid}" d="M34 200A166 166 0 0 0 366 200" fill="none"/></defs>'
+                f'<text {FM} font-weight="800" font-size="32" letter-spacing="1" fill="#FFFFFF"><textPath href="#u{pid}" startOffset="50%" text-anchor="middle">Weiterempfohlen.</textPath></text>'
+                f'<text {F} font-weight="800" font-size="17" letter-spacing="4.5" fill="#FFFFFF"><textPath href="#d{pid}" startOffset="50%" text-anchor="middle">BIELEFELD EMPFIEHLT</textPath></text>'
+                '<circle cx="54" cy="236" r="4" fill="#FFFFFF"/><circle cx="346" cy="236" r="4" fill="#FFFFFF"/>'
+                f'<path d="{qr_path(146, 112, 108)}" fill="{DEEP}"/>'
+                f'<text x="200" y="258" text-anchor="middle" {F} font-weight="800" font-size="13" letter-spacing="2.4" fill="{PINK}">{nm}</text>')
     # D: Wortmarke groß, QR klein
     return ('<circle cx="200" cy="200" r="199" fill="#FFFFFF"/>'
             f'<circle cx="200" cy="200" r="186" fill="{PINK}"/>'
@@ -81,7 +100,7 @@ STICKERS = [('stk', 'Konditorei Knigge'), ('stk-mode', 'Sinn für Mode'), ('stk-
             ('stk-buch', 'Buchhandlung'), ('stk-wein', 'Weinhandlung'), ('stk-blumen', 'Blumenladen')]
 symbols = ''.join(f'<symbol id="{pid}" viewBox="0 0 400 400">{sticker(pid.replace("-", ""), nm)}</symbol>' for pid, nm in STICKERS)
 sticker_knigge = sticker('k', 'Konditorei Knigge')
-variants = {v: sticker('v' + v, 'Konditorei Knigge', v) for v in 'ABCD'}
+variants = {v: sticker('v' + v, 'Konditorei Knigge', v) for v in 'ABEF'}
 
 def b64(f): return base64.b64encode(open('website/fonts/' + f, 'rb').read()).decode()
 head = ('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">\n<style>'
@@ -108,5 +127,5 @@ with zipfile.ZipFile(D + 'Weiterempfohlen_CityTeam_Website.zip', 'w', zipfile.ZI
         for f in files: z.write(os.path.join(root, f), os.path.relpath(os.path.join(root, f), dist))
 # Sticker als eigene Datei (Schriften als Text, für Vorschau und Abstimmung)
 open(D + 'sticker-knigge.svg', 'w').write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="1000" height="1000">' + sticker_knigge + '</svg>')
-open(D + 'sticker-varianten.html', 'w').write('<!doctype html><html><head><meta charset="utf-8">' + head.replace('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">', '') + '<style>body{margin:0;background:#F7F3F5;font-family:DM Sans,Arial,sans-serif}.g{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding:48px}.g div{display:grid;gap:14px;justify-items:center}.g svg{width:100%;filter:drop-shadow(0 14px 22px rgba(120,0,70,.3))}.g b{font-size:22px}</style></head><body><div class="g">' + ''.join(f'<div><svg viewBox="0 0 400 400">{variants[v]}</svg><b>Variante {v}</b></div>' for v in 'ABCD') + '</div></body></html>')
+open(D + 'sticker-varianten.html', 'w').write('<!doctype html><html><head><meta charset="utf-8">' + head.replace('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">', '') + '<style>body{margin:0;background:#F7F3F5;font-family:DM Sans,Arial,sans-serif}.g{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding:48px}.g div{display:grid;gap:14px;justify-items:center}.g svg{width:100%;filter:drop-shadow(0 14px 22px rgba(120,0,70,.3))}.g b{font-size:22px}</style></head><body><div class="g">' + ''.join(f'<div><svg viewBox="0 0 400 400">{variants[v]}</svg><b>Variante {v}</b></div>' for v in 'ABEF') + '</div></body></html>')
 print(len(s), 'Zeichen · QR-Ziel:', QR_URL, '· QR-Version', qr.version)
