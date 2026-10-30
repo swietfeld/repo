@@ -8,7 +8,7 @@ from PIL import Image
 
 D = 'website-cityteam/'
 # Ziel des QR-Codes auf dem Sticker: die Beispiel-Porträtseite. Nach dem Hochladen der Seite die echte Adresse übergeben.
-QR_URL = sys.argv[1] if len(sys.argv) > 1 else 'https://unikat.media/vorschau/bielefelder-konzept-jfyedk53/#portraet'
+QR_URL = sys.argv[1] if len(sys.argv) > 1 else 'https://unikat.media/vorschau/weiterempfohlen-city-tea-a3afrhrc/#portraet'
 
 # Bilder als WebP
 os.makedirs(D + 'img-web', exist_ok=True)
