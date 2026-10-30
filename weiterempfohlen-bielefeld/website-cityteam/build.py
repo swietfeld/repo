@@ -59,7 +59,16 @@ def sticker(pid, name, v=None):
                 f'<path d="{qr_path(146, 96, 108)}" fill="{PINK}"/>'
                 f'<text x="200" y="268" text-anchor="middle" {FM} font-weight="800" font-size="40" letter-spacing="-1.2" fill="#161214">Weiterempfohlen<tspan fill="{PINK}">.</tspan></text>'
                 f'<text x="200" y="302" text-anchor="middle" {F} font-weight="700" font-size="14" letter-spacing="2.6" fill="#5B5157">{nm}</text>')
-    if v == 'C':
+    if v == 'C':  # Sprechblase: eine Empfehlung ist etwas Gesagtes
+        bub = 'M200 20A170 170 0 1 1 128 344L60 384L88 318A170 170 0 0 1 200 20Z'
+        return (f'<path d="{bub}" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round"/>'
+                f'<path d="{bub}" fill="{PINK}"/>'
+                f'<text x="200" y="94" text-anchor="middle" {F} font-weight="800" font-size="14" letter-spacing="3.6" fill="#FFFFFF" fill-opacity=".9">BIELEFELD EMPFIEHLT</text>'
+                '<rect x="140" y="108" width="120" height="120" rx="18" fill="#FFFFFF"/>'
+                f'<path d="{qr_path(150, 118, 100)}" fill="{DEEP}"/>'
+                f'<text x="200" y="272" text-anchor="middle" {FM} font-weight="800" font-size="33" letter-spacing="-1" fill="#FFFFFF">Weiterempfohlen.</text>'
+                f'<text x="200" y="302" text-anchor="middle" {F} font-weight="700" font-size="13" letter-spacing="2.6" fill="#FFFFFF" fill-opacity=".9">{nm}</text>')
+    if v == 'K':  # Kachel (frühere Variante C)
         return ('<rect x="0" y="0" width="400" height="400" rx="78" fill="#FFFFFF"/>'
                 f'<rect x="12" y="12" width="376" height="376" rx="68" fill="{PINK}"/>'
                 f'<text x="200" y="96" text-anchor="middle" {FM} font-weight="800" font-size="40" letter-spacing="-1.2" fill="#FFFFFF">Weiterempfohlen.</text>'
@@ -100,7 +109,7 @@ STICKERS = [('stk', 'Konditorei Knigge'), ('stk-mode', 'Sinn für Mode'), ('stk-
             ('stk-buch', 'Buchhandlung'), ('stk-wein', 'Weinhandlung'), ('stk-blumen', 'Blumenladen')]
 symbols = ''.join(f'<symbol id="{pid}" viewBox="0 0 400 400">{sticker(pid.replace("-", ""), nm)}</symbol>' for pid, nm in STICKERS)
 sticker_knigge = sticker('k', 'Konditorei Knigge')
-variants = {v: sticker('v' + v, 'Konditorei Knigge', v) for v in 'ABEF'}
+variants = {v: sticker('v' + v, 'Konditorei Knigge', v) for v in 'ABCD'}
 
 def b64(f): return base64.b64encode(open('website/fonts/' + f, 'rb').read()).decode()
 head = ('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">\n<style>'
@@ -127,5 +136,5 @@ with zipfile.ZipFile(D + 'Weiterempfohlen_CityTeam_Website.zip', 'w', zipfile.ZI
         for f in files: z.write(os.path.join(root, f), os.path.relpath(os.path.join(root, f), dist))
 # Sticker als eigene Datei (Schriften als Text, für Vorschau und Abstimmung)
 open(D + 'sticker-knigge.svg', 'w').write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="1000" height="1000">' + sticker_knigge + '</svg>')
-open(D + 'sticker-varianten.html', 'w').write('<!doctype html><html><head><meta charset="utf-8">' + head.replace('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">', '') + '<style>body{margin:0;background:#F7F3F5;font-family:DM Sans,Arial,sans-serif}.g{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding:48px}.g div{display:grid;gap:14px;justify-items:center}.g svg{width:100%;filter:drop-shadow(0 14px 22px rgba(120,0,70,.3))}.g b{font-size:22px}</style></head><body><div class="g">' + ''.join(f'<div><svg viewBox="0 0 400 400">{variants[v]}</svg><b>Variante {v}</b></div>' for v in 'ABEF') + '</div></body></html>')
+open(D + 'sticker-varianten.html', 'w').write('<!doctype html><html><head><meta charset="utf-8">' + head.replace('<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">', '') + '<style>body{margin:0;background:#F7F3F5;font-family:DM Sans,Arial,sans-serif}.g{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;padding:48px}.g div{display:grid;gap:14px;justify-items:center}.g svg{width:100%;filter:drop-shadow(0 14px 22px rgba(120,0,70,.3))}.g b{font-size:22px}</style></head><body><div class="g">' + ''.join(f'<div><svg viewBox="0 0 400 400">{variants[v]}</svg><b>Variante {v}</b></div>' for v in 'ABCD') + '</div></body></html>')
 print(len(s), 'Zeichen · QR-Ziel:', QR_URL, '· QR-Version', qr.version)
