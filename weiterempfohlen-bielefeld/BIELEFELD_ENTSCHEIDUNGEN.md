@@ -116,3 +116,18 @@ Für die Folie (sichtbar): „Bestehende Lokalkanäle: Lokal-Guides, Stadt-Apps 
 | Reserve | File:Siegfriedplatz,_Bielefeld_-_panoramio.jpg | INDALOMANIA | CC BY-SA 3.0 |
 
 Die Fotos hat Stefan am 8. Oktober 2026 von Commons geladen; sie sind eingesetzt.
+
+## Stand 30. Oktober 2026: Rückmeldung von Birgit Schroers (City.Team) nach dem Termin am 29. Oktober
+
+Birgit hat das Konzept als „Strategisches Projektkonzept“ neu geschrieben (Word-Dokument „Weiterempfohlen.“). Für die weitere Arbeit gilt ihre Fassung:
+
+- **Absender:** City.Team / Citymanagement Bielefeld. Leitidee „Aus ‚Zusammen.‘ wird Zusammenarbeit.“ (baut auf der Kampagne „Zusammen.“ auf).
+- **Mechanik:** Jeder Betrieb empfiehlt **zwei** weitere (statt einem). Kurze, authentische Porträts.
+- **Benefit statt Codewort:** freiwilliges Angebot des Betriebs (Rabatt, Zugabe, Aktion).
+- **Sticker:** pink-weiß, individuell pro Betrieb, mit QR-Code zum Porträt. Kein Qualitätssiegel.
+- **Veröffentlichung** über die Kanäle des City.Teams, wo möglich als Collab-Post. Kein eigener Serienkanal.
+- **Kick-off** Anfang 2027: „Wir machen jetzt was zusammen.“
+- **Pilot:** sechs Monate in drei Phasen (Vorbereitung und Auftakt, Umsetzung, Auswertung).
+- **Finanzierung:** Budget des City.Teams, Sponsoring, eventuell kleiner Obolus der Betriebe.
+- **Preis (Entscheidung Stefan):** 375 € netto pro Porträt, 4 Porträts an einem Drehtag für 1.500 € netto. Beispiel Pilot: 24 Porträts = 9.000 € netto.
+- **Pitch-Website im City.Team-Look:** `website-cityteam/` (Pink #CD017E, Weiß). Die bisherige Website bleibt unverändert.
