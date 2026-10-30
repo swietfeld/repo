@@ -286,7 +286,7 @@ mark{background:linear-gradient(transparent 58%,var(--pink-line) 58% 92%,transpa
 .partner span{color:var(--muted)}
 @media (max-width:760px){.partner{grid-template-columns:1fr}}
 .sum5{list-style:none;margin:clamp(28px,4vw,40px) 0 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
-.sum5 li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:14px;padding:18px 14px;display:grid;gap:8px;align-content:start}
+.sum5 li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:14px;padding:18px 14px;display:grid;grid-row:span 2;grid-template-rows:subgrid;row-gap:8px;align-content:start}
 .sum5 b{font-size:1.05rem;line-height:1.25}
 .sum5 span{font-size:.875rem;line-height:1.5;opacity:.92}
 @media (max-width:1000px){.sum5{grid-template-columns:repeat(2,minmax(0,1fr))}}
