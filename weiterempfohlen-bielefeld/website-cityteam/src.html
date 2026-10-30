@@ -244,6 +244,54 @@ mark{background:linear-gradient(transparent 58%,var(--pink-line) 58% 92%,transpa
 @media (max-width:900px){.cost-grid{grid-template-columns:1fr}.ways{grid-template-columns:1fr}}
 
 /* Erfolg */
+.sec.tint{background:var(--pink-soft)}
+.offer{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.offer div{background:var(--paper);border:1px solid var(--pink-line);border-radius:14px;padding:18px 16px;display:grid;gap:8px;align-content:start}
+.offer i{font-style:normal;width:30px;height:30px;border-radius:50%;background:var(--pink);color:#fff;display:grid;place-items:center;font-weight:800;font-size:.9rem}
+.offer b{font-size:1.02rem;line-height:1.25}
+.offer-lbl{font-weight:700;margin-bottom:12px}
+@media (max-width:900px){.offer{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.zg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.zg>div{border:1px solid var(--pink-line);border-radius:var(--r);padding:clamp(22px,3vw,32px);display:grid;gap:12px;align-content:start}
+.zg>div:first-child{background:var(--pink);color:#fff;border-color:var(--pink)}
+.zg small{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.76rem;opacity:.85}
+.zg h3{font-size:clamp(1.4rem,2.4vw,1.8rem)}
+.zg ul{margin:0;padding:0 0 0 1.1em;display:grid;gap:6px}
+.zg p{opacity:.92}
+.zg .tags{display:flex;flex-wrap:wrap;gap:8px}
+.zg .tags span{background:rgba(255,255,255,.18);border-radius:999px;padding:.35em .8em;font-weight:600;font-size:.9rem}
+.zg-plus{margin-top:16px;border-left:6px solid var(--pink);padding:6px 0 6px 20px;font-size:clamp(1.1rem,1.8vw,1.35rem);font-weight:600;line-height:1.45;max-width:62ch}
+.zg-plus b{color:var(--pink)}
+@media (max-width:760px){.zg{grid-template-columns:1fr}}
+.chain-more{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:clamp(32px,5vw,56px)}
+.chain-more>div{background:var(--paper);border:1px solid var(--pink-line);border-radius:var(--r);padding:24px;display:grid;gap:10px;align-content:start}
+.chain-more p{color:var(--muted)}
+.chain-more .move{background:var(--pink);border-color:var(--pink);color:#fff}
+.chain-more .move p{color:#fff;font-size:1.12rem;font-weight:600;line-height:1.45}
+.chain-more small{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.76rem;color:var(--pink)}
+.chain-more .move small{color:#fff;opacity:.85}
+@media (max-width:860px){.chain-more{grid-template-columns:1fr}}
+.merits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:clamp(32px,5vw,48px)}
+.merits div{border-top:4px solid var(--pink);padding-top:14px;display:grid;gap:6px;align-content:start}
+.merits span{color:var(--muted)}
+@media (max-width:900px){.merits{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.merits{grid-template-columns:1fr}}
+.budget{margin-top:24px;background:var(--paper);border:1px solid var(--pink-line);border-radius:var(--r);padding:clamp(20px,3vw,28px);display:grid;gap:14px}
+.budget p{color:var(--muted);max-width:70ch}
+.budget .chips span{font-size:.88rem}
+.chips-lbl{font-weight:700;margin-bottom:12px}
+.partner{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.partner div{border-top:4px solid var(--pink);padding-top:16px;display:grid;gap:6px;align-content:start}
+.partner b{font-size:1.15rem}
+.partner span{color:var(--muted)}
+@media (max-width:760px){.partner{grid-template-columns:1fr}}
+.sum5{list-style:none;margin:clamp(28px,4vw,40px) 0 0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.sum5 li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:14px;padding:18px 16px;display:grid;gap:8px;align-content:start}
+.sum5 b{font-size:1.05rem;line-height:1.25}
+.sum5 span{font-size:.95rem;opacity:.92}
+@media (max-width:1000px){.sum5{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.sum5{grid-template-columns:1fr}}
+.end .core{margin-top:24px;max-width:64ch;font-size:1.1rem;line-height:1.55;font-weight:600}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
 .chips span{border:1.5px solid var(--pink-line);border-radius:999px;padding:.55em .95em;font-weight:600;font-size:.95rem}
 .chips span:nth-child(3n+1){background:var(--pink-soft);border-color:var(--pink-soft)}
@@ -300,9 +348,50 @@ footer .wrap{display:grid;gap:6px}
     <p class="quote-by">Das Momentum der Kampagne „Zusammen.“</p>
     <div class="facts">
       <div><b>„Zusammen.“ kommt an</b><span>Die Kampagne erreicht Menschen, löst persönliche Rückmeldungen aus und findet Beachtung in Fachmedien.</span></div>
-      <div><b>Die Betriebe machen mit</b><span>Innenstadtakteure teilen Inhalte und identifizieren sich mit der gemeinsamen Botschaft.</span></div>
-      <div><b>Jetzt braucht es einen Anlass</b><span>Appelle reichen nicht. Es braucht einen konkreten Nutzen und gute Erfahrungen, die zeigen: Mitmachen lohnt sich.</span></div>
+      <div><b>Die Betriebe machen mit</b><span>Innenstadtakteure teilen Inhalte und identifizieren sich mit der gemeinsamen Botschaft. Die zunehmende Vernetzung ist wertvoll.</span></div>
+      <div><b>Jetzt braucht es einen Anlass</b><span>Appelle reichen nicht. Es braucht einen konkreten Nutzen und gute Erfahrungen, die zeigen: Gemeinsames Engagement lohnt sich – auch für das eigene Geschäft.</span></div>
     </div>
+  </div>
+</section>
+
+<section class="sec tint" id="ansatz">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">Strategischer Ansatz</p><h2>Aus „Zusammen.“ wird <mark>Zusammenarbeit.</mark></h2><p class="lede">Ziel ist es, die Identifikation der Innenstadtakteure mit ihrem Standort zu stärken, neue Kontakte zu schaffen und die Bereitschaft zur Zusammenarbeit zu fördern.</p></div>
+    <p class="offer-lbl">Ein Angebot, das individuelle Interessen mit gemeinsamen Zielen verbindet:</p>
+    <div class="offer">
+      <div><i>1</i><b>Mehr Sichtbarkeit</b></div>
+      <div><i>2</i><b>Persönliche Wertschätzung</b></div>
+      <div><i>3</i><b>Professionelle Unterstützung</b></div>
+      <div><i>4</i><b>Neue Kontakte</b></div>
+      <div><i>5</i><b>Gegenseitige Empfehlungen</b></div>
+    </div>
+    <div class="facts">
+      <div><b>Ein positiver Ansatz</b><span>Die Initiative fordert Zusammenarbeit nicht nur ein, sondern schafft einen konkreten Anlass dafür.</span></div>
+      <div><b>Stärken sichtbar machen</b><span>Wir zeigen, was die einzelnen Betriebe besonders macht.</span></div>
+      <div><b>Gemeinsam mehr erreichen</b><span>Und was entsteht, wenn sie sich gegenseitig unterstützen.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="zielgruppen">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">Zielgruppen</p><h2>B2B und B2C <mark>miteinander verbinden.</mark></h2></div>
+    <div class="zg">
+      <div>
+        <small>Primäre Zielgruppe</small>
+        <h3>Innenstadtakteure</h3>
+        <ul><li>Einzelhandel, Gastronomie und Dienstleistungsbetriebe</li><li>Weitere Unternehmen und Akteure der Innenstadt</li><li>Bestehende und potenzielle Partner des Citymanagements</li></ul>
+        <p>Ziele:</p>
+        <div class="tags"><span>Identifikation</span><span>Gegenseitige Wertschätzung</span><span>Vernetzung</span><span>Motivation</span><span>Gemeinsames Engagement</span></div>
+      </div>
+      <div>
+        <small style="color:var(--pink);opacity:1">Sekundäre Zielgruppe</small>
+        <h3>Bürger und Besucher</h3>
+        <ul><li>Menschen aus Bielefeld und der Region</li><li>Potenzielle Kunden und Besucher der Innenstadt</li></ul>
+        <p style="color:var(--muted)">Sie entdecken die Menschen hinter den Geschäften, lernen besondere Angebote kennen und erhalten neue Gründe, die Innenstadt zu besuchen.</p>
+      </div>
+    </div>
+    <p class="zg-plus"><b>Der Mehrwert:</b> Die Betriebe profilieren sich selbst und darüber die Innenstadt insgesamt. Sie werden zu aktiven Mitgestaltern. Ihre Geschichten und Empfehlungen schaffen gleichzeitig Aufmerksamkeit bei potenziellen Kunden.</p>
   </div>
 </section>
 
@@ -311,7 +400,7 @@ footer .wrap{display:grid;gap:6px}
     <div>
       <p class="eyebrow">Das Prinzip</p>
       <h2 style="margin-top:14px">Jeder empfiehlt <mark>zwei.</mark></h2>
-      <p class="lede" style="margin-top:16px">Jeder vorgestellte Betrieb empfiehlt zwei weitere, die er persönlich schätzt. Die werden ebenfalls porträtiert und empfehlen weiter. So verbindet die Kette Branchen, die sonst wenig miteinander zu tun haben.</p>
+      <p class="lede" style="margin-top:16px">Jeder vorgestellte Betrieb empfiehlt zwei weitere, die er persönlich schätzt. Die werden ebenfalls porträtiert und empfehlen weiter. So verbindet die Kette Branchen, die sonst wenig miteinander zu tun haben. Jeder Betrieb wird <b>Weiterempfohlen.</b></p>
       <div class="counter" aria-live="polite"><div><b id="cRound">1</b><span>Runde</span></div><div><b id="cShops">1</b><span>Betriebe sichtbar</span></div><div><b id="cRecs">0</b><span>Empfehlungen</span></div></div>
     </div>
     <div>
@@ -319,6 +408,11 @@ footer .wrap{display:grid;gap:6px}
       <div class="tree-ctrl"><button id="tNext">Nächste Runde</button><button class="ghost" id="tReset">Von vorn</button></div>
       <p class="note" style="margin-top:10px">Beispielkette. Die ersten drei Namen stammen aus dem Konzept, die übrigen sind Platzhalter.</p>
     </div>
+  </div>
+  <div class="wrap chain-more">
+    <div><small>Der Benefit</small><h3>Ein Anreiz für den Besuch</h3><p>Wer möchte, bietet einen besonderen Benefit an: einen Rabatt, eine kleine Zugabe, eine Aktion oder ein exklusives Angebot. Freiwillig, jeder Betrieb entscheidet selbst, ob und wie.</p></div>
+    <div><small>Gemeinschaftsstiftend</small><h3>Der Name ist das Prinzip</h3><p>Aus einzelnen Empfehlungen entsteht ein Netzwerk. „Weiterempfohlen.“ ist Projekttitel, wiederkehrendes Element in den Porträts und sichtbares Zeichen an den Geschäften.</p></div>
+    <div class="move"><small>Der Move</small><p>Wer andere sichtbar macht, stärkt auch die gemeinsame Wahrnehmung der Innenstadt. Und wer empfohlen wird, erhält im besten Fall nicht nur Aufmerksamkeit, sondern auch neue Kunden.</p></div>
   </div>
 </section>
 
@@ -363,7 +457,7 @@ footer .wrap{display:grid;gap:6px}
 
 <section class="sec stk" id="sticker">
   <div class="wrap">
-    <div class="head"><p class="eyebrow">Das sichtbare Zeichen</p><h2>Ein pinker Sticker an jeder <mark>Ladentür.</mark></h2><p class="lede">Jeder teilnehmende Betrieb bekommt seinen eigenen Sticker für Tür oder Schaufenster. Der QR-Code führt direkt zum Porträt. So wird die Initiative in der Stadt sichtbar, Tür für Tür.</p></div>
+    <div class="head"><p class="eyebrow">Das sichtbare Zeichen</p><h2>Ein pinker Sticker an jeder <mark>Ladentür.</mark></h2><p class="lede">Jeder teilnehmende Betrieb bekommt seinen eigenen Sticker für Tür oder Schaufenster. Ein Zeichen der Anerkennung: Dieser Betrieb wurde von anderen empfohlen. Der QR-Code führt direkt zum Porträt. So wird die Initiative in der Stadt sichtbar, Tür für Tür.</p></div>
     <div class="scene">
       <div class="shop" aria-label="Visualisierung: Schaufenster der Konditorei Knigge mit Weiterempfohlen.-Sticker an der Tür" role="img">
         <div class="wall"></div>
@@ -384,8 +478,14 @@ footer .wrap{display:grid;gap:6px}
         </ol>
       </div>
     </div>
+    <div class="merits">
+      <div><b>Anerkennung</b><span>Der Betrieb wird von anderen empfohlen und zeigt seine Beteiligung an der Initiative.</span></div>
+      <div><b>Sichtbar vor Ort</b><span>Die Initiative wird direkt in der Innenstadt erkennbar, an Tür und Schaufenster.</span></div>
+      <div><b>Persönliche Geschichten</b><span>Der QR-Code führt zu Porträts, Angeboten und gegebenenfalls einem Benefit.</span></div>
+      <div><b>Gemeinsame Identität</b><span>Ein einheitliches Zeichen verbindet Betriebe aus unterschiedlichen Branchen.</span></div>
+    </div>
     <div class="wallstk">
-      <div class="wall-head"><h3>Jeder Betrieb, sein Sticker.</h3><p class="siegel">Kein Qualitätssiegel, sondern ein Zeichen für persönliche Empfehlung und gemeinsames Engagement.</p></div>
+      <div class="wall-head"><h3>Jeder Betrieb, sein Sticker.</h3><p class="siegel">Bewusst kein offizielles Qualitätssiegel, sondern ein Zeichen für persönliche Empfehlungen und gemeinschaftliches Engagement.</p></div>
       <div class="wall-grid">
         <figure><svg viewBox="0 0 400 400" aria-hidden="true"><use href="#stk"/></svg><figcaption>Konditorei Knigge</figcaption></figure>
         <figure><svg viewBox="0 0 400 400" aria-hidden="true"><use href="#stk-mode"/></svg><figcaption>empfiehlt Sinn für Mode</figcaption></figure>
@@ -401,7 +501,7 @@ footer .wrap{display:grid;gap:6px}
 
 <section class="sec" id="nutzen">
   <div class="wrap">
-    <div class="head"><p class="eyebrow">Wer etwas davon hat</p><h2>Die Betriebe profilieren sich selbst. Und damit die ganze Innenstadt.</h2></div>
+    <div class="head"><p class="eyebrow">Wer etwas davon hat</p><h2>Ein Gewinn für alle Seiten.</h2></div>
     <div class="cols">
       <div class="col"><h3>Für die Betriebe</h3><ul><li>Sichtbarkeit und persönliche Wertschätzung</li><li>Ein professionelles Porträt und ein Sticker für die Tür</li><li>Neue Kontakte über Branchengrenzen hinweg</li><li>Neue Kundschaft, im besten Fall über den Benefit</li></ul></div>
       <div class="col"><h3>Für die Innenstadt</h3><ul><li>Mehr Identifikation mit dem Standort</li><li>Ein Netzwerk, das sich gegenseitig unterstützt</li><li>Mehr Bereitschaft, sich gemeinsam einzusetzen</li><li>Aus „Zusammen.“ wird konkrete Zusammenarbeit</li></ul></div>
@@ -433,7 +533,7 @@ footer .wrap{display:grid;gap:6px}
   <div class="wrap">
     <div class="head"><p class="eyebrow">Pilotphase</p><h2>Sechs Monate: erproben, aufbauen, auswerten.</h2></div>
     <div class="phases">
-      <div class="phase now"><small>Phase 1 · Vorbereitung und Auftakt</small><h3>Format und Kick-off</h3><ul><li>Format und Gestaltung festlegen</li><li>Sticker und QR-Codes gestalten</li><li>Erste Betriebe persönlich ansprechen</li><li>Kick-off und erste Porträts</li></ul></div>
+      <div class="phase now"><small>Phase 1 · Vorbereitung und Auftakt</small><h3>Format und Auftakt</h3><ul><li>Format und Gestaltung festlegen</li><li>Sticker und QR-Codes gestalten</li><li>Erste Betriebe persönlich ansprechen</li><li><b>Auftaktveranstaltung durchführen</b></li><li>Erste Porträts produzieren</li></ul></div>
       <div class="phase"><small>Phase 2 · Umsetzung und Ausbau</small><h3>Die Kette läuft</h3><ul><li>Regelmäßig Porträts veröffentlichen</li><li>Empfehlungen aufgreifen und weiterführen</li><li>Sticker an die Türen, Benefits zeigen</li><li>Weitere Betriebe gewinnen, Pressearbeit</li></ul></div>
       <div class="phase"><small>Phase 3 · Auswertung</small><h3>Bilanz und Entscheidung</h3><ul><li>Beteiligung und Reichweite auswerten</li><li>Rückmeldungen der Betriebe einholen</li><li>Mehrwert und Vernetzung bewerten</li><li>Über die Fortführung entscheiden</li></ul></div>
     </div>
@@ -475,14 +575,31 @@ footer .wrap{display:grid;gap:6px}
       <div><b>Sponsoring</b><span>Partner aus der Bielefelder Wirtschaft senken den Anteil.</span></div>
       <div><b>Kleiner Obolus</b><span>Ein freiwilliger Beitrag der teilnehmenden Betriebe.</span></div>
     </div>
+    <div class="budget">
+      <p>Die Finanzierung kann über das Budget des Citymanagements und ergänzend über Sponsoring erfolgen. Denkbar ist auch, dass jeder Betrieb einen kleinen Obolus zahlt. Zu berücksichtigen sind insbesondere Aufwände für:</p>
+      <div class="chips"><span>Koordination</span><span>Redaktionelle Vorbereitung</span><span>Produktion</span><span>Gestaltung</span><span>Sticker</span><span>Öffentlichkeitsarbeit</span><span>Auftaktveranstaltung</span></div>
+      <p>Die konkrete Budgetplanung erfolgt auf Basis des vereinbarten Produktionsumfangs und der verfügbaren Ressourcen.</p>
+    </div>
   </div>
 </section>
 
 <section class="sec" id="erfolg">
   <div class="wrap">
-    <div class="head"><p class="eyebrow">Woran wir Erfolg messen</p><h2>Nicht nur Likes, sondern <mark>Zusammenarbeit.</mark></h2></div>
+    <div class="head"><p class="eyebrow">Woran wir Erfolg messen</p><h2>Nicht nur Likes, sondern <mark>Zusammenarbeit.</mark></h2><p class="lede">Nicht nur an Aufrufzahlen: Der Erfolg wird nicht allein an Reichweite oder Likes gemessen. Entscheidend ist, ob die Initiative tatsächlich Vernetzung, Beteiligung, Zusammenarbeit und Wirtschaftlichkeit fördert.</p></div>
+    <p class="chips-lbl">Mögliche Kennzahlen und Kriterien:</p>
     <div class="chips">
       <span>Teilnehmende Betriebe und Branchen</span><span>Veröffentlichte Porträts</span><span>Ausgesprochene Empfehlungen</span><span>Reichweite und geteilte Beiträge</span><span>Gemeinsame Posts mit den Betrieben</span><span>Neu gewonnene Teilnehmende</span><span>Genutzte Benefits</span><span>QR-Code-Aufrufe</span><span>Rückmeldungen der Betriebe</span><span>Neue Kontakte und Kooperationen</span>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint" id="umsetzung">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">Umsetzung und Partner</p><h2>Die Geschichte zählt, <mark>nicht die Kamera.</mark></h2><p class="lede">Für die Umsetzung steht bereits ein Partner zur Verfügung: Die Medienagentur unikat media bereitet die Geschichten professionell auf und begleitet die Umsetzung.</p></div>
+    <div class="partner">
+      <div><b>Unterstützung bei der Aufbereitung</b><span>Betriebe, die nicht selbst vor der Kamera stehen möchten, werden bei ihrer Geschichte unterstützt.</span></div>
+      <div><b>Äußerst niedrigschwellig</b><span>Entscheidend ist nicht die Bereitschaft, vor einer Kamera zu stehen, sondern die Geschichte, die ein Unternehmen zu erzählen hat.</span></div>
+      <div><b>Für jeden Betrieb passend</b><span>Das Format wird so gestaltet, dass unterschiedliche Betriebe mit ihren jeweiligen Möglichkeiten teilnehmen können.</span></div>
     </div>
   </div>
 </section>
@@ -491,7 +608,15 @@ footer .wrap{display:grid;gap:6px}
   <div class="wrap">
     <p class="eyebrow" style="color:#fff;opacity:.9">Strategischer Mehrwert</p>
     <h2 style="margin-top:14px">Wir machen einzelne Akteure sichtbar, um die ganze Innenstadt zu stärken.</h2>
-    <p class="lede">Weiterempfohlen. baut auf der Resonanz von „Zusammen.“ auf und macht daraus eine konkrete Initiative: Porträts, Empfehlungen, Benefits und Sticker als sichtbare Werkzeuge für ein starkes Netzwerk.</p>
+    <p class="lede">„Weiterempfohlen.“ baut auf der positiven Resonanz der Kampagne „Zusammen.“ auf und überführt die gemeinsame Botschaft in eine konkrete Initiative zur Aktivierung und Vernetzung der Innenstadtakteure.</p>
+    <ul class="sum5">
+      <li><b>Standortidentität stärken</b><span>Die Betriebe erleben sich als Teil einer gemeinsamen Innenstadt.</span></li>
+      <li><b>Netzwerke aufbauen</b><span>Persönliche Empfehlungen schaffen neue Kontakte über Branchengrenzen hinweg.</span></li>
+      <li><b>Motivation fördern</b><span>Die Beteiligung bietet einen konkreten Nutzen und positive gemeinsame Erfahrungen.</span></li>
+      <li><b>Kundenkontakte ermöglichen</b><span>Porträts und freiwillige Angebote schaffen Anlässe für Besuche und neue Geschäftsbeziehungen.</span></li>
+      <li><b>Gemeinschaft sichtbar machen</b><span>Die Initiative zeigt, wie vielfältig und leistungsfähig die Innenstadt ist, wenn ihre Akteure zusammenwirken.</span></li>
+    </ul>
+    <p class="core">Die Porträts, Empfehlungen, Benefits und Sticker sind dabei die sichtbaren Instrumente. Der Kern des Projekts ist die nachhaltige Stärkung des Netzwerks, der gegenseitigen Unterstützung und der Bereitschaft, die Innenstadt gemeinsam zu gestalten.</p>
     <div class="contact">
       <div><b>Umsetzung: unikat media</b><span>Dennis Blomeyer · 0521 30436986</span></div>
       <span class="sel" id="mail">dennis.blomeyer@unikat.media</span>
